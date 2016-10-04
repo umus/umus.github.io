@@ -1,0 +1,4 @@
+Sitemap: https://umus.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: umus.github.io
