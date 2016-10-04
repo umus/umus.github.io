@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://umus.github.io/</loc>
-  <lastmod>2016-10-04T01:46:00Z</lastmod>
+  <lastmod>2016-10-04T01:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/2016/</loc>
@@ -19,14 +19,10 @@
  </url>
  <url>
   <loc>https://umus.github.io/archive.html</loc>
-  <lastmod>2016-10-04T01:44:00Z</lastmod>
+  <lastmod>2016-10-04T01:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/categories/</loc>
-  <lastmod>2016-10-04T01:44:00Z</lastmod>
- </url>
- <url>
-  <loc>https://umus.github.io/hello.html</loc>
   <lastmod>2016-10-04T01:44:00Z</lastmod>
  </url>
  <url>
