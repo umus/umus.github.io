@@ -17,8 +17,8 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "UMu"  # (translatable)
-BLOG_TITLE = "umu"  # (translatable)
+BLOG_AUTHOR = "umu"  # (translatable)
+BLOG_TITLE = "umu seminar"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://umus.github.io/"
