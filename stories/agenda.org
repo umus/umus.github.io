@@ -1,4 +1,5 @@
 #+STARTUP: showall
+#+OPTIONS: toc:3
 
 * Mathematics
 
@@ -13,6 +14,7 @@
 *** MIT
 
     + [[https://ocw.mit.edu/courses/mathematics/18-100b-analysis-i-fall-2010/index.htm][MIT 18.100B]]
+
 ** Linear Algebra
 
 *** Harvard Math 55a
