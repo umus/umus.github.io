@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1475637936.867365
+_modified_time = 1475637945.0124686
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl'
 _template_uri = 'post_helper.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['html_tags', 'twitter_card_information', 'meta_translations', 'html_pager', 'open_graph_metadata', 'mathjax_script']
+_exports = ['mathjax_script', 'html_pager', 'open_graph_metadata', 'twitter_card_information', 'html_tags', 'meta_translations']
 
 
 def render_body(context,**pageargs):
@@ -30,76 +30,24 @@ def render_body(context,**pageargs):
         context.caller_stack._pop_frame()
 
 
-def render_html_tags(context,post):
+def render_mathjax_script(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        hidden_tags = context.get('hidden_tags', UNDEFINED)
-        _link = context.get('_link', UNDEFINED)
+        mathjax_config = context.get('mathjax_config', UNDEFINED)
+        use_katex = context.get('use_katex', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
-        if post.tags:
-            __M_writer('        <ul itemprop="keywords" class="tags">\n')
-            for tag in post.tags:
-                if tag not in hidden_tags:
-                    __M_writer('            <li><a class="tag p-category" href="')
-                    __M_writer(str(_link('tag', tag)))
-                    __M_writer('" rel="tag">')
-                    __M_writer(filters.html_escape(str(tag)))
-                    __M_writer('</a></li>\n')
-            __M_writer('        </ul>\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
-def render_twitter_card_information(context,post):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        twitter_card = context.get('twitter_card', UNDEFINED)
-        __M_writer = context.writer()
-        __M_writer('\n')
-        if twitter_card and twitter_card['use_twitter_cards']:
-            __M_writer('    <meta name="twitter:card" content="')
-            __M_writer(filters.html_escape(str(twitter_card.get('card', 'summary'))))
-            __M_writer('">\n')
-            if 'site:id' in twitter_card:
-                __M_writer('    <meta name="twitter:site:id" content="')
-                __M_writer(str(twitter_card['site:id']))
-                __M_writer('">\n')
-            elif 'site' in twitter_card:
-                __M_writer('    <meta name="twitter:site" content="')
-                __M_writer(str(twitter_card['site']))
-                __M_writer('">\n')
-            if 'creator:id' in twitter_card:
-                __M_writer('    <meta name="twitter:creator:id" content="')
-                __M_writer(str(twitter_card['creator:id']))
-                __M_writer('">\n')
-            elif 'creator' in twitter_card:
-                __M_writer('    <meta name="twitter:creator" content="')
-                __M_writer(str(twitter_card['creator']))
-                __M_writer('">\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
-def render_meta_translations(context,post):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        lang = context.get('lang', UNDEFINED)
-        len = context.get('len', UNDEFINED)
-        translations = context.get('translations', UNDEFINED)
-        sorted = context.get('sorted', UNDEFINED)
-        __M_writer = context.writer()
-        __M_writer('\n')
-        if len(translations) > 1:
-            for langname in sorted(translations):
-                if langname != lang and ((not post.skip_untranslated) or post.is_translation_available(langname)):
-                    __M_writer('                <link rel="alternate" hreflang="')
-                    __M_writer(str(langname))
-                    __M_writer('" href="')
-                    __M_writer(str(post.permalink(langname)))
-                    __M_writer('">\n')
+        if post.is_mathjax:
+            if use_katex:
+                __M_writer('            <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>\n            <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>\n            <script>\n                renderMathInElement(document.body);\n            </script>\n')
+            else:
+                __M_writer('            <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>\n')
+                if mathjax_config:
+                    __M_writer('            ')
+                    __M_writer(str(mathjax_config))
+                    __M_writer('\n')
+                else:
+                    __M_writer('            <script type="text/x-mathjax-config">\n            MathJax.Hub.Config({tex2jax: {inlineMath: [[\'$latex \',\'$\'], [\'\\\\(\',\'\\\\)\']]}});\n            </script>\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -139,11 +87,11 @@ def render_open_graph_metadata(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
         lang = context.get('lang', UNDEFINED)
-        abs_link = context.get('abs_link', UNDEFINED)
-        blog_title = context.get('blog_title', UNDEFINED)
+        use_open_graph = context.get('use_open_graph', UNDEFINED)
         url_replacer = context.get('url_replacer', UNDEFINED)
         permalink = context.get('permalink', UNDEFINED)
-        use_open_graph = context.get('use_open_graph', UNDEFINED)
+        abs_link = context.get('abs_link', UNDEFINED)
+        blog_title = context.get('blog_title', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if use_open_graph:
@@ -181,24 +129,76 @@ def render_open_graph_metadata(context,post):
         context.caller_stack._pop_frame()
 
 
-def render_mathjax_script(context,post):
+def render_twitter_card_information(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        mathjax_config = context.get('mathjax_config', UNDEFINED)
-        use_katex = context.get('use_katex', UNDEFINED)
+        twitter_card = context.get('twitter_card', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
-        if post.is_mathjax:
-            if use_katex:
-                __M_writer('            <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>\n            <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>\n            <script>\n                renderMathInElement(document.body);\n            </script>\n')
-            else:
-                __M_writer('            <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>\n')
-                if mathjax_config:
-                    __M_writer('            ')
-                    __M_writer(str(mathjax_config))
-                    __M_writer('\n')
-                else:
-                    __M_writer('            <script type="text/x-mathjax-config">\n            MathJax.Hub.Config({tex2jax: {inlineMath: [[\'$latex \',\'$\'], [\'\\\\(\',\'\\\\)\']]}});\n            </script>\n')
+        if twitter_card and twitter_card['use_twitter_cards']:
+            __M_writer('    <meta name="twitter:card" content="')
+            __M_writer(filters.html_escape(str(twitter_card.get('card', 'summary'))))
+            __M_writer('">\n')
+            if 'site:id' in twitter_card:
+                __M_writer('    <meta name="twitter:site:id" content="')
+                __M_writer(str(twitter_card['site:id']))
+                __M_writer('">\n')
+            elif 'site' in twitter_card:
+                __M_writer('    <meta name="twitter:site" content="')
+                __M_writer(str(twitter_card['site']))
+                __M_writer('">\n')
+            if 'creator:id' in twitter_card:
+                __M_writer('    <meta name="twitter:creator:id" content="')
+                __M_writer(str(twitter_card['creator:id']))
+                __M_writer('">\n')
+            elif 'creator' in twitter_card:
+                __M_writer('    <meta name="twitter:creator" content="')
+                __M_writer(str(twitter_card['creator']))
+                __M_writer('">\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+def render_html_tags(context,post):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        hidden_tags = context.get('hidden_tags', UNDEFINED)
+        _link = context.get('_link', UNDEFINED)
+        __M_writer = context.writer()
+        __M_writer('\n')
+        if post.tags:
+            __M_writer('        <ul itemprop="keywords" class="tags">\n')
+            for tag in post.tags:
+                if tag not in hidden_tags:
+                    __M_writer('            <li><a class="tag p-category" href="')
+                    __M_writer(str(_link('tag', tag)))
+                    __M_writer('" rel="tag">')
+                    __M_writer(filters.html_escape(str(tag)))
+                    __M_writer('</a></li>\n')
+            __M_writer('        </ul>\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+def render_meta_translations(context,post):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        translations = context.get('translations', UNDEFINED)
+        sorted = context.get('sorted', UNDEFINED)
+        lang = context.get('lang', UNDEFINED)
+        len = context.get('len', UNDEFINED)
+        __M_writer = context.writer()
+        __M_writer('\n')
+        if len(translations) > 1:
+            for langname in sorted(translations):
+                if langname != lang and ((not post.skip_untranslated) or post.is_translation_available(langname)):
+                    __M_writer('                <link rel="alternate" hreflang="')
+                    __M_writer(str(langname))
+                    __M_writer('" href="')
+                    __M_writer(str(post.permalink(langname)))
+                    __M_writer('">\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -206,6 +206,6 @@ def render_mathjax_script(context,post):
 
 """
 __M_BEGIN_METADATA
-{"filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl", "uri": "post_helper.tmpl", "line_map": {"16": 0, "21": 2, "22": 11, "23": 23, "24": 40, "25": 69, "26": 85, "27": 106, "33": 13, "39": 13, "40": 14, "41": 15, "42": 16, "43": 17, "44": 18, "45": 18, "46": 18, "47": 18, "48": 18, "49": 21, "55": 71, "60": 71, "61": 72, "62": 73, "63": 73, "64": 73, "65": 74, "66": 75, "67": 75, "68": 75, "69": 76, "70": 77, "71": 77, "72": 77, "73": 79, "74": 80, "75": 80, "76": 80, "77": 81, "78": 82, "79": 82, "80": 82, "86": 3, "94": 3, "95": 4, "96": 5, "97": 6, "98": 7, "99": 7, "100": 7, "101": 7, "102": 7, "108": 25, "113": 25, "114": 26, "115": 27, "116": 28, "117": 29, "118": 30, "119": 30, "120": 30, "121": 30, "122": 30, "123": 30, "124": 33, "125": 34, "126": 35, "127": 35, "128": 35, "129": 35, "130": 35, "131": 35, "132": 38, "138": 42, "148": 42, "149": 43, "150": 44, "151": 44, "152": 44, "153": 45, "154": 45, "155": 46, "156": 46, "157": 47, "158": 48, "159": 48, "160": 48, "161": 49, "162": 50, "163": 50, "164": 50, "165": 52, "166": 53, "167": 53, "168": 53, "169": 55, "170": 60, "171": 61, "172": 61, "173": 61, "174": 63, "175": 64, "176": 65, "177": 65, "178": 65, "184": 87, "190": 87, "191": 88, "192": 89, "193": 90, "194": 95, "195": 96, "196": 97, "197": 98, "198": 98, "199": 98, "200": 99, "201": 100, "207": 201}, "source_encoding": "utf-8"}
+{"source_encoding": "utf-8", "uri": "post_helper.tmpl", "line_map": {"16": 0, "21": 2, "22": 11, "23": 23, "24": 40, "25": 69, "26": 85, "27": 106, "33": 87, "39": 87, "40": 88, "41": 89, "42": 90, "43": 95, "44": 96, "45": 97, "46": 98, "47": 98, "48": 98, "49": 99, "50": 100, "56": 25, "61": 25, "62": 26, "63": 27, "64": 28, "65": 29, "66": 30, "67": 30, "68": 30, "69": 30, "70": 30, "71": 30, "72": 33, "73": 34, "74": 35, "75": 35, "76": 35, "77": 35, "78": 35, "79": 35, "80": 38, "86": 42, "96": 42, "97": 43, "98": 44, "99": 44, "100": 44, "101": 45, "102": 45, "103": 46, "104": 46, "105": 47, "106": 48, "107": 48, "108": 48, "109": 49, "110": 50, "111": 50, "112": 50, "113": 52, "114": 53, "115": 53, "116": 53, "117": 55, "118": 60, "119": 61, "120": 61, "121": 61, "122": 63, "123": 64, "124": 65, "125": 65, "126": 65, "132": 71, "137": 71, "138": 72, "139": 73, "140": 73, "141": 73, "142": 74, "143": 75, "144": 75, "145": 75, "146": 76, "147": 77, "148": 77, "149": 77, "150": 79, "151": 80, "152": 80, "153": 80, "154": 81, "155": 82, "156": 82, "157": 82, "163": 13, "169": 13, "170": 14, "171": 15, "172": 16, "173": 17, "174": 18, "175": 18, "176": 18, "177": 18, "178": 18, "179": 21, "185": 3, "193": 3, "194": 4, "195": 5, "196": 6, "197": 7, "198": 7, "199": 7, "200": 7, "201": 7, "207": 201}, "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl"}
 __M_END_METADATA
 """
