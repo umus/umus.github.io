@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1475649096.2170193
+_modified_time = 1475649311.3879898
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_muut.tmpl'
 _template_uri = 'comments_helper_muut.tmpl'
@@ -66,6 +66,6 @@ def render_comment_link_script(context):
 
 """
 __M_BEGIN_METADATA
-{"filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_muut.tmpl", "source_encoding": "utf-8", "uri": "comments_helper_muut.tmpl", "line_map": {"48": 4, "34": 7, "67": 61, "40": 3, "45": 3, "46": 4, "47": 4, "16": 0, "49": 4, "50": 4, "51": 4, "21": 2, "22": 5, "23": 8, "24": 13, "57": 11, "61": 11, "30": 7}}
+{"uri": "comments_helper_muut.tmpl", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_muut.tmpl", "line_map": {"48": 4, "34": 7, "67": 61, "40": 3, "45": 3, "46": 4, "47": 4, "16": 0, "49": 4, "50": 4, "51": 4, "21": 2, "22": 5, "23": 8, "24": 13, "57": 11, "61": 11, "30": 7}, "source_encoding": "utf-8"}
 __M_END_METADATA
 """
