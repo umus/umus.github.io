@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1475638070.8452582
+_modified_time = 1475645353.9184353
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_googleplus.tmpl'
 _template_uri = 'comments_helper_googleplus.tmpl'
@@ -62,6 +62,6 @@ def render_comment_link(context,link,identifier):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_googleplus.tmpl", "uri": "comments_helper_googleplus.tmpl", "line_map": {"33": 2, "34": 5, "35": 5, "41": 16, "55": 11, "45": 16, "16": 0, "51": 11, "21": 9, "22": 14, "23": 17, "56": 12, "57": 12, "29": 2, "63": 57}}
+{"source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_googleplus.tmpl", "line_map": {"33": 2, "34": 5, "35": 5, "41": 16, "55": 11, "45": 16, "16": 0, "51": 11, "21": 9, "22": 14, "23": 17, "56": 12, "57": 12, "29": 2, "63": 57}, "uri": "comments_helper_googleplus.tmpl"}
 __M_END_METADATA
 """
