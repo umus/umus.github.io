@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1475637864.9722114
+_modified_time = 1475637936.867365
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl'
 _template_uri = 'post_helper.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['html_tags', 'open_graph_metadata', 'meta_translations', 'html_pager', 'mathjax_script', 'twitter_card_information']
+_exports = ['html_tags', 'twitter_card_information', 'meta_translations', 'html_pager', 'open_graph_metadata', 'mathjax_script']
 
 
 def render_body(context,**pageargs):
@@ -52,47 +52,32 @@ def render_html_tags(context,post):
         context.caller_stack._pop_frame()
 
 
-def render_open_graph_metadata(context,post):
+def render_twitter_card_information(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        abs_link = context.get('abs_link', UNDEFINED)
-        lang = context.get('lang', UNDEFINED)
-        blog_title = context.get('blog_title', UNDEFINED)
-        permalink = context.get('permalink', UNDEFINED)
-        url_replacer = context.get('url_replacer', UNDEFINED)
-        use_open_graph = context.get('use_open_graph', UNDEFINED)
+        twitter_card = context.get('twitter_card', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
-        if use_open_graph:
-            __M_writer('    <meta property="og:site_name" content="')
-            __M_writer(filters.html_escape(str(blog_title)))
-            __M_writer('">\n    <meta property="og:title" content="')
-            __M_writer(filters.html_escape(str(post.title()[:70])))
-            __M_writer('">\n    <meta property="og:url" content="')
-            __M_writer(str(abs_link(permalink)))
+        if twitter_card and twitter_card['use_twitter_cards']:
+            __M_writer('    <meta name="twitter:card" content="')
+            __M_writer(filters.html_escape(str(twitter_card.get('card', 'summary'))))
             __M_writer('">\n')
-            if post.description():
-                __M_writer('    <meta property="og:description" content="')
-                __M_writer(filters.html_escape(str(post.description()[:200])))
+            if 'site:id' in twitter_card:
+                __M_writer('    <meta name="twitter:site:id" content="')
+                __M_writer(str(twitter_card['site:id']))
                 __M_writer('">\n')
-            else:
-                __M_writer('    <meta property="og:description" content="')
-                __M_writer(filters.html_escape(str(post.text(strip_html=True)[:200])))
+            elif 'site' in twitter_card:
+                __M_writer('    <meta name="twitter:site" content="')
+                __M_writer(str(twitter_card['site']))
                 __M_writer('">\n')
-            if post.previewimage:
-                __M_writer('    <meta property="og:image" content="')
-                __M_writer(str(url_replacer(permalink, post.previewimage, lang, 'absolute')))
+            if 'creator:id' in twitter_card:
+                __M_writer('    <meta name="twitter:creator:id" content="')
+                __M_writer(str(twitter_card['creator:id']))
                 __M_writer('">\n')
-            __M_writer('    <meta property="og:type" content="article">\n')
-            if post.date.isoformat():
-                __M_writer('    <meta property="article:published_time" content="')
-                __M_writer(str(post.formatted_date('webiso')))
+            elif 'creator' in twitter_card:
+                __M_writer('    <meta name="twitter:creator" content="')
+                __M_writer(str(twitter_card['creator']))
                 __M_writer('">\n')
-            if post.tags:
-                for tag in post.tags:
-                    __M_writer('           <meta property="article:tag" content="')
-                    __M_writer(filters.html_escape(str(tag)))
-                    __M_writer('">\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -102,9 +87,9 @@ def render_meta_translations(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
         lang = context.get('lang', UNDEFINED)
-        sorted = context.get('sorted', UNDEFINED)
         len = context.get('len', UNDEFINED)
         translations = context.get('translations', UNDEFINED)
+        sorted = context.get('sorted', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if len(translations) > 1:
@@ -150,6 +135,52 @@ def render_html_pager(context,post):
         context.caller_stack._pop_frame()
 
 
+def render_open_graph_metadata(context,post):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        lang = context.get('lang', UNDEFINED)
+        abs_link = context.get('abs_link', UNDEFINED)
+        blog_title = context.get('blog_title', UNDEFINED)
+        url_replacer = context.get('url_replacer', UNDEFINED)
+        permalink = context.get('permalink', UNDEFINED)
+        use_open_graph = context.get('use_open_graph', UNDEFINED)
+        __M_writer = context.writer()
+        __M_writer('\n')
+        if use_open_graph:
+            __M_writer('    <meta property="og:site_name" content="')
+            __M_writer(filters.html_escape(str(blog_title)))
+            __M_writer('">\n    <meta property="og:title" content="')
+            __M_writer(filters.html_escape(str(post.title()[:70])))
+            __M_writer('">\n    <meta property="og:url" content="')
+            __M_writer(str(abs_link(permalink)))
+            __M_writer('">\n')
+            if post.description():
+                __M_writer('    <meta property="og:description" content="')
+                __M_writer(filters.html_escape(str(post.description()[:200])))
+                __M_writer('">\n')
+            else:
+                __M_writer('    <meta property="og:description" content="')
+                __M_writer(filters.html_escape(str(post.text(strip_html=True)[:200])))
+                __M_writer('">\n')
+            if post.previewimage:
+                __M_writer('    <meta property="og:image" content="')
+                __M_writer(str(url_replacer(permalink, post.previewimage, lang, 'absolute')))
+                __M_writer('">\n')
+            __M_writer('    <meta property="og:type" content="article">\n')
+            if post.date.isoformat():
+                __M_writer('    <meta property="article:published_time" content="')
+                __M_writer(str(post.formatted_date('webiso')))
+                __M_writer('">\n')
+            if post.tags:
+                for tag in post.tags:
+                    __M_writer('           <meta property="article:tag" content="')
+                    __M_writer(filters.html_escape(str(tag)))
+                    __M_writer('">\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
 def render_mathjax_script(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
@@ -173,39 +204,8 @@ def render_mathjax_script(context,post):
         context.caller_stack._pop_frame()
 
 
-def render_twitter_card_information(context,post):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        twitter_card = context.get('twitter_card', UNDEFINED)
-        __M_writer = context.writer()
-        __M_writer('\n')
-        if twitter_card and twitter_card['use_twitter_cards']:
-            __M_writer('    <meta name="twitter:card" content="')
-            __M_writer(filters.html_escape(str(twitter_card.get('card', 'summary'))))
-            __M_writer('">\n')
-            if 'site:id' in twitter_card:
-                __M_writer('    <meta name="twitter:site:id" content="')
-                __M_writer(str(twitter_card['site:id']))
-                __M_writer('">\n')
-            elif 'site' in twitter_card:
-                __M_writer('    <meta name="twitter:site" content="')
-                __M_writer(str(twitter_card['site']))
-                __M_writer('">\n')
-            if 'creator:id' in twitter_card:
-                __M_writer('    <meta name="twitter:creator:id" content="')
-                __M_writer(str(twitter_card['creator:id']))
-                __M_writer('">\n')
-            elif 'creator' in twitter_card:
-                __M_writer('    <meta name="twitter:creator" content="')
-                __M_writer(str(twitter_card['creator']))
-                __M_writer('">\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
 """
 __M_BEGIN_METADATA
-{"line_map": {"16": 0, "21": 2, "22": 11, "23": 23, "24": 40, "25": 69, "26": 85, "27": 106, "33": 13, "39": 13, "40": 14, "41": 15, "42": 16, "43": 17, "44": 18, "45": 18, "46": 18, "47": 18, "48": 18, "49": 21, "55": 42, "65": 42, "66": 43, "67": 44, "68": 44, "69": 44, "70": 45, "71": 45, "72": 46, "73": 46, "74": 47, "75": 48, "76": 48, "77": 48, "78": 49, "79": 50, "80": 50, "81": 50, "82": 52, "83": 53, "84": 53, "85": 53, "86": 55, "87": 60, "88": 61, "89": 61, "90": 61, "91": 63, "92": 64, "93": 65, "94": 65, "95": 65, "101": 3, "109": 3, "110": 4, "111": 5, "112": 6, "113": 7, "114": 7, "115": 7, "116": 7, "117": 7, "123": 25, "128": 25, "129": 26, "130": 27, "131": 28, "132": 29, "133": 30, "134": 30, "135": 30, "136": 30, "137": 30, "138": 30, "139": 33, "140": 34, "141": 35, "142": 35, "143": 35, "144": 35, "145": 35, "146": 35, "147": 38, "153": 87, "159": 87, "160": 88, "161": 89, "162": 90, "163": 95, "164": 96, "165": 97, "166": 98, "167": 98, "168": 98, "169": 99, "170": 100, "176": 71, "181": 71, "182": 72, "183": 73, "184": 73, "185": 73, "186": 74, "187": 75, "188": 75, "189": 75, "190": 76, "191": 77, "192": 77, "193": 77, "194": 79, "195": 80, "196": 80, "197": 80, "198": 81, "199": 82, "200": 82, "201": 82, "207": 201}, "source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl", "uri": "post_helper.tmpl"}
+{"filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl", "uri": "post_helper.tmpl", "line_map": {"16": 0, "21": 2, "22": 11, "23": 23, "24": 40, "25": 69, "26": 85, "27": 106, "33": 13, "39": 13, "40": 14, "41": 15, "42": 16, "43": 17, "44": 18, "45": 18, "46": 18, "47": 18, "48": 18, "49": 21, "55": 71, "60": 71, "61": 72, "62": 73, "63": 73, "64": 73, "65": 74, "66": 75, "67": 75, "68": 75, "69": 76, "70": 77, "71": 77, "72": 77, "73": 79, "74": 80, "75": 80, "76": 80, "77": 81, "78": 82, "79": 82, "80": 82, "86": 3, "94": 3, "95": 4, "96": 5, "97": 6, "98": 7, "99": 7, "100": 7, "101": 7, "102": 7, "108": 25, "113": 25, "114": 26, "115": 27, "116": 28, "117": 29, "118": 30, "119": 30, "120": 30, "121": 30, "122": 30, "123": 30, "124": 33, "125": 34, "126": 35, "127": 35, "128": 35, "129": 35, "130": 35, "131": 35, "132": 38, "138": 42, "148": 42, "149": 43, "150": 44, "151": 44, "152": 44, "153": 45, "154": 45, "155": 46, "156": 46, "157": 47, "158": 48, "159": 48, "160": 48, "161": 49, "162": 50, "163": 50, "164": 50, "165": 52, "166": 53, "167": 53, "168": 53, "169": 55, "170": 60, "171": 61, "172": 61, "173": 61, "174": 63, "175": 64, "176": 65, "177": 65, "178": 65, "184": 87, "190": 87, "191": 88, "192": 89, "193": 90, "194": 95, "195": 96, "196": 97, "197": 98, "198": 98, "199": 98, "200": 99, "201": 100, "207": 201}, "source_encoding": "utf-8"}
 __M_END_METADATA
 """
