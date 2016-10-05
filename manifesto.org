@@ -17,8 +17,8 @@ progress of mathematics.
 
 Through discourse, exposition, organisation of math circles and
 seminars, deliberate practice of problem-solving and independent
-research, umu strives to improve the mathematical culture and foster
-creative boldness.
+research, umu strives to improve the mathematical culture and provide
+the opportunity to utilise fully the abilities of every individual.
 
 #+begin_html
 <script>
