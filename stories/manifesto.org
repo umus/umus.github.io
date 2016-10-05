@@ -1,28 +1,26 @@
+#+STARTUP: showall
+
+#+begin_html
 <script src="/assets/scripts/jquery-1.12.2.min.js"></script>
 <link rel="stylesheet" href="/assets/scripts/katex/katex.min.css">
 <script src="/assets/scripts/katex/katex.min.js"></script>
 <script src="/assets/scripts/katex/contrib/auto-render.min.js"></script>
+#+end_html
 
-<p>
 Knowledge is power. The ability to learn, create and share knowledge
 is the ability all of us have.
-</p>
 
-<p>
 But using this ability requires practice and courage.
-</p>
 
-<p>
 umu (read as $$u$$-$$\mu$$) is the framework to facilitate the
 progress of mathematics.
-</p>
 
-<p>
 Through discourse, exposition, organisation of math circles and
 seminars, deliberate practice of problem-solving and independent
-research, umu strives to improve the mathematical culture and foster creative boldness.
-</p>
+research, umu strives to improve the mathematical culture and provide
+the opportunity to utilise fully the abilities of every individual.
 
+#+begin_html
 <script>
       renderMathInElement(
           document.body,
@@ -34,3 +32,4 @@ research, umu strives to improve the mathematical culture and foster creative bo
           }
       );
 </script>
+#+end_html

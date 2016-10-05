@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1475645353.9386652
+_modified_time = 1475649096.1717508
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/index.tmpl'
 _template_uri = 'index.tmpl'
@@ -33,22 +33,22 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        comments = _mako_get_namespace(context, 'comments')
-        parent = context.get('parent', UNDEFINED)
-        posts = context.get('posts', UNDEFINED)
-        permalink = context.get('permalink', UNDEFINED)
+        pagekind = context.get('pagekind', UNDEFINED)
+        index_teasers = context.get('index_teasers', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        pagekind = context.get('pagekind', UNDEFINED)
         def content_header():
             return render_content_header(context._locals(__M_locals))
         helper = _mako_get_namespace(context, 'helper')
+        date_format = context.get('date_format', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
+        front_index_header = context.get('front_index_header', UNDEFINED)
+        parent = context.get('parent', UNDEFINED)
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
-        date_format = context.get('date_format', UNDEFINED)
         index_file = context.get('index_file', UNDEFINED)
-        front_index_header = context.get('front_index_header', UNDEFINED)
-        index_teasers = context.get('index_teasers', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
+        permalink = context.get('permalink', UNDEFINED)
         site_has_comments = context.get('site_has_comments', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
@@ -85,10 +85,10 @@ def render_extra_head(context,**pageargs):
     try:
         def extra_head():
             return render_extra_head(context)
-        posts = context.get('posts', UNDEFINED)
-        parent = context.get('parent', UNDEFINED)
-        permalink = context.get('permalink', UNDEFINED)
         index_file = context.get('index_file', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
+        permalink = context.get('permalink', UNDEFINED)
+        parent = context.get('parent', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n    ')
         __M_writer(str(parent.extra_head()))
@@ -105,18 +105,18 @@ def render_extra_head(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        comments = _mako_get_namespace(context, 'comments')
-        posts = context.get('posts', UNDEFINED)
+        pagekind = context.get('pagekind', UNDEFINED)
+        index_teasers = context.get('index_teasers', UNDEFINED)
         def content():
             return render_content(context)
-        pagekind = context.get('pagekind', UNDEFINED)
         def content_header():
             return render_content_header(context)
         helper = _mako_get_namespace(context, 'helper')
         date_format = context.get('date_format', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
         front_index_header = context.get('front_index_header', UNDEFINED)
-        index_teasers = context.get('index_teasers', UNDEFINED)
         site_has_comments = context.get('site_has_comments', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content_header'):
@@ -169,6 +169,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/index.tmpl", "line_map": {"128": 16, "129": 16, "130": 16, "131": 18, "132": 19, "133": 20, "134": 20, "135": 20, "136": 22, "137": 22, "138": 22, "139": 22, "140": 24, "141": 24, "142": 24, "143": 24, "144": 24, "145": 24, "146": 24, "147": 24, "148": 25, "149": 26, "150": 26, "23": 3, "152": 28, "153": 30, "26": 2, "155": 32, "156": 33, "154": 31, "158": 38, "159": 39, "32": 0, "161": 40, "162": 40, "163": 41, "164": 41, "170": 164, "157": 35, "54": 2, "55": 3, "56": 4, "151": 26, "61": 11, "160": 39, "66": 42, "72": 14, "83": 6, "93": 6, "94": 7, "95": 7, "96": 8, "97": 9, "98": 9, "99": 9, "105": 13, "121": 13, "126": 14, "127": 15}, "uri": "index.tmpl"}
+{"filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/index.tmpl", "source_encoding": "utf-8", "uri": "index.tmpl", "line_map": {"128": 16, "129": 16, "130": 16, "131": 18, "132": 19, "133": 20, "134": 20, "135": 20, "136": 22, "137": 22, "138": 22, "139": 22, "140": 24, "141": 24, "142": 24, "143": 24, "144": 24, "145": 24, "146": 24, "147": 24, "148": 25, "149": 26, "150": 26, "23": 3, "152": 28, "153": 30, "26": 2, "155": 32, "156": 33, "154": 31, "158": 38, "159": 39, "32": 0, "161": 40, "162": 40, "163": 41, "164": 41, "170": 164, "157": 35, "54": 2, "55": 3, "56": 4, "151": 26, "61": 11, "160": 39, "66": 42, "72": 14, "83": 6, "93": 6, "94": 7, "95": 7, "96": 8, "97": 9, "98": 9, "99": 9, "105": 13, "121": 13, "126": 14, "127": 15}}
 __M_END_METADATA
 """

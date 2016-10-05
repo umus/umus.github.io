@@ -132,11 +132,10 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/manifest", "Manifest"),
         ("/agenda", "Agenda"),
         ("/log","Log"),
         ("/archive.html", "Archive"),
-        ("/categories/", "Categories"),
+#        ("/categories/", "Categories"),
         ("https://github.com/umus", "Github"),
     ),
 }
