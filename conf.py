@@ -135,6 +135,7 @@ NAVIGATION_LINKS = {
         ("/agenda", "Agenda"),
         ("/log","Log"),
         ("/archive.html", "Archive"),
+        ("/contact", "Contact"),
 #        ("/categories/", "Categories"),
         ("https://github.com/umus", "Github"),
     ),
