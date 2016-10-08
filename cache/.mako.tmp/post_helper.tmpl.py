@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1475892501.854285
+_modified_time = 1475892539.9960847
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl'
 _template_uri = 'post_helper.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['html_pager', 'mathjax_script', 'meta_translations', 'open_graph_metadata', 'html_tags', 'twitter_card_information']
+_exports = ['open_graph_metadata', 'html_pager', 'meta_translations', 'mathjax_script', 'html_tags', 'twitter_card_information']
 
 
 def render_body(context,**pageargs):
@@ -25,6 +25,52 @@ def render_body(context,**pageargs):
         __M_writer('\n\n')
         __M_writer('\n\n')
         __M_writer('\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+def render_open_graph_metadata(context,post):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        url_replacer = context.get('url_replacer', UNDEFINED)
+        abs_link = context.get('abs_link', UNDEFINED)
+        blog_title = context.get('blog_title', UNDEFINED)
+        permalink = context.get('permalink', UNDEFINED)
+        use_open_graph = context.get('use_open_graph', UNDEFINED)
+        lang = context.get('lang', UNDEFINED)
+        __M_writer = context.writer()
+        __M_writer('\n')
+        if use_open_graph:
+            __M_writer('    <meta property="og:site_name" content="')
+            __M_writer(filters.html_escape(str(blog_title)))
+            __M_writer('">\n    <meta property="og:title" content="')
+            __M_writer(filters.html_escape(str(post.title()[:70])))
+            __M_writer('">\n    <meta property="og:url" content="')
+            __M_writer(str(abs_link(permalink)))
+            __M_writer('">\n')
+            if post.description():
+                __M_writer('    <meta property="og:description" content="')
+                __M_writer(filters.html_escape(str(post.description()[:200])))
+                __M_writer('">\n')
+            else:
+                __M_writer('    <meta property="og:description" content="')
+                __M_writer(filters.html_escape(str(post.text(strip_html=True)[:200])))
+                __M_writer('">\n')
+            if post.previewimage:
+                __M_writer('    <meta property="og:image" content="')
+                __M_writer(str(url_replacer(permalink, post.previewimage, lang, 'absolute')))
+                __M_writer('">\n')
+            __M_writer('    <meta property="og:type" content="article">\n')
+            if post.date.isoformat():
+                __M_writer('    <meta property="article:published_time" content="')
+                __M_writer(str(post.formatted_date('webiso')))
+                __M_writer('">\n')
+            if post.tags:
+                for tag in post.tags:
+                    __M_writer('           <meta property="article:tag" content="')
+                    __M_writer(filters.html_escape(str(tag)))
+                    __M_writer('">\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -60,36 +106,13 @@ def render_html_pager(context,post):
         context.caller_stack._pop_frame()
 
 
-def render_mathjax_script(context,post):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        use_katex = context.get('use_katex', UNDEFINED)
-        mathjax_config = context.get('mathjax_config', UNDEFINED)
-        __M_writer = context.writer()
-        __M_writer('\n')
-        if post.is_mathjax:
-            if use_katex:
-                __M_writer('            <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>\n            <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>\n            <script>\n                renderMathInElement(document.body);\n            </script>\n')
-            else:
-                __M_writer('            <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>\n')
-                if mathjax_config:
-                    __M_writer('            ')
-                    __M_writer(str(mathjax_config))
-                    __M_writer('\n')
-                else:
-                    __M_writer('            <script type="text/x-mathjax-config">\n            MathJax.Hub.Config({tex2jax: {inlineMath: [[\'$latex \',\'$\'], [\'\\\\(\',\'\\\\)\']]}});\n            </script>\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
 def render_meta_translations(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        translations = context.get('translations', UNDEFINED)
-        sorted = context.get('sorted', UNDEFINED)
         lang = context.get('lang', UNDEFINED)
         len = context.get('len', UNDEFINED)
+        translations = context.get('translations', UNDEFINED)
+        sorted = context.get('sorted', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if len(translations) > 1:
@@ -105,47 +128,24 @@ def render_meta_translations(context,post):
         context.caller_stack._pop_frame()
 
 
-def render_open_graph_metadata(context,post):
+def render_mathjax_script(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        url_replacer = context.get('url_replacer', UNDEFINED)
-        lang = context.get('lang', UNDEFINED)
-        abs_link = context.get('abs_link', UNDEFINED)
-        permalink = context.get('permalink', UNDEFINED)
-        blog_title = context.get('blog_title', UNDEFINED)
-        use_open_graph = context.get('use_open_graph', UNDEFINED)
+        mathjax_config = context.get('mathjax_config', UNDEFINED)
+        use_katex = context.get('use_katex', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
-        if use_open_graph:
-            __M_writer('    <meta property="og:site_name" content="')
-            __M_writer(filters.html_escape(str(blog_title)))
-            __M_writer('">\n    <meta property="og:title" content="')
-            __M_writer(filters.html_escape(str(post.title()[:70])))
-            __M_writer('">\n    <meta property="og:url" content="')
-            __M_writer(str(abs_link(permalink)))
-            __M_writer('">\n')
-            if post.description():
-                __M_writer('    <meta property="og:description" content="')
-                __M_writer(filters.html_escape(str(post.description()[:200])))
-                __M_writer('">\n')
+        if post.is_mathjax:
+            if use_katex:
+                __M_writer('            <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>\n            <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>\n            <script>\n                renderMathInElement(document.body);\n            </script>\n')
             else:
-                __M_writer('    <meta property="og:description" content="')
-                __M_writer(filters.html_escape(str(post.text(strip_html=True)[:200])))
-                __M_writer('">\n')
-            if post.previewimage:
-                __M_writer('    <meta property="og:image" content="')
-                __M_writer(str(url_replacer(permalink, post.previewimage, lang, 'absolute')))
-                __M_writer('">\n')
-            __M_writer('    <meta property="og:type" content="article">\n')
-            if post.date.isoformat():
-                __M_writer('    <meta property="article:published_time" content="')
-                __M_writer(str(post.formatted_date('webiso')))
-                __M_writer('">\n')
-            if post.tags:
-                for tag in post.tags:
-                    __M_writer('           <meta property="article:tag" content="')
-                    __M_writer(filters.html_escape(str(tag)))
-                    __M_writer('">\n')
+                __M_writer('            <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>\n')
+                if mathjax_config:
+                    __M_writer('            ')
+                    __M_writer(str(mathjax_config))
+                    __M_writer('\n')
+                else:
+                    __M_writer('            <script type="text/x-mathjax-config">\n            MathJax.Hub.Config({tex2jax: {inlineMath: [[\'$latex \',\'$\'], [\'\\\\(\',\'\\\\)\']]}});\n            </script>\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -206,6 +206,6 @@ def render_twitter_card_information(context,post):
 
 """
 __M_BEGIN_METADATA
-{"filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl", "uri": "post_helper.tmpl", "source_encoding": "utf-8", "line_map": {"16": 0, "21": 2, "22": 11, "23": 23, "24": 40, "25": 69, "26": 85, "27": 106, "33": 25, "38": 25, "39": 26, "40": 27, "41": 28, "42": 29, "43": 30, "44": 30, "45": 30, "46": 30, "47": 30, "48": 30, "49": 33, "50": 34, "51": 35, "52": 35, "53": 35, "54": 35, "55": 35, "56": 35, "57": 38, "63": 87, "69": 87, "70": 88, "71": 89, "72": 90, "73": 95, "74": 96, "75": 97, "76": 98, "77": 98, "78": 98, "79": 99, "80": 100, "86": 3, "94": 3, "95": 4, "96": 5, "97": 6, "98": 7, "99": 7, "100": 7, "101": 7, "102": 7, "108": 42, "118": 42, "119": 43, "120": 44, "121": 44, "122": 44, "123": 45, "124": 45, "125": 46, "126": 46, "127": 47, "128": 48, "129": 48, "130": 48, "131": 49, "132": 50, "133": 50, "134": 50, "135": 52, "136": 53, "137": 53, "138": 53, "139": 55, "140": 60, "141": 61, "142": 61, "143": 61, "144": 63, "145": 64, "146": 65, "147": 65, "148": 65, "154": 13, "160": 13, "161": 14, "162": 15, "163": 16, "164": 17, "165": 18, "166": 18, "167": 18, "168": 18, "169": 18, "170": 21, "176": 71, "181": 71, "182": 72, "183": 73, "184": 73, "185": 73, "186": 74, "187": 75, "188": 75, "189": 75, "190": 76, "191": 77, "192": 77, "193": 77, "194": 79, "195": 80, "196": 80, "197": 80, "198": 81, "199": 82, "200": 82, "201": 82, "207": 201}}
+{"source_encoding": "utf-8", "uri": "post_helper.tmpl", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl", "line_map": {"16": 0, "21": 2, "22": 11, "23": 23, "24": 40, "25": 69, "26": 85, "27": 106, "33": 42, "43": 42, "44": 43, "45": 44, "46": 44, "47": 44, "48": 45, "49": 45, "50": 46, "51": 46, "52": 47, "53": 48, "54": 48, "55": 48, "56": 49, "57": 50, "58": 50, "59": 50, "60": 52, "61": 53, "62": 53, "63": 53, "64": 55, "65": 60, "66": 61, "67": 61, "68": 61, "69": 63, "70": 64, "71": 65, "72": 65, "73": 65, "79": 25, "84": 25, "85": 26, "86": 27, "87": 28, "88": 29, "89": 30, "90": 30, "91": 30, "92": 30, "93": 30, "94": 30, "95": 33, "96": 34, "97": 35, "98": 35, "99": 35, "100": 35, "101": 35, "102": 35, "103": 38, "109": 3, "117": 3, "118": 4, "119": 5, "120": 6, "121": 7, "122": 7, "123": 7, "124": 7, "125": 7, "131": 87, "137": 87, "138": 88, "139": 89, "140": 90, "141": 95, "142": 96, "143": 97, "144": 98, "145": 98, "146": 98, "147": 99, "148": 100, "154": 13, "160": 13, "161": 14, "162": 15, "163": 16, "164": 17, "165": 18, "166": 18, "167": 18, "168": 18, "169": 18, "170": 21, "176": 71, "181": 71, "182": 72, "183": 73, "184": 73, "185": 73, "186": 74, "187": 75, "188": 75, "189": 75, "190": 76, "191": 77, "192": 77, "193": 77, "194": 79, "195": 80, "196": 80, "197": 80, "198": 81, "199": 82, "200": 82, "201": 82, "207": 201}}
 __M_END_METADATA
 """
