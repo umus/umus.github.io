@@ -6,4 +6,5 @@ Contact: [[https://www.math.toronto.edu/cms/repka-joe/][Professor Joe Repka]]
 
 ** MAT240
 
+Contact: [[http://www.math.toronto.edu/mein/][Professor Eckhard Meinrenken]]
 Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html][2016 Fall MAT240]]
