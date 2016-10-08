@@ -1,0 +1,68 @@
+Team,
+
+I am grateful to all of you who has come today and made the session
+productive despite some element of chaos which is often present in
+introductory meetings. And thank you for all the suggestions -- they
+would definitely help us make our time together worthwhile.
+
+One of the questions raised in the session was about the combination
+of training for MAT157 and MAT240 in one session. Everyone is free to
+choose any topic or problem to go through during the session, but I do
+think it is necessary to have the topic of the main discussion in mind
+before each session. My suggestion is to split officially the current
+time period in half, and devote one half to analysis and one half to
+algebra.
+
+This would allow us to have a clear focus for a set period of time. As
+Fiona proposed, it would be great to devote some time in the beginning
+of each corresponding session to a quick recap of the week lectures,
+since this will give us a headstart with problems, hopefully identify
+the gaps in our knowledge and understanding as well as unite our
+efforts in a coherent discussion interesting for us all. If you have
+the outlines of lectures in any format or want to write them, please
+write me an email.
+
+Alan expressed interest in reserving B026 as our base for the future
+sessions. I will write to ACE as soon as possible.
+
+Matthew also suggested to create a Facebook group to spread
+information. If there is a demand and there are volunteers to look
+after the page, I am happy if you get involved with it, but would like
+to keep the logs of the sessions, announcements and resources on the
+umu website. For those of you who are new, please be aware there is a
+Facebook chat in which most of the instantaneous communication takes
+place.
+
+If you want anything to be posted on the [[https://umus.github.io/ut-umu][ut.umu]] page, please feel free
+to [[https://umus.github.io/contact][contact]] me.
+
+Unfortunately, not every person who has participated today has written
+me an email. Registering is important if you want to obtain CCR after
+attending at least 4 sessions and having 1 academic experience.
+
+The academic experience is supposed to add to our knowledge and
+academic skills development, and may involve various activities. We
+may book a mathematical (or any other, if there is a demand) [[https://onesearch.library.utoronto.ca/consultations][research
+consultation]], visit office hours of the beloved Joe Repka and Eckhard
+Meinrenken, a [[http://www.artsci.utoronto.ca/current/advising/freeresources][tutoring centre]] or a TA, or we may attend a workshop in
+the [[http://libcal.library.utoronto.ca/calendar/libraryworkshops/?cid=2020&t=m&d=0000-00-00&cal%255B%255D=2020][library]]. Please write what you think suits you best by email or in the
+Facebook chat.
+
+If you had not already emailed me but attended the session, I would
+be grateful if you could fill the following form to register the
+attendance and send it by email from your mail.utoronto.ca address:
+
+1. First Name
+2. Are there any specific topics you want to go through in the next
+   session, other than the content of the most recent lectures?
+3. What rules would you like the group to follow?
+4. Do you want your name to appear publicly in the [[https://github.com/umus/ut.umu/blob/master/register.csv][register]]? If not,
+   you may choose a nickname to be used instead. Currently, almost all
+   names are listed in full. If you want to replace your name with
+   something else, please drop me an email.
+
+I am looking forward to hearing from you.
+
+Onwards!
+
+sasha
