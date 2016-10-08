@@ -134,7 +134,8 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/agenda", "Agenda"),
         ("/log","Log"),
-        ("/archive.html", "Archive"),
+        ("/ut-umu", "ut.umu"),
+#        ("/archive.html", "Archive"),
         ("/contact", "Contact"),
 #        ("/categories/", "Categories"),
         ("https://github.com/umus", "Github"),
