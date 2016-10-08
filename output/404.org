@@ -1,1 +1,4 @@
-I am sorry, something you tried to access has not been created yet.
+* singularity
+
+We are sorry, something you tried to access has not been created
+yet.
