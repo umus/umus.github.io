@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>Universal Math UMu</description><atom:link rel="self" href="https://umus.github.io/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 08 Oct 2016 02:06:48 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157: First Session</title><link>https://umus.github.io/log/last-session.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>Universal Math UMu</description><atom:link rel="self" type="application/rss+xml" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Sat, 08 Oct 2016 04:33:46 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157: First Session</title><link>https://umus.github.io/log/ut-mat157-first-session.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -99,4 +99,4 @@ Onwards!
 &lt;p&gt;
 —
 sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/last-session.html</guid><pubDate>Fri, 07 Oct 2016 22:50:21 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat157-first-session.html</guid><pubDate>Fri, 07 Oct 2016 22:50:21 GMT</pubDate></item></channel></rss>
