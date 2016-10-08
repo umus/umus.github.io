@@ -1,7 +1,7 @@
 #+STARTUP: showall
 * ut.umu
 
-Log: [[https://umus.github.io/last-session][Last Session]]
+Log: [[https://umus.github.io/log/last-session][Last Session]]
 
 ** MAT157
 
