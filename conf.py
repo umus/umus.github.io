@@ -132,9 +132,9 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/ut-umu", "|| ut.umu ||"),
         ("/agenda", "Agenda"),
         ("/log","Log"),
-        ("/ut-umu", "ut.umu"),
 #        ("/archive.html", "Archive"),
         ("/contact", "Contact"),
 #        ("/categories/", "Categories"),
