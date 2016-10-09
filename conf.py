@@ -26,7 +26,7 @@ SITE_URL = "https://umus.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://umus.github.io/"
 BLOG_EMAIL = "aleph.umu@gmail.com"
-BLOG_DESCRIPTION = "Universal Math UMu"  # (translatable)
+BLOG_DESCRIPTION = "universal math umu"  # (translatable)
 
 # Nikola is multilingual!
 #
