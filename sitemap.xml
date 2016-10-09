@@ -7,50 +7,54 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://umus.github.io/</loc>
-  <lastmod>2016-10-08T05:01:00Z</lastmod>
+  <lastmod>2016-10-09T04:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/2016/</loc>
-  <lastmod>2016-10-08T04:34:00Z</lastmod>
+  <lastmod>2016-10-09T04:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/404.html</loc>
-  <lastmod>2016-10-08T05:04:00Z</lastmod>
+  <lastmod>2016-10-09T04:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/agenda.html</loc>
-  <lastmod>2016-10-08T04:34:00Z</lastmod>
+  <lastmod>2016-10-09T04:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/archive.html</loc>
-  <lastmod>2016-10-08T04:34:00Z</lastmod>
+  <lastmod>2016-10-09T04:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/categories/</loc>
-  <lastmod>2016-10-08T04:34:00Z</lastmod>
+  <lastmod>2016-10-09T04:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/contact.html</loc>
-  <lastmod>2016-10-08T04:34:00Z</lastmod>
+  <lastmod>2016-10-09T04:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/listings/</loc>
-  <lastmod>2016-10-08T04:34:00Z</lastmod>
+  <lastmod>2016-10-09T04:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/log/</loc>
-  <lastmod>2016-10-08T04:39:00Z</lastmod>
+  <lastmod>2016-10-09T04:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/log/ut-mat157-first-session.html</loc>
-  <lastmod>2016-10-08T04:34:00Z</lastmod>
+  <lastmod>2016-10-09T04:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/manifesto.html</loc>
-  <lastmod>2016-10-08T04:34:00Z</lastmod>
+  <lastmod>2016-10-09T04:39:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://umus.github.io/umu.html</loc>
+  <lastmod>2016-10-09T04:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://umus.github.io/ut-umu.html</loc>
-  <lastmod>2016-10-08T04:54:00Z</lastmod>
+  <lastmod>2016-10-09T04:39:00Z</lastmod>
  </url>
 </urlset>
