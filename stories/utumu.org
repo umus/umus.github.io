@@ -16,7 +16,8 @@ Contact: [[https://www.math.toronto.edu/cms/repka-joe/][Professor Joe Repka]]
 **** MAT157 2012-2013 Recommended Problems from Spivak's Calculus
 
 /The following table is adapted from the [[http://www.math.toronto.edu/~alfonso/137to257/MAT157_Syllabus_20122013.xlsx][MAT157 2012-2013 syllabus]]/
-/taught by Professor Kumar Murty:/
+/taught by Professor Kumar Murty, recommended by our comrade Yuveshen
+Mooroogen:/
 
 
 |----------------------------+-----------------------------------------+-------------------------------------------------|
