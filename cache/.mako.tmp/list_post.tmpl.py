@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1476111072.6273813
+_modified_time = 1476111123.8682415
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/list_post.tmpl'
 _template_uri = 'list_post.tmpl'
@@ -86,6 +86,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/list_post.tmpl", "uri": "list_post.tmpl", "line_map": {"64": 11, "65": 12, "66": 12, "67": 12, "68": 12, "69": 12, "70": 12, "71": 12, "72": 12, "73": 12, "74": 12, "75": 12, "76": 14, "77": 15, "78": 16, "79": 16, "80": 16, "81": 18, "87": 81, "27": 0, "38": 2, "43": 19, "49": 4, "59": 4, "60": 7, "61": 7, "62": 9, "63": 10}}
+{"source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/list_post.tmpl", "line_map": {"64": 11, "65": 12, "66": 12, "67": 12, "68": 12, "69": 12, "70": 12, "71": 12, "72": 12, "73": 12, "74": 12, "75": 12, "76": 14, "77": 15, "78": 16, "79": 16, "80": 16, "81": 18, "87": 81, "27": 0, "38": 2, "43": 19, "49": 4, "59": 4, "60": 7, "61": 7, "62": 9, "63": 10}, "uri": "list_post.tmpl"}
 __M_END_METADATA
 """
