@@ -1,0 +1,69 @@
+#+begin_html
+<script src="/assets/scripts/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="/assets/scripts/katex/katex.min.css">
+<script src="/assets/scripts/katex/katex.min.js"></script>
+<script src="/assets/scripts/katex/contrib/auto-render.min.js"></script>
+#+end_html
+
+Team,
+
+I am writing to remind you that this Friday, October 14, we are going
+to have our second meeting in B026(seminar room), Bahen, at 16:10.
+
+There are several updates this week.
+
+First, Yooveshen Mooroogen, who decided to join our sessions, has
+suggested a list of recommended problems from Spivak as given in the
+MAT157 syllabus of 2012-2013. The table adapted from the syllabus has
+been published on the ut.umu page.
+
+Secondly, ACE of UToronto got back to me about the request of
+reserving B026 for our sessions. In order to have such a privilege, we
+need to [[https://ulife.utoronto.ca/page/view/slug/apply][recognize our group with ULife]] first. The exact procedure will
+be investigated in detail after the midterms; there are several
+options available. For example, we may try to collaborate with Math
+Union. I will contact Angela shortly.
+
+Finally, there are several talks [[https://www.facebook.com/events/1609525922683111/][organized by the Math Union]] at the
+time of our meeting on Friday, from 16:30. The topics include the
+following:
+
+- /Why Some Sequences are More Special than Others/ by Calder
+  Morton-Ferguson
+
+- /The Chromatic Number of the Plane and the Axiom of Choice/ by Angela Wu
+
+- /Sphere Packing and the Baffling Properties of the $$E_8$$ and Leech
+  Lattices/ by Zachary Karry
+
+If there is any interest, I will find out whether this may count as an
+academic experience in the context of CCR. If not, it sounds
+interesting anyway. Please let me know what you think.
+
+If you intend to come earlier than 16:10 on Friday, the schedule on
+ACE for B026 shows that the room is going to be vacant after 15:00.
+
+If you have any resources relevant to our agenda, for example lecture
+outlines from any week, please let me know and I will post them on the
+ut.umu page. Please also take a look at the MAT240 course page,
+where several bonus problems have been already posted.
+
+I am looking forward to seeing you on Friday.
+
+Onwards!
+
+-- sasha
+
+#+begin_html
+<script>
+renderMathInElement(
+document.body,
+{
+delimiters: [
+{left: "$$$", right: "$$$", display: true},
+{left: "$$", right: "$$", display: false},
+]
+}
+);
+</script>
+#+end_html
