@@ -3,7 +3,7 @@
 
 Log: [[https://umus.github.io/log/last-session][Most Recent Session]]
 
-Notices: [[https://umus.github.io/log/last-session][Most Recent Announcement]]
+Notices: [[https://umus.github.io/log/last-notice][Most Recent Announcement]]
 
 Next Session: Friday, October 14, B026 (seminar room), Bahen, 16:10 - 18:10
 
