@@ -1,11 +1,15 @@
 #+STARTUP: showall
-* ut.umu
+#+OPTIONS: toc:nil
+*UT.UMU*
 
+------
 Log: [[https://umus.github.io/log/last-session][Most Recent Session]]
 
 Notices: [[https://umus.github.io/log/last-notice][Most Recent Announcement]]
 
 Next Session: Friday, October 14, B026 (seminar room), Bahen, 16:10 - 18:10
+
+#+TOC: headlines 3
 
 * Courses
 

@@ -1,5 +1,17 @@
 * Contact
+
 If you want to join a group, have any questions, suggestions, opinions
 or resources you want to share, please write an email to
 [[mailto:aleph.umu@gmail.com][aleph.umu@gmail.com]] -- we would always be happy to hear anything
 useful.
+
+If you wish to participate in the sessions or want to join the mailing
+list, please fill out the following form and send an email to the
+address listed above:
+
+  1. What is your preferred first name?  What is your full name?
+  2. Are there any specific topics you want to go through in the next
+     session, other than the content of the most recent lectures?
+  3. What rules would you like the group to follow?
+  4. Do you want your name to appear publicly in the [[https://github.com/umus/ut.umu/blob/master/register.csv][register]]? If not,
+     you may want to choose a nickname to be used instead.
