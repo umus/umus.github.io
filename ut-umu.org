@@ -77,7 +77,7 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
 
 *** Resources
 
-- *[[https://math.berkeley.edu/~gbergman/ug.hndts/#m110_Fr+Ins+Sp][George M. Bergman Supplementary Materials]]*
+- *[[https://math.berkeley.edu/~gbergman/ug.hndts/#m110_Fr+Ins+Sp][George M. Bergman's Supplementary Materials]]*
 
   + Notes on Friedberg, Insel and Spence's "Linear Algebra":
 
