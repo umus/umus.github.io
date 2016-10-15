@@ -77,13 +77,14 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
 
 *** Resources
 
-**** George M. Bergman Supplementary Materials
+- *[[https://math.berkeley.edu/~gbergman/ug.hndts/#m110_Fr+Ins+Sp][George M. Bergman Supplementary Materials]]*
 
-Notes on Friedberg, Insel and Spence's "Linear Algebra":
+  + Notes on Friedberg, Insel and Spence's "Linear Algebra":
 
-  + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Friedberg_Insel_Additional_Exercises.pdf][Supplementary Extension Problems]]
-  + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Infinite_Bases.pdf][Alternative Treatment]] of Infinite Bases and Unique Expressions for Vectors
-  + [[file:../assets/ut-umu/MAT240/03_F_110+08_F_H110_q+a.txt][Answers to Students' Questions]]
+    + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Friedberg_Insel_Additional_Exercises.pdf][Supplementary Extension Problems]]
+    + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Infinite_Bases.pdf][Alternative Treatment]] of Infinite Bases and Unique Expressions for Vectors
+    + [[file:../assets/ut-umu/MAT240/03_F_110+08_F_H110_q+a.txt][Answers to Students' Questions]]
+
 * Suggestions
 
 /The following are the suggestions and opinions from the participants/
