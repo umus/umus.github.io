@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1476473907.8629243
+_modified_time = 1476510515.989071
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_disqus.tmpl'
 _template_uri = 'comments_helper_disqus.tmpl'
@@ -50,8 +50,8 @@ def render_comment_link(context,link,identifier):
 def render_comment_form(context,url,title,identifier):
     __M_caller = context.caller_stack._push_frame()
     try:
-        lang = context.get('lang', UNDEFINED)
         comment_system_id = context.get('comment_system_id', UNDEFINED)
+        lang = context.get('lang', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if comment_system_id:
@@ -96,6 +96,6 @@ def render_comment_link_script(context):
 
 """
 __M_BEGIN_METADATA
-{"line_map": {"16": 3, "18": 0, "23": 2, "24": 3, "25": 31, "26": 37, "27": 44, "33": 33, "38": 33, "39": 34, "40": 35, "41": 35, "42": 35, "43": 35, "44": 35, "50": 5, "56": 5, "57": 6, "58": 7, "59": 9, "60": 9, "61": 10, "62": 11, "63": 11, "64": 11, "65": 13, "66": 13, "67": 13, "68": 14, "69": 14, "70": 16, "71": 17, "72": 18, "73": 19, "74": 19, "75": 19, "76": 21, "82": 40, "87": 40, "88": 41, "89": 42, "90": 42, "91": 42, "97": 91}, "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_disqus.tmpl", "uri": "comments_helper_disqus.tmpl", "source_encoding": "utf-8"}
+{"uri": "comments_helper_disqus.tmpl", "line_map": {"16": 3, "18": 0, "23": 2, "24": 3, "25": 31, "26": 37, "27": 44, "33": 33, "38": 33, "39": 34, "40": 35, "41": 35, "42": 35, "43": 35, "44": 35, "50": 5, "56": 5, "57": 6, "58": 7, "59": 9, "60": 9, "61": 10, "62": 11, "63": 11, "64": 11, "65": 13, "66": 13, "67": 13, "68": 14, "69": 14, "70": 16, "71": 17, "72": 18, "73": 19, "74": 19, "75": 19, "76": 21, "82": 40, "87": 40, "88": 41, "89": 42, "90": 42, "91": 42, "97": 91}, "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_disqus.tmpl", "source_encoding": "utf-8"}
 __M_END_METADATA
 """
