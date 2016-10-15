@@ -1,0 +1,2485 @@
+	    ANSWERS TO QUESTIONS ASKED BY STUDENTS
+	in Math 110, Fall 2003, and Math H110, Fall 2008,
+taught from Friedberg, Insel and Spence's "Linear Algebra, 4th Edition".
+
+----------------------------------------------------------------------
+Regarding the discussion of the plane containing three points  A,
+B,  C  (not on a straight line) on p.5 as the set of vectors
+A + s(B-A) + t(C-A),  you ask how this relates to the description
+of planes by equations in the coordinates,  ax+by+cz=d,  and what
+"the advantages and disadvantages" of using each form are.
+
+Well, the relationship between these two ways of describing a plane
+is typical of something that occurs throughout mathematics; where
+some system of elements can be described "from below" or "from above"
+-- namely, either by taking a smaller set of elements and performing
+operations on them that build up the whole set, or by starting with
+some larger set of elements, and describing the set we are interested
+in as consisting of those members of the larger set that satisfy
+certain conditions.  And a recurring type of problem in mathematics
+is to start with an object described in one of these ways, and find a
+description of it in the other way:  Given a set of elements, and a
+process of "building" other elements from them, to find a condition
+that precisely characterizes the elements one can get by this process;
+or given a condition, to find a way of "constructing" all the elements
+that satisfy it.
+
+I could go into a long discussion of how to go back and forth between
+the two ways of describing a plane; but I prefer to say:  it will
+be easier to do when we have learned more of the theory.  At this
+point, if it interests you, I think you should be able to work it out
+yourself.  If you try and get stuck, come and discuss it at office
+hours.
+
+And rather than considering "advantages and disadvantages" of using
+one or the other form, I would say it is most valuable to be aware
+that the two forms exist, so that when a problem comes up where one
+or the other is more useful, you will be able to make the choice.
+
+----------------------------------------------------------------------
+You ask whether physical experiments give us a basis for believing
+all 8 of the axioms for a vector space (p.7).
+
+Physical experiments lead us to believe that a reasonable model
+of various quantities (such as velocity, displacement, and force)
+is given by 3-tuples of real numbers  (x,y,z),  representing the
+components of these quantities.  The axioms for a vector space describe
+mathematical properties that are possessed by the set of all such
+3-tuples -- and that are also possessed by many other families of
+mathematical entities, e.g., the set of all polynomials.
+
+Physical experiments certainly don't imply that the the above-
+mentioned models of the universe are perfect.  For example, if the
+universe is finite, it clearly can't be exactly modeled by  R^3.  But
+the model  R^3  is very accurate for "small" distances (i.e., less than
+billions of light-years), and is much simpler than the kinds of models
+needed to describe the universe on a "large" scale.  But mathematics
+(and even the theory of vector spaces) is also used in studying those
+models -- just in more complicated ways.
+
+----------------------------------------------------------------------
+You ask why (on p.9) the zero polynomial is defined to have degree -1.
+
+The point is a subtle one.  Notice first that the definition of degree
+that works for all nonzero polynomials, given at the top of p.10,
+is meaningless for the zero polynomial.  So we have to make a different
+choice of how to handle the zero polynomial, and try to make it in a
+way that will be most convenient in our reasoning; i.e., will have
+the effect that the statements that hold for the degree, so defined,
+allow us to do proofs with the fewest digressions to handle special
+cases.
+
+To get a hint of what a good choice should be, consider a polynomial
+of the form
+
+		a x^2 + b x + c .
+
+In "most" cases this has degree 2 -- namely, whenever  a  is nonzero.
+If  a = 0,  then it has lower degree.
+
+In fact, if  a = 0,  then in "most cases" it has degree  1  -- namely
+whenever  b  is nonzero.  But if  b = 0,  then it has lower degree.
+
+In this case, in "most cases" it has degree  0  -- namely whenever
+c  is nonzero.  This suggests that when  c  is also  0,  i.e., when
+we are looking at the zero polynomial, we should define its degree
+to be something lower than  0.  The book's choice is to use  -1.
+
+There are actually three different choices that different authors
+commonly make:
+
+(a)  Leave  deg(0)  undefined.
+
+(b)  Let    deg(0) = - 1.
+
+(c)  Let    deg(0) = - infinity.
+
+In contexts where one considers multiplication of polynomials,
+definition (c) is best, since it makes the rule  deg(fg) =
+deg(f) + deg(g)  hold; its disadvantage, of course, is that it
+requires one to use the symbol "- infinity" which is not an integer,
+real number etc..  Choice (a) avoids the whole problem, but means
+that in arguments involving degree one must always consider the
+zero polynomial as a special case.  For the purposes of this book,
+the authors' choice, (b), is a good one.
+
+----------------------------------------------------------------------
+You ask whether there is a convenient symbol for "is a
+subspace of" (definition on p.16).
+
+There is no standard one.  Since the authors of this book use
+sans-serif font for names of vector spaces (and for some related
+entities, but not for names of subsets that aren't subpaces),
+when you see a relation like "U \subset W" with  U  and  W  both
+in sans-serif font, you can safely conclude that  U  is a subspace
+of  W.  But there's no standard equivalent to sans-serif font for
+handwritten work, so that doesn't provide a way for you to show this
+in your homework.  In group theory (a subject introduced in Math 113)
+there is a convention that "_<" (i.e., the less-than-or-equal-to sign)
+means "is a subgroup of", and some mathematicians have extended this
+to other fields, to mean "is a sub--- of" where "---" is whatever
+the field deals with.  But this extended use is not very common, and
+Friedberg, Insel and Spence have not adopted it.  So I'm afraid that
+in your written work in this course, you'll just have to use the word
+"subspace".
+
+----------------------------------------------------------------------
+You ask why condition (a) of Theorem 1.3, p.17, is needed, given
+the other two conditions.
+
+Because the empty set is a subset of  V,  and satisfies the other
+two conditions, but it is not a subspace of  V,  since it does not
+contain the element 0.
+
+----------------------------------------------------------------------
+Both of you asked about the relation between quotient spaces
+(Ex. 31, p.23) and modular arithmetic.  I had it on my notes to
+answer that in class, and came close, but then jumped to the next topic.
+
+What I indicated in class was that for an equivalence relation  ~  on
+a set  S,  one forms a new set,  S/~;  and that if  S  has some
+algebraic structure, one can, for appropriate "~", give  S/~  a
+structure of the same sort.
+
+Well, in particular, the set of integers has a structure of ring;
+and for any choice of  n,  if we let  ~  be the relation "congruent
+mod n", then  ~  has exactly  n  equivalence classes, and the set
+Z/~  of these again becomes a ring, called  Z/n  "the ring of integers
+modulo n".
+
+----------------------------------------------------------------------
+You ask why the span of the empty set is defined to be \{0\} (first
+definition on p.30).
+
+There are two ways to look at it.
+
+On the one hand, Theorem 1.5 (same page) shows that the span in  V  of
+any set S  is the smallest subspace of  V  which contains  S
+("smallest" in the sense of being contained in all others).  If  S  is
+a nonempty set, then that smallest subspace can be constructed as the
+set of all linear combinations of members of  S.  Whether this works
+when  S  is the empty set depends on whether one wants to consider  0
+as a "linear combination" of the empty set of vectors.  (As I mentioned
+in class, I could give arguments for doing so; but students who were
+not convinced by those arguments might then have trouble with what
+followed.)  In fact, giving the smallest subspace of  V  which
+contains  S  is the most important property of the span operation,
+which we definitely don't want to lose.  Hence it is stated as a
+definition made "for convenience".
+
+The other way to look at it involves thinking about how we formally
+define a sum of  n  elements.  However one does it, the inductive
+step is to assume one has given a meaning to a k-term sum
+a_1 + ... + a_k,  and define a (k+1)-term sum  a_1 + ... + a_{k+1}  as
+(a_1 + ... + a_k) + a_{k+1}.  But where do we start the induction?
+The naive way is to start with 2-term sums,  a_1 + a_2,  using the
+fact that 2-term addition is given to us.  (This means that 2-term
+addition is used twice:  in the base step and the inductive step.)
+Better is to define the sum of one term,  a_1,  to be  a_1  itself,
+and use this is one's base step.  Best of all, I say, is to define
+the sum of 0 terms to be  0,  and use this as the base step.  In
+general, this makes it easier to handle results about summations,
+with fewer special cases.  In particular, it has the consequence that
+one can take a "linear combination of elements of the empty set
+within a vector space", namely, the sum of no terms, which is 0.  Thus,
+if we allow empty sums, we find that the span of the empty set is
+\{0\},  without the need for a special definition.
+
+----------------------------------------------------------------------
+Regarding the last part of Example 5, p.31, beginning "On the other
+hand ...", you ask how the fact that the diagonal elements are equal
+is relevant.
+
+If you start with matrices having equal diagonal elements, and
+form a linear combination of them, that linear combination will also
+have equal diagonal elements.  (Can you verify this?)  But not every
+member of  M_{2x2}(R)  has equal diagonal elements, so not every
+member of  M_{2x2}(R)  is in the span of the elements mentioned.
+
+----------------------------------------------------------------------
+You ask what the authors mean by "infinite field" on p.35, first
+sentence of section 1.5.
+
+They mean a field with infinitely many elements.  So the field R
+of real numbers, the field  Q  of rational numbers and the field
+C of complex numbers are infinite, while the field  Z_2,  discussed
+at the bottom of p. 555, is finite (having only two elements).
+
+----------------------------------------------------------------------
+You ask about question 1(a) on p.40.
+
+If a set of vectors is linearly dependent, then some member of the
+set is in the span of the rest, but this may not be so of every
+vector in the set.  For instance, the subset  {(1,0), (2,0), (0,1)}
+of  R^2  is linearly dependent, because  (2,0)  is a linear combination
+of the other vectors, namely, it equals  2 . (1,0) + 0 . (0,1).
+But  (0,1)  is not a linear combination of the other vectors.
+
+----------------------------------------------------------------------
+You ask about the difference between "list" and "set" that I
+talked about in lecture, in connection with Theorem 1.8 (p.43).
+
+"List" is not a mathematical term; it is simply a term from
+everyday life that I was using, the idea being "one thing written
+after another".  The corresponding mathematical concept is that
+of an ordered n-tuple.  So, for instance,  (5,10) and (10,5) are
+different ordered pairs (pair = 2-tuple), while {5,10} and {10,5}
+are the same set.  (5,10,10), (5,5,10), and (10,5,5) are different
+ordered 3-tuples, but the sets {5,10,10}, {5,5,10}, and {10,5,5} are
+the same, and are equal to {5,10}, since a set is determined just by
+what elements belong to it, and  5,  10 are the only elements in
+these sets.
+
+----------------------------------------------------------------------
+You ask why the set  H  constructed in the proof of Theorem 1.10, p.45,
+has  n - m  elements.
+
+The idea of that proof is that we start with the set  G,  and then,
+at each step, throw away an element of  G  and replace it with an
+element of  L,  in such a way that the new set still spans  V.  Since
+L  has  m  elements, we do this process  m  times; so  m  elements
+are thrown out of  G.  Since  G  has  n  elements, after throwing  m
+elements out of it, we are left with  n - m  elements; the resulting
+set is called  H  in the theorem.
+
+All this is somewhat hard to see in the book's proof, because they do
+the proof by induction, and so just show the inductive step, where one
+element is thrown away and one new element brought in.  Thus, the
+fact that the new set has  n-m  elements is replaced by an inductive
+argument, showing that if we assume that when  L  has  m  elements,
+we can get  H  to have  n-m,  then when  L  has  m+1  elements we
+can get  H  to have  n-(m+1)  (last step).
+
+----------------------------------------------------------------------
+You ask why the vector space  P_n(F)  of Example 10, p.47, has
+dimension  n+1  and not  n
+
+In asking a question like this, in order for me to help you you need
+to show me how far you have been able to get, and where you've gotten
+stuck.  If it seems to you that the answer should be  n,  then you feel
+that the book's statement is wrong for all  n,  and you may as well
+start, for concreteness, with a particular case, such as  P_1(F),
+which the book's statement says is 2-dimensional, and you feel is
+1-dimensional.  So take such a case, and e-mail me what your
+understanding is of what elements belong to  P_1(F),  and what
+1-element set you think is a basis of it, and why.
+
+So please do this now; and try to make a practice, in general, of
+making clear, in your Questions of the Day, how far you can get in
+answering the questions, and where you hit a problem.
+
+----------------------------------------------------------------------
+You ask what is meant on p.47, Example 11, by saying that {1} is a
+basis for the field of complex numbers; specifically, what {1} means,
+and what its linear combinations are.
+
+{1}  means the set having a single element, namely  1.  This is an
+instance of the notation described in Appendix A, where it was noted
+that  {1,2,3,4}  was the set with exactly 4 elements, 1,2,3 and 4.
+
+Thus, a linear combination of members of {1} simply means an
+expression gotten by multiplying its line element  1  by a scalar;
+i.e., products  c 1,  where  c  is in the base field, in this
+case,  C.  Since  c 1 = c,  such elements are all the complex numbers.
+
+----------------------------------------------------------------------
+You ask whether the example of vector spaces having different
+dimensions over the reals and complexes (p.47, Examples 11 and 12) can
+be carried further, giving vector spaces with more than two different
+dimensions over different fields.
+
+Yes.  But this involves concepts that are introduced in Math 113, so
+I shouldn't spend a nontrivial amount of time on them in 110, even H110.
+
+Such examples are all based on having one field contained in
+another; e.g., the field of complex numbers contains the field
+of real numbers, and is two-dimensional over it.  There are no easy
+examples other than that one where one of the fields is the real or
+complex numbers; but starting instead with the rational numbers, there
+are lots of examples.  E.g., the field  Q  of rationals is contained
+in the field  F_1  of numbers  a + b sqrt 2  where  a  and  b  are
+rationals; and this in turn is contained in the field  F_2  of numbers
+of the form  p + q 4th-root-of-2,  where  p  and  q  are in  F_1.
+Then  F_1  is 2-dimensional over  Q,  and  F_2  is 2-dimensional
+over  F_1,  hence 4-dimensional over  Q.  An n-dimensional vector
+space over  F_2  will be  2n-dimensional over  F_1,  and 4n-dimensional
+over  Q.
+
+The factors that have appeared in all these examples have been powers
+of 2, but that was just because we chose the simplest cases.  The
+set of expressions of the form  a + b cube-root 2 + c (cube-root 2)^2
+forms a field  F  3-dimensional over  Q,  so we get factors of 3 when
+comparing dimensions of vector spaces over  F  and over  Q.
+
+----------------------------------------------------------------------
+You are right that when we extend a linearly independent set to a basis
+(p.48), the vectors added can be chosen "randomly" as long as each one
+is not a linear combination of those that came before.  Thus, at each
+stage, we can use "almost any" vector.
+
+But that "almost" (i.e., the linear independence condition) makes a
+big difference, and mustn't be forgotten!
+
+----------------------------------------------------------------------
+You ask about the diagram on p.49, and whether it indicates that bases
+of  V  are subsets of general linearly independent sets.
+
+No -- it indicates that the set of all bases of  V  is a subset of
+the set of all linearly independent subsets of  V.  (For instance,
+if  V = R^2,  then the set of all linearly independent subsets of  V
+includes such subsets as  {(1,0), (0,1)},  {(1,0), (1,1)},  {(1,0)},  
+{(0,1)},  {(1,1)},  and the empty set.  But of these, the set of all
+bases includes only  {(1,0), (0,1)},  {(1,0), (1,1)}.)
+
+I know that thinking about sets of sets is confusing at first.  I hope
+this helps.
+
+----------------------------------------------------------------------
+You ask about the meaning of "interpolation" (p.51, bottom).
+
+If we have some points on graph paper, and we find a curve that
+passes through them, that is called "interpolating", i.e., "supplying
+values in between".
+
+----------------------------------------------------------------------
+You ask about the product sign, with "k = 1" and "k \not-= i"
+written below it and "n" written above it, in the definition of
+the Lagrange polynomial  f_i(x), p.51.
+
+It means that the product is taken over all values of  k  from
+k = 1  to  k = n,  except for the value  k = i.
+
+A clearer way of writing the same thing would be to put, under
+the product sign, the two conditions
+				1 _< k _< n
+				k not-= i
+and nothing above it.
+
+----------------------------------------------------------------------
+You ask about the first display on p.52, concerning Lagrange
+polynomials, which says that  f_i(c_j) = 1 or 0 depending on
+whether  i=j.
+
+The idea behind it is simply to look at all  n^2  combinations
+of applying the  n  polynomials  f_1,...,f_n  to the  n  points
+c_1,...,c_n.  So the authors could have said "For each  i  and
+each  j  in  {1,...,n},  we can evaluate  f_i(c_j)", and given
+the formula they did.  Instead, however, they focus on how each
+function  f_i  varies with  c_j,  so rather than talking about  i
+and  j  varying independently, they fix  i,  and let  j  vary.
+But it comes to the same thing.  (Fixing  f_i  and varying its
+input makes sense, since they've just defined  f_i  as a polynomial.)
+
+As to why it is so, look at the formula for  f_i  on the
+preceding page.  The factors of the numerator are precisely
+the  x-c_j  with  j not-= i  (although the authors write  k
+rather than  j  in that formula); so the roots are precisely
+the  c_j  with  j not-= i.
+
+----------------------------------------------------------------------
+You ask how the authors get the final display on p.52.
+
+They take the next-to-last display, which shows that  g(c_j) = b_j,
+and substitute into the display before that, where the  b_j  appear;
+thus, they replace these by the  g(c_j).
+
+----------------------------------------------------------------------
+You ask about versions of Lagrange interpolation (pp.51-53) for
+functions of more than one variable.
+
+Some versions of the concept exist, but the general situation is not
+nearly so simple as for one variable.
+
+In the one variable case, we know that a polynomial takes the value
+0  at  c  if and only if it is divisible by  x-c,  and that a polynomial
+is divisible a list of such elements  (x-c_0),  (x-c_1),  etc. (with
+c_0, c_1, ... distinct) if and only if it is divisible by their product;
+and this allows us to find, for any  c_0, ..., c_n,  unique
+polynomials which are  0  at all but one of these points, and  1  at
+that point.  But for polynomials in two variables  x  and  y,  the
+condition for being 0 at a point (c,d) is not a simple divisibility
+question, and when one imposes those conditions at several points,
+the nature of the resulting condition depends on how the points are
+arranged.
+
+The one really simple case is where the points are arranged in a
+"rectangle", namely where one is given constants  c_0,...,c_m
+and  d_1, ..., d_n,  and wants to specify the values of the polynomial
+at the  (m+1)(n+1)  points  (c_i,d_j).  Then by considering the
+products of  m  factors  (x-c_i)  and  n  factors  (y-d_j),  one can
+get unique polynomials of degree  _< m  in  x  and  _< n  in  y  with
+arbitrary values at those  (m+1)(n+1)  points.
+
+----------------------------------------------------------------------
+You ask, in the proof on p.52 of the fact that the Lagrange polynomials
+form the basis of P_n (F), how the a_j are defined.
+
+Since the authors have set out to prove that the polynomials are a
+basis, you, the reader, should anticipate what must be done in the proof
+by recalling what the statement to be proved means.  It means that
+those polynomials are linearly independent, and span the space.  Linear
+independence, in turn, means that if any linear combination of these
+polynomials is zero, then the coefficients in the linear expression
+are all zero.
+
+So when the authors write "Suppose that  \Sigma_{i=0}^n a_i f_i = 0
+for some scalars  a_0,a_1,...,a_n", you should say to yourself, "Aha,
+they are assuming some linear combination of the polynomials is zero,
+and they will prove that the coefficients must be  0,  so as to
+establish linear independence."
+
+I hope this answers that part of your question:  They are not "defined",
+they are assumed to be any family of scalars occurring in a linear
+relation among the polynomials.
+
+You then ask how this proves that the polynomials form a basis.
+
+This is explained in the the multi-line block of text in the middle
+of the page.  The authors note that what they have proved shows that
+beta  (the set of polynomials named) is linearly independent, and they
+then call on Corollary 2 to conclude from linear independence that it
+forms a basis.  Did you look at what Corollary 2 says, and check whether
+one of the statements of the corollary is applicable in this case,
+and proves that  beta  is a basis?  If you tried, and had difficulty,
+your question should have pointed to what this difficulty was -- what
+part(s) of the corollary you decided might be applicable, and what
+difficulty you had applying it.
+
+----------------------------------------------------------------------
+Regarding the statement of the Maximal Principle on p.59, you
+ask, if script-F has a member that contains all other members,
+isn't that the maximal member?
+
+Yes.  But in many cases of importance, script-F does not have a
+member that contains all other members, but nevertheless has maximal
+members.  That is the situation when  script-F  is the set of linearly
+independent subsets of a nonzero vector space  V:  No one basis contains
+all others, but there are lots of bases, i.e., maximal linearly
+independent subsets.
+
+(You wrote "the" maximal member in your question.  In the everyday
+use of "maximal", there is usually only one, so that "the" is
+appropriate; but in the mathematical use, there can be more than
+one, so one generally speaks of "a" maximal element.)
+
+----------------------------------------------------------------------
+You ask whether the word "family" simply means a set, or something more.
+
+Both!
+
+In section 1.7, the word is used as a synonym for "set".  E.g., in
+the statement of the Maximal Principle, p.59, "a family of sets"
+just means "a set of sets".  I suppose the authors say "family" to
+avoid repetition of the word "set"; though in mathematical writing,
+repetition is not considered bad if the same concept does indeed occur
+more than once, as it does here.
+
+But "family" is also used for an _indexed_ collection of elements;
+for instance, the 3-tuple (10,100,10) is indexed by the set {1,2,3},
+since it has a first component (corresponding to the index 1), namely
+10, a second component (corresponding to the index 2), namely 100, and
+a third component (corresponding to the index 3), again 10.  It is
+clearly distinct from the set  {10,100,10} = {10,100}.
+
+----------------------------------------------------------------------
+You ask about the fact that Theorem 1.12 on p.60 _assumes_ that  V
+has a generating set, respectively a linearly independent subset,  S.
+
+First, you should be clear that this doesn't make the theorem
+invalid; the theorem merely asserts that _if_  V  has a generating
+set  S,  then  S  contains a basis of  V.  If you are clear about
+that point, then you are correct in saying that to conclude from
+the theorem that _every_ vector space  V  has a basis, we need to know
+that  V  has a generating set.
+
+But in fact, we do:  V  is a generating set for itself.
+
+The background in terms of which to think of the theorem is the
+following:  Suppose one has first figured out how to prove from
+the Maximal Principle that every vector space  V  has a basis --
+namely, one applies that principle to the set  script-F  of all
+linearly independent subsets of  V.  Then, in looking at specific
+cases, one realizes that one would like to have bases consisting
+of elements with certain properties.  One sees that one can make
+the same proof work if the set of all elements with those properties
+generates  V.  So one proves Theorem 1.12, which is a generalization
+of one's first theorem:  that first theorem is the case where  S = V,
+but by taking other sets  S  which one may know, in particular cases,
+generate one's vector space, one can get bases with various properties
+that the original theorem didn't guarantee.
+
+The situation concerning Theorem 1.13, which you also ask about, is
+similar:  One knows that the empty set is a linearly independent subset
+of  V,  and the statement of the theorem for that set is equivalent to
+just saying that  V  has a basis.
+
+----------------------------------------------------------------------
+You note that on p.65, the book provides more "tests to verify
+whether a function  is a linear transformation", and you ask "Do we
+have to prove all four requirements or will just proving one suffice
+in showing T is a linear transformation?"
+
+Neither.
+
+Conditions 1 and 3 say "If T is linear then ...".  This means that
+if you know  T  is linear, you know that the condition shown will
+be satisfied.  But knowing that the condition is satisfied will not
+show  T  is linear; i.e., they are of no use in showing  T  is a linear
+transformation!  (They can be useful in establishing that some function
+T  is _not_ a linear transformation:  If the conclusion of one of them
+does not hold, then  T  cannot be linear.)
+
+The most straightforward way to show that a transformation is linear
+is to show that both conditions (a) and (b) of the _definition_ (same
+page) are satisfied.
+
+You can also use condition 2 or 4 of the list you refer to.  You can
+tell this from the fact that they begin "T is linear if and only if".
+Condition 2 is a tiny bit shorter than the definition, and the book
+prefers to use it.  Condition 4 is more complicated than the definition,
+so it is not particularly convenient in proving linearity. 
+
+----------------------------------------------------------------------
+You ask how the authors get the next-to-last line in the computation
+of Example 10, p.69.
+
+The three matrices in that line are the elements  T(1), T(x), T(x^2)
+of the preceding line; on this line, the authors simply show the values
+of those elements.  As an example of how those values are computed, let
+me show how the upper left-hand entry,  -3,  of  T(x^2)  is found.
+
+The definition of  T(f(x))  in that example says that its upper
+left-hand entry is  f(1) - f(2).  In evaluating  T(x^2),  we have
+f(x) = x^2.  Hence the upper left-hand entry will be  1^2 - 2^2 =
+1 - 4 = -3.
+
+----------------------------------------------------------------------
+You ask about the usage "f(x)" in Example 10, p.69, and whether it
+wouldn't be more appropriate to write "T(f) = ..." rather than
+"T(f(x)) = ...".
+
+It would, if  f  simply denoted a function; but a polynomial is not
+quite the same thing as a polynomial function.  This can be seen in
+the field  Z_2,  where  x  and  x^2  determine the same polynomial
+function (the identity function of  Z_2), but are distinct polynomials.
+(I refer briefly to this in the parenthetical third paragraph on p. 8
+of the handout on Sets, Logic etc..  As I say there, one goes into it
+in detail in Math 113; but I do plan to say a few words about it in
+this course.)  So "f(x)" does not mean "the value of the function  f
+at the argument  x", but "a certain polynomial constructed from the
+symbol (indeterminate)  x"; and something like "f(1)" does not mean
+the value of  f(x)  when  x=1, but the value obtained by _replacing_
+the indeterminate  x  by the field-element 1.
+
+Even under this interpretation of polynomials, writers have the
+option of denoting a polynomial by a single letter such as  f.
+But  f(x)  is another option, and it does not involve the difficulty
+you suggested, of logically meaning a certain number.
+
+Note also that with polynomials interpreted as above, one can
+refer to  T(x),  T(x^2),  etc., while an interpretation as functions
+would require setting up symbols for the function  x|->x,
+the function  x|->x^2,  etc. before one could write down the
+value of  T  at these functions.
+
+----------------------------------------------------------------------
+You ask about the step in the proof of the Dimension Theorem (p.70)
+that gives the last display:  "Hence there exist  c_1,...,c_k\in F
+such that [display]".
+
+Well, in the preceding part of the proof, it was shown that the
+linear combination of  v_{k+1},...,v_n  with coefficients
+b_{k+1},...,b_n  was in  N(T).  (That is the preceding display.)
+But from the beginning of the proof, we also know that  v_1,...,v_k
+form a basis of  N(T).  Hence the element that was shown to be
+in  N(T)  must be a linear combination of  v_1,...,v_k.  To say
+it is a linear combination of these means that there are coefficients
+c_1,...,c_k\in F  such that our element equals  c_1 v_1 + ... + c_k v_k.
+
+----------------------------------------------------------------------
+You ask about the statement at the end of the proof of the Dimension
+Theorem, p.70, that "this argument also shows that  T(v_k+1), T(v_k+2),
+...  T(v_n)  are distinct".
+
+The argument has shown that any relation of the sort displayed in
+the middle of the page (first display with a "Sigma") implies that
+all the coefficients  b_i  are zero.  Now if we had a relation
+T(v_p) = T(v_q),  for distinct indices  p,q\in {k+1,...,n},  then
+taking  b_p = 1,  b_q = -1, and all other b_i = 0,  we would get a
+relation of that sort with not all coefficients zero, a contradiction.
+
+----------------------------------------------------------------------
+You as about the fact that a linear transformation is one-to-one if
+and only if it sends no nonzero element to zero (Theorem 2.4, p.71).
+
+As you say, this does not correspond to a property of one-to-one
+function in general; it is a consequence of the facts that (a) linear
+transformations respect the vector space operations, and (b) elements
+of vector spaces have additive inverses.  Hence if  T(x) = T(y)  in a
+vector space, then by adding the additive inverse of  T(y)  to both
+sides, we get  T(x) - T(y) = 0,  and since  T  respects the vector
+space structure, this gives  T(x-y) = 0.  If  x  and  y  are distinct,
+then x-y  is a nonzero element of the null space.
+
+When you take Math 113, you'll see that the general context in which
+this holds is group theory.  ("A homomorphism of groups is one-to-one if
+and only if it has trivial kernel".)  Here is an example of a situation
+to which it does not apply:  Let  N  denote the set of natural
+numbers, with the operation of addition; thus,  N x N  is the set
+of ordered pairs of natural numbers, and we can define addition of
+such pairs componentwise:  (a,b) + (a',b') = (a+a',b+b').  Now let
+f: N x N -> N  be defined by  f(a,b) = a+b.  Then  f  is not one-to-one:
+Each natural number  n  has n+1 preimages; e.g.,  2  has the three
+preimages (2,0), (1,1), (0,2);  in particular, the additive identity
+element,  0,  has just one inverse image, (0,0); so the "kernel" of
+the map is trivial.
+
+----------------------------------------------------------------------
+You ask where the authors develop the "one-to-one correspondence
+between matrices and linear transformations" that they promise in
+the introductory paragraph on p.79.
+
+Well, that paragraph is a simplification.  What we actually see is that
+_for_each_choice_of_an_ordered_basis_for_V_and_an_ordered_basis_for_W_
+they give us a one-to-one correspondence between linear transformations
+V -> W  and  m x n  matrices (where  n = dim V  and  m = dim W).
+So in fact, they give us more than they promise:  not just one
+one-to-one correspondence, but correspondences tailor-made for the
+situation.  This is done in the Definition near the bottom of p. 80.
+
+----------------------------------------------------------------------
+Regarding ordered bases p.79, you ask, "... is ... the point that the
+order remains fixed throughout whatever operations are performed on
+that basis? ... Theorem 2.6 (p. 72) seems to imply the latter ..."
+
+As I will note in class, the "order" is really an indexing of the
+set by integers 1,...,n.  I'm not sure what you mean by saying that
+it "remains fixed" under some operations.  In Theorem 2.6, the fact
+that  v_1,...,v_n  are mapped to  w_1,...,w_n  respectively does
+not mean that the transformation "fixes the order"; it simply means
+that, having labeled our basis of  V  in a certain way with the
+integers  1,...,n,  we use these same integers to keep track of the
+elements that  v_1,...,v_n  to be mapped to.  In other words, it
+is not a property of the elements, but of the way we are keeping
+track of them.
+
+----------------------------------------------------------------------
+You ask why ordered bases (p.79) are not introduced for
+infinite-dimensional vector spaces.
+
+This is done (though not in our text); but the subject gets a lot
+more complicated.  As I noted in class, there are many different
+ways a countable set can be ordered; so even looking at the three
+simplest, one could represent vectors by columns that start at a top
+and go downward in infinitely many steps, which would thus be indexed
+by the positive integers (since one writes a column with the
+lowest-indexed term at the top); or by columns that start at a bottom
+and go upward in infinitely many steps, indexed by the negative
+integers; or that go both upward and downward in steps, indexed by all
+the integers.  Going to a more complicated ordering, one could have
+columns indexed by the rational numbers ... .  And there would be
+still different sets of choices if one's vector space were
+uncountable-dimensional.
+
+Moreover, under such a representation, not every possible column
+corresponds to a vector; only the columns in which all but finitely
+many of the entries are zero.  On the other hand, in constructing a
+linear transformation, one specifies its value arbitrarily at all
+members of a basis of the domain space; there's no requirement that
+all but finitely many go to zero.  Hence a linear transformation
+between infinite-dimensional vector spaces is represented by a matrix
+in which each column has only finitely many nonzero entries, but there
+is no such restriction on rows.  (This is called a "column-finite"
+matrix.)
+
+The main subject of our text is finite-dimensional vector spaces.
+The authors are to be commended for defining and proving things for
+arbitrary vector spaces when this doesn't lead to excessive
+complications; but it's understandable that when it would, as in the
+case of ordered bases, they limit themselves to the case that the
+book revolves around.
+
+----------------------------------------------------------------------
+You ask whether there is a use for the vector space  L(V,W)
+of linear transformations from  V  to  W  (p.82).
+
+Well, we certainly make use of linear transformations!  And
+we sometimes add two transformations V -> W,  or multiply
+such a transformation by a scalar.  When we do so, we are
+treating the set of linear transformations as a vector space.
+So it makes sense to recognize that this is what we are doing.
+That way, we can call on general results about vector spaces
+when we study linear transformations.
+
+----------------------------------------------------------------------
+You ask about the convention of writing functions to the left of
+their arguments, and therefore composing them so that  UT(x) =
+U(T(x))  (implicitly assumed on p.86).
+
+I mentioned a sort of exception in class:  while  m x n  matrices
+act on the left on columns of height  n  (giving as outputs columns
+of height  m),  they also act on the right on rows of length m  (giving
+as outputs rows of length  n).  When we discuss section 2.6 (dual
+spaces) I will, hopefully, be able to discuss the relationship between
+these actions.
+
+I go into detail about these things in
+
+http://math.berkeley.edu/~gbergman/grad.hndts/left+right.ps
+
+(Do you have a browser tool and/or printer that can handle PostScript?)
+It is aimed at grad students, and assumes a little familiarity with
+module theory, which is basically linear algebra over rings that are
+not necessarily fields.  If you have a little such background, you
+might find it interesting.
+
+----------------------------------------------------------------------
+You ask about the Kronecker delta (p.89).
+
+It is not limited to use in linear algebra.  It is simply a
+general symbol for the instruction "Output 1 if the two
+subscripts are equal, output 0 if they are unequal".  This is
+handy to have available when the need arises in any branch of
+mathematics.  Not enormously important; just a handy symbolic
+device.
+
+----------------------------------------------------------------------
+You ask what is meant at the beginning of the proof of Theorem 2.16,
+p.93, where it says "It is left to the reader to show that  (AB)C  is
+defined."
+
+Look at the definition of matrix multiplication on p. 87, and then
+at the paragraph that follows, at the top of p. 88.  The definition
+says what "AB" means only when  A  is  m x n  and  B  is  n x p.
+Since for an  m x n  matrix, "n" is the number of columns, and for
+an  n x p  matrix, "n" is the number of rows, the product  AB  is
+defined only when the number of columns of  A  equals the number
+of rows of  p.  (So, for instance, the product of a  3 x 7  matrix
+and a  7 x 2  matrix is defined, but the product of a  3 x 7  matrix
+and a  6 x 2  matrix is not.)  The comment at the top of p. 88 expands
+on this, and describes the number of rows and the number of columns of
+the product  AB  when it is defined.
+
+Now in Theorem 2.16, the hypothesis (i.e., the assumption we start with)
+is that  A(BC)  is defined.  This means that the product of  B  and
+C  is defined, and that the product of  A  with this product matrix is
+defined.  As discussed above, this corresponds to certain equalities
+among the numbers of rows and numbers of columns of  A,  B  and  C.
+The first assertion of the theorem, which the authors leave to the
+reader to show, is that these equalities also guarantee that  (AB)C
+defined.  Using the definition and the comment on p. 88, see whether
+you can verify that this is so.
+
+----------------------------------------------------------------------
+Concerning the "dominance relations" discussed on p.95, you ask
+about the exclusion of the diagonal entry in the statement that
+A + A^2  has a row in which all entries except the diagonal are
+positive.
+
+Mathematicians use "positive" to mean "> 0".  To say ">_ 0" one
+uses "nonnegative".  Every entry of  A^2 + A  is, of course,
+>_ 0, but they are talking about which are actually  > 0.
+
+You also ask about their use of the word "stages".  They are
+using "x dominates y in two stages" to mean "x dominates someone
+who dominates y".  They are assuming that the reader who has thought
+about how  A^2  is computed will see that it counts relationships
+of this form, and hence will recognize "dominates in two stages"
+as natural ad hoc wording to express this.
+
+----------------------------------------------------------------------
+You ask, in connetion with the concept of invertible matrices, p.100,
+whether an  nxn  matrix of rank  n  must be invertible.
+
+Yes.  I was surprised not to be able to find an explicit statement
+of this in the text, but essentially it is the implications
+(c) => {(a) and (b)} of Theorem 2.5, p. 71, applied to  L_A.
+
+----------------------------------------------------------------------
+You ask why the statement of the lemma on p.101 says first that
+V  is finite-dimensional if and only if  W  is finite-dimensional,
+and then says the dimensions are equal, instead of letting the latter
+statement cover both facts.
+
+It is because we have not defined the concept of dimension for an
+infinite-dimensional vector space.  To do so requires the concept of
+the cardinality of an infinite set, developed in Math 135 (and also
+touched on in Math 104), but not assumed in other undergraduate courses.
+
+We could, I suppose, call the dimension "infinity" if the space is
+infinite-dimensional, but that would sweep under the rug the question
+of existence of bases, whether the bases have the same "number" of
+elements, etc.; and it would also tend to mislead students into thinking
+they could argue about "the dimension" without considering separately
+the finite case, where it is defined in a precise way, and the infinite
+case, where it is described by that catch-all.  So I think the authors
+are right, in this treatment that does not discuss cardinalities,
+to define the dimension only for finite-dimensional spaces.  The result
+is that one can only write  dim(V) = dim(W)  after assuming or asserting
+that both spaces are finite dimensional.
+
+----------------------------------------------------------------------
+You ask how we know, in proving Theorem 2.17, p.102, that  T  is onto
+and one-to-one.
+
+This is the fact mentioned near the top of the page, between numbered
+statements "2" and "3":  A function (between any two sets) is
+invertible if and only if it is one-to-one and onto.  This is a
+standard fact about sets and maps.  See whether you can prove it; if
+not, I can supply details.  (But in that case, tell me what part you
+have succeeded in proving, so that I don't repeat this.)
+
+----------------------------------------------------------------------
+Regarding the Corollary to Thm. 2.20 on p.104, you ask for an
+explanation of the proof in greater detail than the book provides.
+
+For learning the material in the course, it is essential that when
+you come across an argument where the authors leave some details to
+be filled in by the reader, you do your best to fill them in yourself.
+Look at the statement of the Theorem; look at the statement of the
+Corollary; see what features of the two can be matched with each other,
+and what one would need to know to get the remaining features of the
+Corollary from those of the Theorem.  Then, if you can't see how this
+can be done, you should be able to pose a very precise question, "Under
+the conditions of the corollary, the theorem tells us such and such
+[and sometimes, as in this case: "the author's sketch of the proof adds
+such and such a fact"]; but how does this imply so-and-so?"
+
+Hopefully, if you approach things in this way -- actively rather than
+passively -- you will be able to resolve such questions yourself in
+most cases.  (After all, the authors have considered this something
+the student should be able to fill in, and this text is not aimed at
+an honors course but a regular course.)  In some cases, they may
+misjudge the difficulty of filling in the details, or you may be
+thinking about something the wrong way, and you can't fill in the
+details; but then at least you should be able to make clear in your
+question how far you have gotten, and what you see is still needed.
+
+----------------------------------------------------------------------
+Regarding the concept of dual space (p.119), you ask what field V*
+is defined over.
+
+You certainly need to know that to follow this section!  Since
+V*  is defined as  L(V,F),  a special instance of the class of
+vector spaces  L(V,W),  this depends on understanding what
+field the authors make  L(V,W)  a vector space over.  If
+you aren't sure of that, you should check back to the definition
+of  L(V,W).  (The field isn't named in the definition of  L(V,W),
+but it is stated quite explicitly in the preceding sentence.
+You can find the definition quickly using the List of Symbols
+in the inner cover page.)
+
+----------------------------------------------------------------------
+In connection with the material of section 2.7 (pp.127-140) you ask
+whether we will ever study vector spaces over fields other than  R
+and  C.
+
+In this section, the fields in question are the real and complex
+numbers (mostly the latter); but elsewhere, whenever we prove a
+result about "a vector space  V", this true whatever field  V  may
+be a vector space over -- the reals, the complex numbers, the
+rational numbers,  Z_2,  etc.!  So in everything we are doing, we
+are simultaneously studying vector spaces over all fields.
+
+We don't give many examples specific to fields other than  R  and
+C  because the study of such fields is part of Math 113, which is
+not a prerequisite to this course.  This is a result of the fact
+that our courses are aimed at many audiences, including students
+from some departments which want to have them take linear algebra
+but not abstract algebra.  However, when you do take 113, you will
+see several ways of constructing fields, and the general results
+we get in H110 will apply to vector spaces over them.
+
+----------------------------------------------------------------------
+You ask whether one can represent differential operators (p.129) by
+matrices.
+
+To do this one has to have a finite-dimensional vector space of
+functions, of which one knows a basis.  If, say, we consider a
+finite-dimensional space of polynomials of low degree, the problem
+is that the solution to our differential equation will not in general
+be a polynomial.
+
+However, there are situations where one might usefully do this.
+One of the approaches to certain sorts of nonhomogeneous differential
+equations is called the "method of undetermined coefficients".
+E.g., in solving  (D - I) f(t) = sin t,  we know the solution of
+the homogeneous equation  (D - I) f(t) = 0,  so it suffices to find
+a single solution of the nonhomogeneous equation, and we guess that
+this will be of the form  a sin t + b cos t,  and write down the
+differential equation and solve for the coefficients  a  and  b.  This
+can translated into a calculation that represents the operation of
+D - I  on the space spanned by  sin t  and  cos t  by a matrix, and
+solves the corresponding matrix equation.
+
+Why can we trust that there is a solution of the form  a sin t +
+b cos t ?  Because the space spanned by  sin t  and  cos t  is closed
+under  D  and  I,  and since it contains no solutions to  (D - I)f(t) =
+0,  the operator  D-I  will be one-to-one on it, hence onto.
+
+----------------------------------------------------------------------
+You ask why the identity operator appears in expressions for
+differential operators (p.131).
+
+Well, if one has a differential equation of the form
+
+		a D^2 y + b D y + c y = 0,
+
+then the first term corresponds to applying what operator to  
+y ?  Obviously,  a  times the operator  D^2.  And the second term
+is similarly gotten by applying  b  times the operator  D.  The
+final term is gotten by multiplying  y  by  c;  if  c  were 1
+this operation would just be the identity operator  I;  for general
+c,  it is  c I.
+
+In particular, if we think of our differential operator as  p(D)
+where (in the above example)  p  is the polynomial  a t^2 + b t + c,
+then we can think of the  c  as  c t^0,  i.e.,  c  times the
+multiplicative identity element of the polynomial ring, and when
+we substitute  D  for  t,  we use  c  times the multiplicative
+identity element of the ring of linear operators, which is  I.
+
+----------------------------------------------------------------------
+Regarding the exponential function, introduced on p.132, you ask which
+definition of it is more common, the one in terms of an infinite series
+or the one as a solution to the differential equation  y' = y;  and
+which came first.
+
+I think the infinite sum is the commonest way to define the exponential
+function.  I just feel that the differential equation is the phenomenon
+that makes that infinite sum important.  Historically, I think that
+what came first was  lim_{n->infinity} (1 + x/n)^n.  This is "compound
+interest compounded at shorter and shorter intervals", and the limit,
+where one's account grows continuously at a rate proportional to its
+current value, is equivalent to the solution to the differential
+equation.
+
+----------------------------------------------------------------------
+In connection with the definition of  e^{a+bi}  on p.132, you ask
+whether there are definitions of what it means to raise an arbitrary
+number to a complex exponent.
+
+Yes.  The definition used is
+
+			a^z = e^{z ln a}.
+
+The complication is that in the complex plane, "ln" is multi-valued.
+The function  z |-> e^z has  2 pi i  as a period, so for every nonzero
+complex number  a, there are infinitely many complex numbers  w  that
+satisfy  e^w = a,  differing by integer multiples of  2 pi i.  If  a
+is a positive real number, only one of these choices is real,
+and putting that into the above formula we get an interpretation of
+a^z  that extends the real-variables interpretation of  a^x.  But for
+other values of  a,  there is no such choice available, so one has
+infinitely many candidates for the function "a^z", each of which is as
+good as the others.  Despite this messiness, each of those functions,
+alone, is nicely behaved; e.g., satisfies the exponent laws.
+
+You'll see this in Math 185.
+
+----------------------------------------------------------------------
+You ask whether there is a way to prove Theorem 2.33 (p.137) other
+than the inductive proof suggested in Exercise 10.
+
+Well, one can rearrange the proof so that the induction is
+not so obvious.  If we have a nontrivial linear relation among
+these functions, choose a  k  such that  e^{c_k t}  occurs with
+nonzero coefficient, and apply to the relation the operator
+(D - c_1 I) ... (D - c_n I)  with only the factor  D - c_k I  left
+out.  One finds that this annihilates all the terms of the
+linear relation except the  e^{c_k t}  term, and does not annihilate
+that, giving a relation  C e^{c_k t} = 0  for some nonzero constant  C,
+a contradiction.
+
+But induction is implicit in figuring out how the product of operators
+acts on the linear relation, and it is somewhat messy to write "the
+operator  (D - c_1 I) ... (D - c_n I)  with only the factor  D - c_k I
+left out".
+
+----------------------------------------------------------------------
+You ask how the authors got the second display on p.139,
+(D-cI)^n(t^ke^(ct)) = 0.
+
+Well, it's preceded by the word "Hence", which means they are
+asserting that it is a consequence of the preceding display.
+Did you see that?  Did you try applying the preceding display in
+evaluating  (D-cI)^n(t^ke^(ct)) ?
+
+As I say in the class handout, if you ask a question like this
+in my office hours, I can probe and see how far you have gotten,
+and where your difficulty was.  But that's much more difficult
+with e-mail, so when you submit your question, you should say as
+clearly as possible how far you got -- what obvious steps you
+applied, what you concluded, and where you got stuck.  Then I
+can see what is tripping you up, and help you past it.  Please
+let me know how far you got with respect to this question.
+
+----------------------------------------------------------------------
+You ask whether there are other vector spaces for which analogs of
+the results of section 6.7 (pp.127-140) apply.
+
+Well, on the one hand, this section is given as an application of
+linear algebra to a particular problem; the general linear algebra
+that is being used here, about the relation between bases, dimension,
+and linear transformations, applies to all vector spaces.  (In
+particular, this is true of the one new result in linear algebra
+proved in this section, Lemma 2 on p. 135.)
+
+The specific results proved in this section also have various
+generalizations.  For instance, if  T  is any linear operator
+on any vector space  V,  and  p(t)  is a polynomial which one can
+factor  p(t) = p_1 (t) p_2 (t),  then one has  p(T) = p_1 (T) p_2 (T)
+and  p(T) = p_2 (T) p_1 (T);  so the null space of  p(T)  will contain
+the null spaces of  p_1(T)  and  p_2(T).  If the sum of these
+spaces doesn't happen to equal N(p(T)), we can still study this by
+starting with, say,  N(p_2(T)),  finding a basis, finding a family of
+elements of  V  that  p_1(T)  maps to the elements of that basis,
+and combining these with the elements of a basis of  N(p_1(T)),
+as we have done in this section.
+
+Finally, the result that a solution to  (D - cI)(y) = 0  is
+given by  y = e^{ct}  has a generalization.  If instead of
+looking at functions  f: R -> C,  one looks at functions
+f: R -> V  for any finite-dimensional real vector space  V,
+then one can take a linear transformation  U: V -> V,  and
+look for functions  f: R -> V  that are differentiable as
+functions of  t,  and satisfy  D f(t) = U f(t);  i.e., are in
+the null space of  D - U.  We then find that solutions can
+be written  f(t) = e^{U t} f(0),  where  e^U  denotes
+the linear operator  I + U + U^2 /2 + U^3 /6 + ... ; which
+can be shown to be a convergent series, though the details
+of what this means are outside the scope of a course like
+this.  (One way of looking at this is that if  A  is the
+matrix of  U  with respect to some basis, then  e^U  is the 
+transformation with matrix  I + A + A^2/2 + ... ,  where the
+sum of this series of matrices is evaluated entry-wise.)
+
+> Linear algebra is often considered a method for proving theorems
+> about lots of "objects" that behave similarly.  ...
+
+One can say this about algebra generally; or still more generally,
+about mathematics.
+
+----------------------------------------------------------------------
+Regarding the proof of Theorem 3.4, p.153, you write
+
+> ... I don't quite understand the switch from  L_A(F^n) = R(L_A) ...
+
+Tell me what you think each side of that equation means, so that
+I can see what misunderstanding is keeping you from seeing that they
+are the same.
+
+----------------------------------------------------------------------
+You ask why the row echelon form of a matrix is unique, as stated
+on p.191, Corollary to Theorem 3.16.
+
+Looking at the theorem, I see that one more condition should be added
+to it to make the corollary really follow from it:  namely, that
+if there are more than one column equal the  e_i,  then the column
+referred to as  b_j_i  is the _first_ of those.  Note, then, as a
+consequence of the meaning of "reduced row echelon form", that the
+column  b_j_i  will be the first column of  B  having a nonzero entry
+in the i-th row.
+
+It then follows that the columns  b_j_i  will be precisely those columns
+of  B  that are not linear combinations of those columns that precede
+them.  Using the theorem, we can conclude from this that a matrix
+B  is the reduced row echelon form of  A  if and only if it can be
+constructed from  A  as follows:  Let the columns of  A  that are
+_not_ linear combinations of the columns to the left of them be the
+j_1-st, the j_2-nd, ..., through the j_r-th.  Then these form a basis
+of the column space of  A.  Thus, for every  j,  the j-th column of  A
+can be represented uniquely as a linear combination  d_1 a_j_1 + ...
++ d_r a_j_r.  When this is so, then the j-th column of  B
+is  d_1 e_1 + ... + d_r e_r.  This description uniquely specifies  B.
+
+----------------------------------------------------------------------
+You ask about how one proves that a matrix is invertible if and only
+if its determinant is nonzero (p.236).
+
+As you indicate, this can be done using the fact that  det(AB) =
+det(A) det(B).  So that is really the "deep" fact about matrices!
+
+The authors give a short proof of that fact in Theorem 4.7 on p. 223
+(not assigned).  It's based on the fact that one can figure out how
+a matrix is affected by applying elementary row operations; those
+results, in turn, are proved in Theorems 4.3, 4.5 and 4.6.
+
+Too bad we are supposed to skip all that material in this course!
+
+----------------------------------------------------------------------
+You ask whether there is a 0 x 0 matrix, and if so, what its
+determinant (pp.232-242) is.
+
+Yes, there is; it has no entries; it represents the unique linear
+operator on the 0-dimensional vector space.
+
+Its determinant is  1.  This is the value that makes various formulas
+relating determinants of matrices of different sizes work.  For
+instance, in cofactor expansion of a 1x1 matrix with entry  a,  says
+that that determinant equals  a  times the determinant of the
+0x0 matrix, which comes out right if we take the determinant of the
+0x0 matrix to be  1.  And in the result that the determinant of a matrix
+with block decomposition  /A B\ ,  with  A  k x k,  B  k x (n-k),
+                          \0 C/
+and  C  (n-k) x (n-k),  is  det(A) det(B),  if we take  k=n,  so that
+A  is the whole matrix and  C  is the  0 x 0  matrix, we see that
+for this formula to work the determinant of  C  must likewise be  1.
+
+Finally, since there is only one 0 x 0 matrix, it is, in particular,
+the identity 0 x 0 matrix, so as an identity matrix, it must have
+determinant 1.
+
+----------------------------------------------------------------------
+You ask about the relation between the book's definition of
+diagonalizability (p.245) and what you learned in Math 54, namely
+that it's "just being able to arrange a matrix into a diagonal matrix
+with its eigenvalues as the A_{ii} values."
+
+Well, I trust that what you were taught in Math 54 was more precise
+than that:  What you call "arranging" a matrix  A  was replacing it
+with a matrix  Q A Q^{-1}  for some invertible matrix  Q.  But looking
+at Theorem 2.23, p. 112, you can see that if  A  represented a linear
+transformation  T  with respect to one basis, then  Q A Q^{-1}
+represents  T  with respect to another basis; so what you did in
+Math 54 corresponds precisely to finding a basis with respect to
+which  T  has diagonal form, as in our text.
+
+----------------------------------------------------------------------
+You ask whether eigenvectors (p.246) reveal any properties about the
+vector spaces they lie in.
+
+Well, an n-dimensional vector space over a field  F  does not
+really have have any "properties" other than the integer  n.
+That is, if  V  and  W  are both n-dimensional vector spaces,
+then we know that there is an invertible linear transformation
+between them, and linear transformations preserve the vector space
+structure; so any statement about  V  that can be expressed in
+terms of the vector space structure alone is also true of  W,
+and vice versa.
+
+So for a vector space alone, there are no distinguishing properties
+to be discovered other than the dimension.  But if one considers
+a vector-space-V-given-with-a-linear-operator-T-on-it, then
+such vector-spaces-with-transformation can differ among themselves
+according to the way the operator acts, and the eigenvalues do give
+distinguishing properties of these entities.
+
+----------------------------------------------------------------------
+Concerning linear operators on a real vector space with only complex
+eigenvalues (as in my discussion in class of cases like Example 2
+on p.247), you ask whether we should view these as "a turning sort
+of dilation".
+
+One could.  Consider, for simplicity, a real  n x n  matrix  A  whose
+eigenvalues in  C  are nonreal complex numbers of absolute value 1.
+Each eigenvector  x\in C^n  is mapped by  T  to a complex scalar
+multiple of itself; if we picture the 1-dimensional vector space
+over  C  that  x  spans as looking like the complex plane, the
+action of  T  corresponds to rotation of that plane.  Those eigenspaces
+will contain no nonzero vectors with real coordinates, since our
+real matrix sends vectors with real coordinates to vectors with
+real coordinates, and so cannot act on a vector with real coordinates as
+multiplication by a non-real complex number.  But for each eigenvector
+x  as above, the vector  x-bar  gotten by applying conjugation to
+all the coordinates of  x  is an eigenvector with eigenvalue conjugate
+to the eigenvalue of  x,  and the space that  x  and  x-bar  span will
+have some elements with real coordinates, namely  x + x-bar  and
+(x - x-bar) / i.  On the 2-dimensional real vector space spanned
+by these two elements, the "complex rotations" that  T  produces
+on  x  and on  x-bar  combine to give a "real rotation" of that
+real space.
+
+More generally, considering any non-real complex eigenvalue (not
+necessarily of absolute value 1), the same construction gives
+rotation combined with dilation.
+
+Going back to the absolute-value-1 case, note that if we coordinatize
+the space spanned by  x  and x-bar  using a real basis different from
+the one referred to above, the appearance of the "rotation" can be
+distorted, making  T  carry points along ellipses instead of circles.
+
+----------------------------------------------------------------------
+You ask about the meaning of "collinear" in example 2 on p.247.
+
+"Collinear" means "lying on the same line".  Of course, any two points
+lie on a common line; so what the authors must mean is that v  and  T(v)
+determine the same line through  0.  Thanks for pointing this out; I'll
+include it in the letter of corrections etc. that I send to the authors
+and the end of the Semester.
+
+----------------------------------------------------------------------
+You ask, concerning the phrase in the proof of Theorem 5.5, p.261 "By
+the induction hypothesis, {v_1, v_2, ... , v_k-1}  is linearly
+independent," whether they are assuming this, or whether it is the
+result of some calculation.
+
+One could describe it either way!  Are you familiar with the
+method of mathematical induction?  (It is generally presented in
+freshman calculus.)  In mathematical induction, one establishes
+a fact for an initial value (in this proof, the value  k = 1), and
+one then gives an argument showing that if it is true for one value
+k-1,  it will also be true for the next value,  k.  From these two
+facts, one can conclude that it is true for all  k  from the initial
+value on.
+
+Now in proving "if it is true for one value  k-1,  it will also be
+true for the next value,  k", one begins "Assume it is true for  k-1".
+This is called the "inductive hypothesis", the authors use that phrase
+here.  One speaks of it as an "assumption"; but the idea behind this
+is that we imagine having done  k-1  repetitions of the argument that
+we are about to describe, and prepare to do the k-th repetition.  So
+in that sense, it is "the result of a calculation".
+
+In any case, mathematical induction is a technique you need to
+thoroughly understand for your upper division courses.  If you have
+not yet learned it, you should study up on it.
+
+----------------------------------------------------------------------
+You ask whether showing that a polynomial splits (p.262) over a field
+F  is equivalent to saying that the roots can be expressed in radicals.
+
+No.  When one speaks of roots being expressed in radicals, one means
+radical expressions (expressions involving addition, subtraction,
+multiplication, division, and n-th roots) in the coefficients of
+the polynomial; and for polynomials of degree > 4, it has been proved
+that this is not in general possible; but over a field such as the
+complex numbers, it is still true that every polynomial splits.
+
+----------------------------------------------------------------------
+You ask about the phrase "(algebraic) multiplicity" in the definition
+on p.263.
+
+I imagine that some authors would define the multiplicity of  lambda
+to be the dimension of  E_lambda,  and would distinguish the number
+the authors are using by the term the "algebraic multiplicity".  So I
+think that by saying "(algebraic)" they mean to convey that what they
+call "multiplicity" some would call "algebraic multiplicity.  But that
+way of showing it is not that informative to the reader who doesn't
+know the background.
+
+----------------------------------------------------------------------
+You're right that the last sentence of the Definition on p.264,
+in referring to eigenspaces, should specify that they are with
+respect to some eigenvalue  lambda.
+
+----------------------------------------------------------------------
+You ask what is meant by the phrase "consisting of" in the sentence
+following the Definition on p.264.
+
+To say that a set consists of certain elements is to say that those
+elements are all the members of the set.  In other words, "X  consists
+of all elements  x  for which  P(x)  is true" means  X = {x : P(x)}.
+
+So it is a general phrase used in set theory, and not special to
+linear algebra.
+
+----------------------------------------------------------------------
+You ask about the analog of Theorem 5.9 (p.268) for infinite-dimensional
+vector spaces.
+
+The authors have only defined diagonalizability for linear operators
+on finite-dimensional vector spaces (bottom of p. 245); but one can
+easily extend this definition to the infinite-dimensional case, so
+say that a linear operator on any vector space is diagonalizable if
+and only if the space has a basis of eigenvectors.
+
+However, in the infinite-dimensional case, one doesn't have an analog
+of the characteristic polynomial, so one can't speak about its
+"splitting", and there is no close analog of statement (a) of
+Theorem 5.9.
+
+On the other hand, the analog of statement (b) is true:  If  T  is
+diagonalizable in the sense stated above, then if one takes for every
+eigenvalue  lambda  a basis  beta_lambda  of  E_lambda,  then the
+union of the  beta_lambda  will be a basis for  V.
+
+----------------------------------------------------------------------
+You ask why, in the example at the top of p.270, they don't have to
+test the eigenvalue lambda_1.
+
+This is because of Theorem 5.7.  When the algebraic multiplicity,  m,
+is  1,  then the relation  1 _< dim(E_lambda) _< m  of that theorem
+forces  dim(E_lambda)  to be precisely  m, which is equivalent to
+"condition  2".  (Remember that for any linear transformation,
+n - rank = dimension of null space.)
+
+----------------------------------------------------------------------
+You ask, in connection with the concept of raising matrices to
+powers as used in Example 7, p.272, whether it is possible to define
+fractional powers of matrices.
+
+It is, and one does, but there are complications.  You know, for
+instance, that any nonzero complex number has two square roots.  One
+can see from this that any n x n diagonal matrix over  C  with n
+distinct eigenvalues will have at least  2^n  square roots.  If
+there are repeated eigenvalues, one can get even more.  For instance,
+the identity  2 x 2  matrix,  I,  over the reals has infinitely many
+square roots, given by reflections about the infinitely many lines
+through the origin in the plane (as well as two others,  I  and  -I).
+
+So the answer is, yes, but you can see why we don't go into it in
+this course.
+
+----------------------------------------------------------------------
+You ask why our authors give the definition of direct sum on p.275,
+when Theorem 5.10 on the next page shows that four other conditions
+are equivalent to it.
+
+There are two aspects to such a choice.  On the one hand, when several
+conditions are equivalent, some authors feel it best to make one of
+them the definition of a property, and then prove that property
+equivalent to the rest, while other authors prefer to first prove
+the conditions equivalent, and then give a definition saying "We will
+call an object satisfying these equivalent conditions a --".  Each of
+these approaches has its advantages: the former gives a more "explicit"
+definition; the latter a more "flexible" one.  We could say that the
+authors have made the former choice.  Having chosen to do so, one must
+decide which of the conditions to use; and the authors have chosen
+the one that is simplest, in that it does not require quantifications
+such as "For every vector ...", "For every basis ..." etc..
+
+Another factor that often comes in is which form of a definition can
+be generalized conveniently to wider classes of cases that one may
+want to consider; and I think that was really the deciding factor here.
+Notice that the definition on p. 275 is for an arbitrary vector space,
+while Theorem 5.10 only concerns a finite-dimensional space.  One
+could adapt the theorem to infinite-dimensional spaces, if in
+statements (b) and (c) one took the approach of the handout I gave
+out on unique expressions and infinite sums; and in statements (d) and
+(e) one used unordered bases, and added the condition that the bases
+be pairwise disjoint (no two have an element in common).  But given
+that this text was not written for an honors course, the authors
+probably didn't want to get into such details.  So they gave the
+general definition for arbitrary spaces, but only formulated the
+other conditions for finite-dimensional spaces.
+
+----------------------------------------------------------------------
+You ask whether there is an essential difference between conditions (d)
+and (e) of Theorem 5.10, p.276.
+
+Definitely!  Condition (d) is formally much stronger than (e), since (d)
+says something is true for _every_ family of ordered bases, while (e)
+only says that it is true for _at_least_one_ such family.
+
+So if one wants to prove that a vector space is a direct sum of
+certain subspaces, it is easier to prove (e) -- one just has to find
+one system of bases with the indicated property.  (E.g., we see
+that  F^4  is the direct sum of  \{(a,b,0,0)\}  and  \{(0,0,c,d)\}
+by letting  gamma_1  and  gamma_2  be the obvious subsets of the
+standard basis of  F^4.)  On the other hand, if one is given or
+has prove that a vector space is a direct sum of certain subspaces,
+it is most useful to have (d), since one can apply it to any system
+of bases.
+
+----------------------------------------------------------------------
+Regarding the statement of Theorem 5.10 on p.276, you ask
+
+> ... Is there any value to constructing TFAE type statements?  Or
+> are TFAE statements just convenient ways of condensing what could
+> be several inter-related theorems ... ?
+
+That is a big value!  Instead of having a tangle of theorems to
+remember, and having to chain them together when one wanted to get
+from a certain statement to a certain other statement, one has one
+easy-to-remember theorem which can always be applied in one step.
+
+> If one wanted to add a condition to the list, would it suffice to
+> prove it true assuming one of the other conditions true, or
+> would it be necessary to make it fit into the "chain" ...
+
+It certainly wouldn't be enough to show that it was implied by
+one member of the list.  E.g., if we list some equivalent conditions
+for a matrix to be invertible, and then note that invertibility
+implies that the matrix is not the zero matrix, that doesn't mean
+that invertibility is equivalent to not being the zero matrix!
+
+But one doesn't have to re-work the proof of the theorem to
+add one more condition.  It suffices to prove that, as you say,
+some condition on the existing list implies it, and _also_ that it
+implies some condition on that list (possibly the same condition
+as for the other implication, possibly a different one).  I hope
+you will think this through and see that it is so.
+
+----------------------------------------------------------------------
+You ask whether the proof of Theorem 5.10 on p.276 doesn't involve
+"circular logic".
+
+The criticism "circular logic" applies when one is trying to show
+a statement  X  is true, and one assumes  X  in doing so.  But here
+the authors are not claiming that conditions (a)-(e) are always true!
+They are asserting that they are equivalent; i.e., that if any one is
+true, then so are the rest.  And proving (a)=>(b)=>(c)=>(d)=>(e)=>(a)
+does exactly that.
+
+A point to think about here is what one is trying to do when one
+proves implications  X=>Y=>Z.  In some situations, one may simply
+be trying to get  Z  from  X,  and  Y  has no function but as a
+step along the way.  But in other situations, one is interested not
+just in the fact that  X=>Z,  but that if  X  is true  Y  will also
+be true, and that whenever  Y  is true (whether or not  X  is),
+Z  will also be true.  That is the case here.  So the chain of
+implications (a)=>(b)=>(c)=>(d)=>(e)=>(a) is not intended as a way to
+get from (a) to (a), but to prove 19 other implications, including such
+as  (b)=>(d)  and  (d)=>(b)  (the latter going by (d)=>(e)=>(a)=>(b)).
+
+----------------------------------------------------------------------
+Your question about the last display on p.276 seems to be based on
+a misreading of that formula.  When you "parse" a formula, first break
+it at the relation-symbols such as "\in", "=", "\subset", etc. (unless,
+of course, those symbols occur inside another construction, like the
+"\in" in the expression "{x | f(x) \in Y}").  Doing so with this
+formula, we see that the set  W_j \intersect Sigma_{i\neq j} W_i  is one
+major piece of the formula, and the formula says that  -v_j  belongs to
+this set (not just to  W_j !), and this set is equal to {0}.  It
+follows immediately that  -v_j = 0,  hence that v_j = 0,  as stated.
+
+----------------------------------------------------------------------
+You ask, in connection with the discussion of how to take the
+limit of the powers of a diagonalizable transition matrix (p.287),
+whether there exists nondiagonalizable transition matrices.
+
+There do; for instance
+
+	 / 1 1/2  0  \
+	|  0 1/2 1/2  |
+	 \ 0  0  1/2 /
+
+In the reading after next, in the middle of p. 300, the authors
+state a result, Theorem 5.20 which we won't be able to prove till a
+later chapter, describing  lim A^m  in such cases (statements (b)-(e)).
+
+----------------------------------------------------------------------
+You ask whether, for a linear operator  T  on an infinite-dimensional
+vector space, a T-cyclic subspace (p.313) has to be finite-dimensional.
+
+No.  If  V  is the space of those sequences of elements of  F  with
+all but finitely many terms zero, and  T  is the right shift operator,
+then it is not hard to see that the T-cyclic subspace of  V  generated
+by any nonzero element is infinite-dimensional.  (On the other hand,
+for T the left shift operator on this space, all T-cyclic subspaces
+are finite-dimensional.)
+
+----------------------------------------------------------------------
+You ask what is meant by the assertion two lines after the last
+display on p.313 that  W  is the smallest T-invariant subspace
+of  V  containing x.
+
+The authors are using "smallest" to mean "contained in all others".
+W  is a T-invariant subspace of  V  containing  x, and moreover every
+T-invariant subspace of  V  containing x  contains  W.  (They say
+that explicitly in the next sentence, and I also did so in class.)
+
+It is common in mathematics to use "smallest" to mean "contained in
+all others", since inclusion relations contain more information than
+concepts of "size".
+
+----------------------------------------------------------------------
+You ask about the relation among the matrices  B_1, B_2, B_3  in the
+block decomposition of the matrix  A  in the last display on p.314.
+
+They are three independent matrices.  B_1  is  k x k,  B_2  is
+k x (n-k),  and  B_3  is  (n-k) x (n-k).  The first expresses
+T(v_1),...,T(v_k)  in terms of  v_1,..., v_k.   The remaining two
+give the components of  T(v_k+1),...,T(v_n)  -- namely,  B_2
+gives the  v_1,..., v_k-components of those elements, while
+B_3  gives their  v_k+1,..., v_n-components.
+
+If you take _any_ three matrices  B_1, B_2, B_3  of the indicated
+sizes, and put them together as shown to get an  n x n  matrix  A,
+then  A  will represent a linear operator with respect to which
+the subspace  W = span({v_1,..., v_k})  is invariant.
+
+----------------------------------------------------------------------
+You ask about the expression for  A  shown in the proof of Theorem 5.21,
+p.314.
+
+It is unfortunate that the authors write "by Exercise 12", making it
+sound as though there is something nontrivial here; it is simply a
+straightforward verification.
+
+Given that you know that  T_W  acts on  v_1,...,v_k  according to the
+matrix  B_1,  if you ask yourself, "How does  T  act on  v_1,...,v_k ?"
+the answer should be clear.  And if you then ask yourself, "How is
+this reflected in the form of the matrix for  T  with respect to
+v_1,..., v_n ?", that should also be easy.  Try this, and if you have
+difficulty, write and tell me where you run into a problem.
+
+----------------------------------------------------------------------
+Regarding Theorem 5.21, p.314, you ask "if the characteristic
+polynomial has no roots in the base field ... then there is no proper
+T-invariant subspace of the vector space?"
+
+Assuming that by "proper" you mean "proper nontrivial", the theorem
+gives that conclusion if the polynomial has no proper factors in the
+base field, but not if it has no roots.  E.g., if the field is  R  and
+the characteristic polynomial is  (t^2 + 1)(t^2 + 2), then  T  can (and
+we will eventually see, must) have T-invariant subspaces on which it
+acts with characteristic polynomial  t^2 + 1, respectively,  t^2 + 2.
+
+----------------------------------------------------------------------
+You asked where  a_0, a_1, ... come from in Theorem 5.22(b), p.315.
+
+Part (a) of the theorem asserts that  {v, ... , T^k-1(v)}  is
+a basis of  W.  Since by definition  T^k(v)  is also a member
+of  W,  the ordered set  {v, ... , T^k-1(v),T^k(v)}  can't be
+linearly independent, so we must have a nontrivial linear relation
+b_0 v + b_1 T(v) + ... + b_k-1 T^k-1(v) + b_k T^k(v) = 0.  Here
+b_k  must be nonzero, since there is no nontrivial linear relation
+among  v, ... , T^k-1(v).  Dividing by  b_k,  the above becomes a
+linear relation in which  T^k(v)  has coefficient  1,  and we can
+write this  a_0 v + a_1 T(v) + ... + a_k-1 T^k-1(v) + T^k(v) = 0.
+
+----------------------------------------------------------------------
+I'm not sure what your difficulty is with the illustration of
+Theorem 5.24 in p.319.  The text introduces the integer  m_i  as the
+dimension of  E_lambda_i.  It then determines the characteristic
+polynomial of  T  (using Theorem 5.24, applied after an intermediate
+step where they determine the characteristic polynomials of the
+restrictions of  T  to those spaces.  The order of the sentence is
+such that the intermediate step is given earlier in the sentence
+than the definition of the  m_i;  but I hope you see that logically,
+that definition preceeds the determination of those characteristic
+polynomials.)  Once we have the characteristic polynomial of  T,
+we can read the multiplicity of each eigenvalue from it -- since
+that multiplicity was defined in terms of that polynomial (Definition
+on p. 263).  We see that it is  E_lambda_i, getting the result
+asserted.  "As expected" means "in agreement with Theorem 5.9(a)".
+
+----------------------------------------------------------------------
+You ask whether the definition of a direct sum of matrices (p.320)
+can be extended to non-square matrices.
+
+Yes.  A square matrix, in general, corresponds to a linear
+transformation  V --> V  of a vector-space  V,  while a non-square
+matrix corresponds to a linear transformation  V --> W,  where  V
+and  W  are two vector spaces.  One gets a direct sum of two square
+matrices by looking at a vector space  V  that decomposes as a direct
+sum of two subspaces,  V = V_1 (+) V_2,  and a linear transformation
+V --> V  that acts on each of  V_1  and  V_2  by mapping it into
+itself; hence the analog for non-square matrices would be based on
+a linear transformation  T: V --> W  where the spaces  V  and  W
+each decompose as a direct sum,  V = V_1 (+) V_2  and  W = W_1 (+) W_2,
+such that  T  takes  V_1  into  W_1  and  V_2  into  W_2.  Then if
+we have bases for  V  and  W  which are put together from bases for
+the above summands, then the matrix for  T  with respect to that basis
+will be the "direct sum" of the matrices expressing the restrictions of
+T  to a map  V_1 --> W_1  and a map  V_2 --> W_2  in terms of the given
+bases of  V_1, V_2, W_1 and W_2.  The same applies, of course, to
+the case where there are more than two summands.
+
+----------------------------------------------------------------------
+You ask about the last equality in the last display on p.331,
+Example 5, which uses the identity  z z-bar = |z|^2.
+
+On p. 558, Definition and following sentence, the absolute value
+|z|  is defined, and the formula z z-bar = |z|^2  is noted It's
+straightforward to check, by writing  z = a+bi  and doing the
+multiplication.
+
+----------------------------------------------------------------------
+Regarding the Frobenius inner product (p.332, top) you ask
+
+> ...  Are there other inner products that are commonly used when
+> working with matrices?  ...
+
+I don't know; but I doubt it.  There is a "magic" in the trace operator;
+it and its scalar multiples are the only linear functionals on  M_nxn(F)
+that are always equal for similar matrices, for instance; and it (or
+its negative, depending on one's conventions) is the coefficient of
+t^n-1  in the characteristic polynomial of a matrix.  So the trace
+of a product, with the second matrix appropriately transformed to
+make the operation conjugate-linear, is a very "canonical" thing to
+look at; and there is not likely to be anything else nearly so
+natural.
+
+> ... Why is this not defined as the "standard inner product on M_nxn,"
+> as they did for F^n?  
+
+If something is seen as an important contribution, it is often named
+after its originator; so I suppose that this inner product was
+introduced by Frobenius, and named after him.  When things simply
+develop over time through the work of many people, and no name is
+attached to them, then textbook authors have to come up with some
+way to refer to them, and names like "standard inner product" are used.
+
+----------------------------------------------------------------------
+You ask about the third equality in the display in the proof of
+Theorem 6.3 on p.342.
+
+Well, I'll give you a hint, with which I hope you can answer it
+yourself:  The fact that {v_1,...,v_n}  is an orthogonal set gives
+you the precise values for all but one of the numbers  <v_1, v_j>,
+<v_2, v_j>, ... , <v_n, v_j>.  What are the values, and which is
+the one exception?  When you have answered this, substitute into
+the summation.
+
+If this hint doesn't help, ask again.
+
+----------------------------------------------------------------------
+You ask whether the order in which the elements of  S  are used in
+the Gram-Schmidt process (Theorem 6.4, p.344) matters.
+
+If we start with elements in a different order, we will in general
+get a different orthogonal basis.  But, of course, whichever order
+we start with, we will get some orthogonal basis.
+
+The process described has the property that  v_k  lies in
+span({w_1,...w_k}),  and sometimes, with this in mind, it is useful to
+choose a particular ordering for  S.  For instance, if  V = P_m(R),
+and we choose  w_k = x^k-1,  then the above fact says that each  v_k
+is a polynomial of degree < k.  If instead we take  w_i = x^n-i+1,
+then it says that each  v_k  is a polynomial divisible by  x^n-k+1.
+We can't get both properties at once, but by choosing the order we can
+be sure of getting whichever one of them we prefer.
+
+----------------------------------------------------------------------
+You ask about the step in the proof at the top of p.351, where
+the authors say that the desplayed inequality being an equality
+implies that  ||u-x||^2 + ||z||^2 = ||z||^2.
+
+Well, the preceding display is of the sort that I discussed on a
+homework sheet a few weeks ago, with a string of equals-signs and
+one ">_" sign mixed in.  If the left-hand side is equal to the
+right-hand side, then where the ">_" sign appears, one cannot have
+">", since that would make the left-hand side greater than the
+right-hand side.  So instead, there must be equality at that step.
+And that is what the authors conclude.
+
+----------------------------------------------------------------------
+You ask about the justification of the statement at the beginning of the
+proof of part (b) of Theorem 6.7, p.352, that "S_1  is clearly a subset
+of  W^perp".
+
+Since the set  {v_1,..., v_n}  is orthogonal, each element of  S_1 =
+{v_k+1,..., v_n}  is orthogonal to each element of  {v_1,..., v_k},
+and hence is orthogonal to the space spanned by the latter set,
+which is  W^perp.
+
+----------------------------------------------------------------------
+You ask what is meant by the phrase "Since  g  and  h  both
+agree on  beta" on p.357, line after the last display.
+
+Notice that  g  and  h,  are functions.  One says that two
+functions  u  and  v  agree on a set  S  if  u(s) = v(s)  for
+every  s\in S.  (The word "both" here is confusing; I would
+prefer to drop it.)
+
+----------------------------------------------------------------------
+You ask when it is natural to look at transpose maps, and when at
+adjoint maps (p.357).
+
+Looking at linear operators, the transpose  T^t: W* --> V*  is the
+natural dual in terms of abstract linear algebra.  But when we
+consider finite-dimensional spaces that are also given with an inner
+product, we find it convenient use  V  and  W  themselves instead of
+the dual spaces  V*  and  W*,  since every linear functional has the
+form  < - , y >.  So then in place of  T^t: W* --> V*  it is natural
+to use T*: W --> V.  The choice between the matrices  A^t  and  A*  is
+just the computational reflection of this choice.
+
+So adjoints are used in the study of finite-dimensional inner product
+spaces, while only dual maps can be used in the case of spaces without
+inner product structure.  When we have infinite-dimensional inner
+product spaces, all transformations have duals, but only some have
+adjoints.  In that case, if the adjoint exists, it can be a useful
+tool in studying how the transformation  T  behaves with respect to the
+inner product.
+
+----------------------------------------------------------------------
+You ask why the same symbol  *  is used for dual spaces and adjoint
+operators (p.358, Theorem 6.9).
+
+I hope that what I said in class made it clear that the adjoint
+of an operator is closely connected with the dualization construction.
+
+Most algebraists would in fact write  T*  for the construction that the
+authors denote  T^t: W* -> V* (p. 121).  But in the theory of finite
+dimensional inner product spaces, one makes use of the identification
+V <--> V*  described in Theorem 6.8.  So one translates the duality
+map into a map  W -> V,  and and uses the symbol "T*" for that map
+instead, calling the "raw" duality map  T^t.
+
+----------------------------------------------------------------------
+You ask, in connection with Theorem 6.10, p.359, whether if  beta  and
+gamma  are two orthonormal bases of an inner product space, one has
+
+	[T*]_beta ^gamma = ([T]_beta ^gamma)*
+
+No -- but something like it is true, namely
+
+	[T*]_beta ^gamma = ([T]_gamma ^beta)*
+
+This may seem strange; but it wouldn't if the authors had noted
+that the concept of a adjoint map is defined, more generally, for
+linear transformations from one inner product space to the other.
+Then, since the adjoint goes in the opposite direction to the original
+transformation, that would be the only sensible way that adjoints
+of matrices could behave.
+
+----------------------------------------------------------------------
+Concerning the proof of point (b) on line 2 of p.360 you write
+
+>  ... I'm guessing that bringing a constant out of an inner
+>  product expression requires conjugation.
+
+Yes and no!  For the "no", see the fourth line of p. 330, part (b) of
+the definition of "inner product".  For the "yes", see the fourth
+line of p. 333, part (b) of Theorem 6.1.
+
+Do you see the difference between the situation to which the "no"
+applies and the situation to which the "yes" applies?  Do you see
+why the computation on p. 360 falls under the latter case?  If not,
+ask again!
+
+----------------------------------------------------------------------
+In answer to your pro forma question about the proof of the Corollary
+on p.362, you wrote that "since  rank(A) = n,  A  is invertible".
+That would be right if  A  were an  n x n  matrix; but it's an
+m x n  matrix.
+
+So -- try again!  Send me your corrected argument.
+
+----------------------------------------------------------------------
+Regarding the comment on p.363, that if the experimenter chooses the
+times  t_i  to sum to zero the computations are greatly simplified,
+you ask whether this means he or she must choose negative times.
+
+Yes.  He or she would do this by choosing the "zero-point" of his or
+her time scale to be the average of the times at which he or she did
+the measurements.  E.g., if on the original time-scale, the times were
+
+		1, 7, 8,
+
+then on the new time-scale, they would be reduced by (1+7+8)/3 = 16/3,
+to give
+		-13/3,  5/3,  8/3,
+
+which do indeed add up to 0.
+
+It would complicate the preparation of the data, but simplify the
+matrix computations.  Hard to know which way would be better on balance.
+
+----------------------------------------------------------------------
+You ask how, in the proof of the Lemma on p.369, the conclusion
+"v  is orthogonal to the range of  T* - lambda-bar I" implies
+that the linear operator  T* - lambda-bar I  is not onto.
+
+Since  v  is nonzero, it is not orthogonal to all vectors of  V.
+(For instance, it is not orthogonal to itself.)  So as the range
+of  T* - lambda-bar I  is contained in the set of vectors to which
+v  is orthogonal, that range must be a proper subset of  V,  which
+says that  T* - lambda-bar I  is not onto.
+
+----------------------------------------------------------------------
+You ask why Theorem 6.16, p.372, requires finite dimensionality.
+
+Only for linear operators on finite-dimensional vector spaces
+do we have a concept of "characteristic polynomial".  And indeed
+Example 3 involves an operator on an infinite-dimensional vector space
+that does not satisfy any polynomial equation.
+
+----------------------------------------------------------------------
+You ask why, as indicated by the answer to Exercise 1(b) on p.374,
+operators and their adjoints do not have the eigenvectors, writing
+"I assumed that they would be the same."
+
+Not safe to assume that at all!  A linear operator and its adjoint
+are very different maps (except, of course, in the case of a
+self-adjoint operator).  I could give a half hour lecture on how to
+"think about" the relation between a linear transformation and its
+adjoint, but I don't know whether it would get across to people.
+So we should just think of the fact that a linear operator and its
+adjoint have the same eigenvalues, and the stronger statement that
+they have the same Jordan canonical forms, as useful facts, but
+don't assume any more is true.
+
+----------------------------------------------------------------------
+You also ask why, as indicated by the answer to Exercise 1(d) on p.374,
+a matrix  A  is normal if and only if  L_A  is normal.
+
+Unlike the relation between a linear transformation and its adjoint,
+the relation between linear transformations and matrices is a very
+close one.  For every concept that the textbook defines for linear
+transformations, it defines a corresponding concept for matrices,
+generally using the same symbols, and for every result that they prove
+for one, they generally prove a corresponding result for the other.
+They also prove in general that properties of a linear transformations
+T  match the properties of the matrices  [T]_beta,  and properties of
+matrices  A  match the properties of the linear transformations  L_A.
+
+In cases where they do not explicitly prove a relationship, it
+can generally be gotten from results that they do prove.  So to see
+that normality of  A  is equivalent to normality of  L_A,  take the
+definition of what it means for  L_A  to be normal, namely
+L_A (L_A)* = (L_A)* L_A,  use results that they have proved relating
+the adjoint of a matrix  A  and the adjoing of the induced linear
+operator  L_A,  namely the Corollary on p. 359, then use the result
+they likewise prove relating the product of two matrices and the
+products of the induced linear operators, ... and you end up with the
+equation  L_{AA*} = L_{A*A},  which means  AA* = A*A,  i.e., that  A
+is normal.
+
+----------------------------------------------------------------------
+You ask about the term "isometry" mentioned near the bottom of p.379,
+and why it is only referred to in the context of infinite-dimensional
+vector spaces.
+
+"Isometry" is a general term for a distance-preserving function, not
+limited to linear algebra, but applicable to any context where distance
+is defined.  Within linear algebra, it is meaningful when discussing
+inner product spaces, since ||x-y|| gives a distance function.
+
+I think the point of what they are saying is this:  For an
+operator on an inner product space, preserving distances implies
+1-1-ness, so in the finite-dimensional case, it also implies
+invertibility.  In the infinite-dimensional case, one has to
+distinguish between distance-preserving operators that are
+also required to be invertible, and those that are not; so people
+in the field refer to the former as "unitary" or "orthogonal"
+(depending on  F), while for the latter, they use the term "isometry"
+(even though in its more general use, that term would not even imply
+linearity -- but they consider the subclass of linear operators
+that are isometries.)
+
+So the reason it is not used in the finite-dimensional case of the
+study of inner product spaces is that in that case, there is no need
+for a term distinct from "unitary" or "orthogonal".
+
+----------------------------------------------------------------------
+You ask how the last step in the first displayed equation on p.380
+is done.
+
+Did you notice the words "since  |h(t)|^2 = 1  for all  t" right
+after that display?
+
+If you didn't, there's a lesson to be learned: in mathematical writing,
+calculations are often explained in the immediately preceding or
+following text, so you should look to see whether there are such
+explanations.
+
+If you did see it, it would have helped me if you'd mentioned that
+in your question, and said what you were or were not able to do with
+that fact.  Looking at the integral in the display, with the equation
+"|h(t)|^2 = 1" in mind, one sees that the integrand has a factor
+h(t)  and another factor which is the complex conjugate of  h(t).
+Their product is  |h(t)|^2,  which as noted equals 1, so the
+integrand becomes the product of  f(t)  with its conjugate.  The
+resulting integral is therefore  <f,f> = ||f||^2.
+
+----------------------------------------------------------------------
+You ask whether Theorem 6.18, p.380 remains true for a linear
+map  T: V --> W  between different inner product spaces.
+
+Nice question!
+
+If the spaces have the same dimension, it remains true.  But if
+dim(W) > dim(V),  some of the conditions can hold, without the
+others holding.  For instance, for  m < n,  the map  F^m -> F^n
+taking  (a_1,...,a_m)  to  (a_1,...,a_m,0,...0)  satisfies (b) and (d),
+but not (c) or (d).  It satisfies part of (a), namely  T*T = I_V;
+but  TT*  is not equal to  I_W.
+
+If we reword conditions (c) and (d) to say "... such that  T(beta)
+is an ordered orthonormal subset of  W", then we again get five
+equivalent conditions:  the part of condition (a) mentioned above,
+condition (b), these modified versions of condition (c) and (d), and
+condition (e).
+
+----------------------------------------------------------------------
+You ask whether the statement in Theorem 6.18, p.380, that the
+properties listed are equivalent means that if one holds, they all hold.
+
+Right!
+
+----------------------------------------------------------------------
+You ask about the inner product expression in the first displayed
+line on p.381, where the index of summation is "i" in one sum, and
+"j" in the next.
+
+As I discuss in the handout on "Sets, Logic and Mathematical Language",
+an index of summation is what is called a "dummy variable".  The symbol
+used for this variable does not make a difference in the value of
+the expression.  Both of the summations in the inner product expression
+mean the same thing:  a_1 v_1 + a_2 v_2 + ... + a_n v_n;  so writing
+it in two ways does not violate the uniqueness of expressions of
+elements in terms of a basis.
+
+The authors choose to use different dummy variables in the two
+expressions so that they can easily represent the result of expanding
+by the distributive laws for inner products (condition (a) on the 3rd
+line of p. 330, and condition (a) on the 3rd line of p. 333).  That
+expansion gives a sum involving all n^2 combinations of the n terms of
+the left-hand factor with the n terms of the right-hand factor, so in
+this double sum, the terms of the left-hand factor need to be indexed by
+a different subscript symbol from the terms of the right-hand factor.
+The correct form of this double sum is easier to see if we have already
+used those different symbols in the preceding expression.  Hence the
+authors' choice to write the sums in the inner product as they did.
+
+----------------------------------------------------------------------
+You ask how one shows that unitary equivalence of nxn matrices is
+an equivalence relation (p.384).
+
+Well, have you written down the things that have to be verified to
+show that it is an equivalence relation, and tried to verify them?
+If so, which have you had difficulties with, and what were the
+difficulties?
+
+----------------------------------------------------------------------
+You ask whether rigid motions (p.385) can be defined on complex
+inner product spaces.
+
+The concept of distance-preserving transformation can be defined
+wherever one has a concept of distance; i.e., in what in Math 104 you
+will learn is called a metric space; so this includes complex inner
+product spaces.  But as I will point out in class, a distance-preserving
+transformation on a complex inner product space which sends 0 to 0
+need not be linear with respect to the complex vector space structure;
+only with respect to the real vector space structure.  So though one
+can study such maps, when one does, one is really looking at the spaces
+as real inner product spaces.  So that is the case our book focuses on.
+
+----------------------------------------------------------------------
+You ask about Theorem 6.22, p.386, saying "aren't orthogonal operators
+always rigid motions?"
+
+Yes, certainly -- they form a subset of the rigid motions.  But it is
+a proper subset; that is why we need to compose them with another class
+of rigid motions, the translations, to get all the rigid motions.
+
+(The construction of all rigid motions from orthogonal operators and
+rotations is somewhat analogous to the construction of all elements
+of a vector space  V  from the elements of subspaces  W_1  and  W_2
+when  V = W_1 (+) W_2,  except that composition of maps is involved
+in the "rigid motions" case, where addition of vectors is used in the
+"direct sum of subspaces".)
+
+----------------------------------------------------------------------
+You ask why, on p.388, second line below second display, they can
+say that the line  L  about which we are reflecting is the eigenspace
+of the eigenvalue 1 of the reflection operator.
+
+When we reflect about a line, that line is the set of points not moved
+by our reflection.  And the set of vectors not moved by a linear
+transformation  T  is the eigenspace of the eigenvalue  1  of  T.
+(Or the trivial subspace, if  1  is not an eigenvalue; but in this
+case we know that there are nonzero points not moved by our reflection,
+so  1  is an eigenvalue.)
+
+----------------------------------------------------------------------
+You ask whether one can find a linear transformation that represents
+a translation, as a rotation is represented by a linear transformation
+on p.390.
+
+No.  A linear transformation must respect vector space structure,
+so in particular, it must send the zero element to the zero element.
+A translation (other than the identity) moves the zero element.
+That is the reason that one factors a rigid motion into two parts
+as described in this section:  The translation handles the movement
+of the identity element; when the translation is taken care of, one
+is left with a rigid motion that fixes the identity element, and that
+is a linear transformation.
+
+(There is a very different way in which one _can_ represent a
+translation by a linear transformation; but that involves thinking
+of the plane, not as the set of all points of R^2, but, via a certain
+correspondence, as a subset of the set of lines through the origin
+in R^3.  I may talk about that if there's a little extra time.  But
+for the plane as R^2, translations are not linear transformations,
+for the reason noted above.)
+
+----------------------------------------------------------------------
+You ask about the statement on p.393 that a subspace  W_1  of a vector
+space  V  can be part of two different direct sum decompositions,
+V = W_1 (+) W_2  and  V = W_1 (+) W_3,  arguing that if  v = x + y
+(x\in W_1, y\in W_2)  v = x + z  (x\in W_1, y\in W_3),  then we must
+have  y = z,  from which one can deduce that  W_2 = W_3.
+
+Well, the full statements, for any  v\in V, are
+	There exist  x\in W_1, y\in W_2  such that  v = x + y,
+	There exist  x\in W_1, z\in W_3  such that  v = x + z.
+But when we use two such statements together, it is not legitimate
+to use the same letter  x  for the element of  W_1  introduced in
+the first statement and the element of  W_1  introduced in the second
+statement, when we have no basis for assuming they are the same.  So
+if we are going to put those statements side by side we must say
+something like
+	There exist  x \in W_1, y\in W_2  such that  v = x + y,
+	There exist  x'\in W_1, z\in W_3  such that  v = x'+ z.
+Then on subtracting the two statements, we don't get  0 = y - z,
+but  0 = (x-x') + y - z,  which does not force  W_2  to equal  W_3.
+
+An example that I have mentioned in lecture is where  V = R^2,
+W_1 = span{(1,0)}, W_2 = span{(0,1)}, W_3 = span{(1,1)}.  Then,
+for instance, the vector (2,1)\in V, when decomposed using the
+relation  V = W_1 (+) W_2,  gives  (2,1) = (2,0) + (0,1),  while
+decomposing it using the relation  V = W_1 (+) W_3  we have
+(2,1) = (1,0) + (1,1).
+
+----------------------------------------------------------------------
+You ask about the relation between normal and self-adjoint operators,
+noting that in the Spectral Theorem (p.401) they seem "not much
+different".
+
+As I emphasized in class, the normal operators form a very wide class,
+which includes the self-adjoint operators (those satisfying T* = T),
+the unitary operators (those satisfying  T* = T^-1), and many that
+are neither (e.g., the product of any unitary operator with any
+self-adjoint operator that commutes with it).  In fact, Corollary 3
+of the Spectral Theorem shows exactly how much more restrictive the
+self-adjoint operators are than the normal ones:  The normal ones
+can have any eigenvalues, while the self-adjoint ones can only have
+real eigenvalues.
+
+The reason that normal operators and self-adjoint operators are
+mentioned together in the Spectral Theorem is that normal operators
+over the field  C,  and self-adjoint operators over the field  R,
+share the property of having an orthogonal basis of eigenvectors.
+It is precisely because over  R  an eigenvector must have a _real_
+eigenvalue that when working over  R,  we must use the more restricted
+class of self-adjoint operators for the Spectral Theorem to hold.
+
+----------------------------------------------------------------------
+Regarding the Theorem 6.26 on p.406, you ask whether the uniqueness
+of the  sigma_i  doesn't follow immediately from the description of
+these values in terms of the action of  T  relative to the bases
+\{v_1,...,v_n\} and  \{u_1,...,u_m\}.
+
+The difficulty is that these bases are not themselves unique.  The
+statement of the result says that they are orthonormal bases of  V
+and  W  respectively, such that the images of the members of the first
+basis under  T  are nonnegative scalar multiples of appropriate members
+of the second basis.  Those are strong conditions, which in most cases
+greatly restrict the possible bases that can satisfy them; but such
+bases are still not uniquely determined; so it is nontrivial to prove
+that _whatever_ pair of bases one chooses that satisfy those
+conditions, one will get the same constants  sigma_i.
+
+----------------------------------------------------------------------
+You ask about the "alternative method for computing Q" at the bottom of
+p.432.
+
+The authors start with the  n x 2n  matrix (A | I)  (i.e., the  n x n
+matrix  A  with the  n x n  identity matrix  I  put to the right of
+it).  Then, whenever an elementary matrix  E  is to act on the
+n x n  left half by multiplying it --
+
+	by  E^t  on the left and  E  on the right,
+
+they act on their  n x 2n  matrix by multiplying by  E^t  on the left,
+and on the right by a matrix we could call  diag(E, I),  i.e., the
+2n x 2n  matrix with  E  as the upper left-hand  nxn  block,  I  as
+the lower right-hand  nxn  block,  and  0  for the other two nxn
+blocks.   (You should verify for yourself that these multiplications
+have effect they describe.)  Thus, as the successive elementary
+matrices  E_i  are used, the  2n x n  matrix  (A|I)  ends up being
+multiplied on the left by --
+
+	... E_2^t E_1^t  =  (E_1 E_2 ...)^t
+
+and on the right by --
+
+	diag(E_1, I) diag(E_2, I) ...  =  diag(E_1 E_2 ... , I).
+
+Using the fact that  E_1 E_2 ... = Q,  the result is
+
+ Q^t (A | I) diag(Q, I) = (Q^t A | Q^t I) diag(Q, I) = (Q^t A Q | Q^t).
+
+So the left-hand half of the resulting  2n x n  matrix,  i.e., the
+diagonal matrix  D,  is indeed  Q^t A Q.
+
+Probably this very matrix-theoretic description of the row and
+column operations wasn't needed to answer your question -- just
+a clear understanding of what operations they are performing on
+the left and right of  (A | I).
+
+----------------------------------------------------------------------
+You ask about the definition of a Jordan canonical form of a matrix.
+
+Although the authors haven't stated this as an italicized definition,
+they do give it in a precise way, on p.483.  Note that the Jordan
+canonical form is the _first_ matrix on that page; there, each of the
+A_i  is a square block having the form shown in the _second_ matrix on
+that page (which they call a "Jordan canonical block).
+
+In particular, 1x1 blocks are 1x1 matrices  (lambda),  and when all
+of the blocks  A_i  in the Jordan canonical form are 1x1, it is
+diagonal; but not otherwise.
+
+----------------------------------------------------------------------
+You ask why we go to the trouble of studying Jordan canonical forms
+(pp.483 et seq).
+
+Well, there are many properties of a matrix that depend only on its
+similarity type (its equivalence class under the equivalence relation
+"is similar to").  If we want to study these properties, it can be
+convenient to have a small family of sorts of matrices such that
+every matrix is similar to one of them; then we only have to calculate
+with those matrices.  We will see this in the material added to next
+Wednesday's reading (as noted on the current homework sheet), where
+the question of whether  lim A^n  exists can be examined by going to
+the Jordan canonical form and calculating whether  lim J^n  exists,
+rather than trying to do this separately for every possible matrix.
+
+This is in addition to what I said when first introducing the subject:
+That if we want to know whether two matrices are similar, we can do
+this by putting them both into Jordan form, and seeing whether those
+Jordan matrices are equal.
+
+----------------------------------------------------------------------
+You ask what is meant by the statement at the top of p.484 that the
+Jordan canonical form of a linear transformation is "unique up to
+the order of the Jordan blocks".
+
+Well, as an example, consider the matrix near the bottom of the
+preceding page, determined by a choice of basis  {v_1,...,v_8}.
+Suppose we rearrange this in the order v_4,v_1,v_2,v_3,v_5,v_6,v_7,v_8.
+(To make this easier to work with, we might call the reordered vectors
+w_1,...,w_8,  so that  w_1 = v_4, w_2 = v_1, w_3 = v_2, etc.)  If you
+express the same linear operator in terms of the new basis, it will
+be built up from the same four Jordan blocks, but the first two blocks
+(the 3x3 block and the 1x1 block) will now appear in the reverse order.
+So, though the resulting matrix will be a Jordan canonical form for the
+same transformation, it will be a different Jordan canonical form --
+differing from the original in the order of the Jordan blocks.  If
+we call two Jordan canonical forms that differ only in the order of
+the blocks "essentially the same", then the result that the authors
+are claiming is that the Jordan canonical form of a matrix is
+"essentially unique".
+
+(Incidentally, not every rearrangement of a Jordan canonical basis for
+a linear transformation is a Jordan canonical basis.  For instance, if
+in the above example we used the order v_2,v_1,v_3,v_4,v_5,v_6,v_7,v_8,
+then the matrix we would get for the linear operator would again be a
+rearrangement of the matrix shown, but that rearrangement would not fit
+the definition of a Jordan canonical form.)
+
+----------------------------------------------------------------------
+I hope that my discussion of Jordan canonical forms in class cleared
+up your questions about the statement "(T-2I)^3(v_i) = 0  for i=1,...,4"
+on p.484.  I'll summarize here:
+
+  (T-2I)(v_1) = 0  because  v_1  is an eigenvector with eigenvalue 2.
+
+(T-2I)^2(v_2) = 0  because  (T-2I)(v_2) = v_1, and then when we apply
+	a second  T-2I,  the preceding observation is applicable.
+
+(T-2I)^3(v_3) = 0  because  (T-2I)(v_3) = v_2, and then when we apply
+	 two more  T-2I's,  the preceding observation is applicable.
+
+  (T-2I)(v_4) = 0  because  v_4  is an eigenvector with eigenvalue 2.
+
+So each of  v_1,...,v_4  is annihilated by  (T-2I)^m  for some  m _< 3,
+so a fortiori, all are annihilated by  (T-2I)^3.
+
+(Of course, they are also annihilated by  (T-2I)^m  for  m > 3;  but
+that is an immediate consequence of being annihilated by  (T-2I)^3,
+so we don't need to state it -- all we need to state is the smallest
+power that annihilates these elements.)
+
+The general rule is that if a Jordan matrix has blocks of various
+sizes for eigenvalue  lambda,  then the basis elements associated with
+all these blocks will be annihilated by  (T-lambda I)^m  where  m  is
+the largest of the sizes of these blocks (where I am calling  n  the
+"size" of an  nxn  block).
+
+----------------------------------------------------------------------
+You ask how, in the third from last display on p.485, the authors can
+make the operators  (T - lambda I)^p  and  T  commute.
+
+They are not claiming that all operators on a vector space commute
+(which is false); but are using the fact that  T  commutes with any
+polynomial in  T  -- because it commutes with every power of itself,
+and polynomials in  T  are linear combinations of powers of  T.
+
+----------------------------------------------------------------------
+You ask how the authors reach the conclusion (T-2I)^2 (v_3) = 0  in the
+middle of p.488.
+
+As they say, they are referring to Example 1, p. 483.  Did you go back
+to that example and try computing  (T-2I)^2 (v_3) ?  Remember that the
+i-th column of the matrix shows how  T(v_i)  is expressed in terms of
+the other  v_j;  so it is easy to write down the effect of  T  on any
+of the basis vectors, and from this the effect of  T-2I.  If in working
+the computation you get a different answer, or still don't see how
+to proceed, write me again.
+
+It is important for this course to be able to do such computations,
+and this particular computation is an important one for understanding
+this last topic.
+
+(After you do this computation, I suggest you go to the matrix above
+that one on p. 483 --the middle display-- and, calling the corresponding
+linear operator  U,  see what  U - lambda I  does to the i-th basis
+vector, and from this, what  (U - lambda I)^j  does to that vector.)
+
+----------------------------------------------------------------------
+You ask whether Theorem 7.7 (p.490) holds in the infinite dimensional
+case.
+
+Well, first one has to decide what the statement in the infinite
+dimensional case should be.  (If you wanted to know the answer, you
+really should have posed a precise statement and asked whether it
+was true.)  If we take a vector space with basis  {x_1, x_2, ... }
+indexed by the positive integers, and define a linear transformation
+T  by
+	T(x_1) = 0,  T(x_{i+1}) = x_i  (i>0),
+
+then we see that  V = K_0,  but  V  doesn't have a basis consisting
+of finite "cycles", in the sense of the Definition on p. 488.  So if
+we want such a result to be possible, we should extend the definition
+of "cycle" to allow infinite cycles having and initial vector but no
+end vector.  In that case, the basis given in the above example does
+consist of a single such infinite cycle.
+
+We can ask whether  K_lambda  always has a basis consisting of
+cycles in this generalized sense, where infinite cycles are allowed.
+
+Even that doesn't seem to be the case.  I can construct a counterexample
+using an uncountable-dimensional  V.  I have an idea for a possible
+countable-dimensional counterexample, but don't have time to try
+to figure out whether it works.  I can show you both examples in office
+hours if you are interested.  (If you do it would help to let me know
+ahead of time that you are coming for this, so that I can get the ideas
+straight in my mind in advance.)
+
+----------------------------------------------------------------------
+In connection with Corollary 2 on p.491, you ask whether if the
+characteristic polynomial of a matrix doesn't split, the matrix
+can have a Jordan canonical form.
+
+No.  Notice that a matrix in Jordan canonical is upper triangular,
+and that if  A  is any upper triangular matrix, then its characteristic
+polynomial,  det(A - tI),  will equal the product of the diagonal
+entries of  A - tI,  namely  (A_11 - t)...(A_nn - t).  So that
+polynomial splits.  Now similar matrices have the same characteristic
+polynomial, so if a matrix has a Jordan canonical form  J,  it is
+similar to the upper triangular matrix  J,  so its characteristic
+polynomial must split.
+
+For matrices whose characteristic polynomial doesn't split, one
+has the "rational canonical form", covered in section 7.4, which
+we won't read.  I think the most helpful way to study such matrices
+is not by using the rational canonical form over the given field
+F,  but by going to a larger field over which their characteristic
+polynomial splits, and using the Jordan canonical form there.
+
+----------------------------------------------------------------------
+You ask why, in the proof of Theorem 7.9, p.499,  U  moves each dot in
+S_2  r  places upward.
+
+The answer lies in the labeling of the dot diagram on the preceding
+page.  Note that each column is formed by putting its end vector at
+the bottom, and letting the vectors above that end vector be the end
+vector's images under successively higher powers of  T-lambda_i I  --
+until one reaches a vector which  T-lambda_i I  sends to zero, which
+forms the top of the column.
+
+I hope you can see from this that  T-lambda_i I  sends each dot
+which is not in the top row to the dot one step above it.  It follows
+that  (T-lambda_i I)^r  sends each dot not in one of the first
+r  rows to the dot  r  steps above it, the statement you asked about.
+
+----------------------------------------------------------------------
+You ask about the dot diagram for the matrix of Example 3, p.504.
+
+The authors define a different dot diagram for each eigenvalue of
+a linear transformation; so the two diagrams shown on the page are
+the diagrams for this matrix for  lambda = 2  and for  lambda = 4.
+
+One could, if one wanted, define the dot diagram for the whole
+matrix as gotten by putting together the separate diagrams; but
+then one would have to show which dots belong to which eigenvalue.
+Only within the diagram for each eigenvalue could one keep a rule
+that longer cycles come before shorter ones.  So the diagram for
+the matrix you ask about would then be
+
+           eigenvalue:     2    4
+                        |     |   |
+                        | o o | o |
+                        |     | o |
+                                        
+----------------------------------------------------------------------
+You write, concerning the exercises on p.509
+
+> I understand how exercise 1(d) is true, that matrices having the same
+> Jordan canonical form are similar but I do not see how it is that 1(c)
+> `linear operators having the same characteristic polynomial are
+> similar' is false.  Are these two statements related to each other?...
+
+Yes.  Knowing the characteristic polynomial (and assuming it splits)
+we in general get finitely many possibilities for the Jordan canonical
+form.  If two matrices with that characteristic polynomial have the
+same Jordan canonical form, they are similar; if they have different
+forms, they are not.
+
+(I have several times shown in class the different Jordan forms that
+can be associated to the same characteristic polynomial; mostly using
+2x2 or 3x3 matrices; this Monday I also showed a 4x4 case.  The only
+characteristic polynomials to which only a single Jordan form can
+correspond are those which split into _distinct_ linear factors;
+in that case, the matrix is diagonalizable.)
+
+----------------------------------------------------------------------
+The three of you asked (in two cases "pro forma") why we study the
+minimal polynomial of a linear transformation (p.516).  It was hard for
+me to know what to make of these questions -- whether the reason that
+was obvious to me was not sufficient for you, as suggested by answers
+to pro forma questions saying that it could be used to prove other
+things, or whether what seemed obvious to me wasn't in fact obvious to
+others.  So I'll take a chance that the latter is the case, and put it
+into words.
+
+To understand a linear transformation, we want to know "what it can
+do"; in particular, what we can get by applying it repeatedly, i.e.,
+taking its powers, and linear combinations of these.  To understand
+these linear combinations, we want to know when taking further powers
+stops leading to larger spaces of linear combinations; i.e., when
+some power is itself just a linear combination of smaller powers.
+To have a power  T^k  reduce to a linear combination of T^0, T^1,
+... , T^{k-1}  is for  T  to satisfy an equation  p(T) = 0  for some
+polynomial  p(t)  of degree  k.  So we'd like to know when this
+happens; and, of course, how it happens:  what the first polynomial
+p(t)  is that makes  p(T) = 0.
+
+That, in essence, is it.  I don't mean to exclude the minimal
+polynomial's being useful for proving other things -- rather, when
+it answers such a fundamental question about the behavior of the
+linear transformation, we can expect that it _will_ lead to other
+results.  But I don't think we should straightjacket our mathematical
+pursuits by tallies of what we can predict in advance that we will
+gain from answering a given question.  We should try to answer
+questions because they are fundamental questions about the objects
+in question.
+----------------------------------------------------------------------
+You write that on p.549, "it states that the empty set is a subset of
+all sets, meaning that 0 lies in every set."
+
+No, it definitely does not mean that 0 lies in every set!  "0" counts
+how many elements are in the empty set, but  0  is not a member of
+the empty set.  (Similarly, "3" counts how many elements are in the
+set {1, 10, 100}, but it is not a member of that set; only 1, 10 and
+100 are.)  The empty set, by definition, has no members.
+
+----------------------------------------------------------------------
+You ask about the meaning of "characteristic" near the bottom of p.555.
+
+A general convention in mathematical writing is that a word being
+defined is printed in a special font -- sometimes italic, sometimes,
+as in this book, boldface.  If you look at the first point in this
+paragraph where the word "characteristic" is used, you will see that
+it is in boldface; this means that the statement being given is the
+definition of the word.  It begins "In this case...", which refers to
+the beginning of the paragraph ("In an arbitrary field  F,  it may
+happen ...").  The contrary case is handled by the second half of the
+sentence, where "characteristic zero" is defined.
+
+As I said in class, you won't be responsible for properties of fields
+other than  R  or  C;  but if you want to understand this concept,
+read that sentence very carefully.  If there are words of phrases in
+it that you have trouble with, ask about them.
+
+----------------------------------------------------------------------
+Regarding the author's remarks near the bottom of p.555 about
+unusual properties of fields of nonzero characteristic, you
+ask what these are.
+
+Actually, such fields are not as different as the authors' comments
+might suggest.  If one looks up all the references to "characteristic
+of a field" in the index, then except for the page where the
+characteristic is defined, they all turn out to be places where the
+assumption is made that the characteristic is not 2.  This is needed
+to argue that if  x = -x,  then  x = 0.  (Namely, if  x = -x,  then
+(1+1).x = 0,  so if the characteristic is not 2, this makes x=0.)  This
+is used in proving things about odd functions, antisymmetric matrices,
+etc..  But the most important facts of linear algebra remain true
+regardless of the characteristic.
+
+----------------------------------------------------------------------
+Regarding the appendix on complex numbers, beginning on p.556, you ask
+"What, in our world, motivates the use of the complex number system?"
+
+It was probably the lack of motivating examples in our world that
+is the reason the theory of complex numbers was so slow to develop!
+But once it was understood, it was seen to be extremely useful in
+studying mathematical questions that could be motivated solely
+in terms of the real numbers.  For a very simple example, note
+that the formula for trigonometric functions of sums of angles,
+multiple angles, etc. are awkward to remember and derive; but if
+one uses the definitions sin x  = (e^{ix} - e^{-ix})/2i,  cos x  =
+(e^{ix} + e^{-ix})/2,  these formulas are trivial to check, and easy
+to derive from scratch.
+
+If you look in the student store at some Math 185 texts, the first
+few pages often discuss the history of the complex numbers.
+
+----------------------------------------------------------------------
+You comment that you can't remember seeing complex numbers (p.556)
+in any science class you've taken, nor have you seen applications in
+any math class.
+
+Are you sure you didn't see them in Math 54 in the study of differential
+equations?  The behavior of the solutions of a linear differential
+equation with real coefficients depends on the roots of the associated
+polynomial; complex roots correspond to oscillating solutions, with the
+frequency of oscillation depending on the imaginary part of the root,
+while the real part determines whether the amplitude decays, grows, or
+is stable.  If you haven't seen them in science classes, that simply
+means that the science classes you have taken so far were tailored for
+students who had not seen complex numbers, so that all uses of them
+were left out.  But you certainly couldn't teach a course in quantum
+mechanics without them.
+
+----------------------------------------------------------------------
+You ask about the equation  e^{i theta} = cos theta + i sin theta
+on p.560, asking "How do I know this is true?"
+
+Well, the book says, in the preceding sentence and the one you point to,
+that this equation is a special case of Euler's formula, introduced
+on p. 132.  So you should have checked out that page to see what it
+says there.
+
+On that page, it gives the formula as a definition.  So one can't ask
+"How do I know this is true?" -- a definition is true by definition.
+You can only ask, "Why is this considered a good definition to make?"
+
+There are various justifications one can give.  The power series
+argument that you gave is one.
+
+Another is to note that  e^x  is the solution to the differential
+equation  d/dx f(x) = f(x)  such that  f(0) = 1.  The differential
+equation says, intuitively, that if one changes  x  by a tiny amount
+Delta x,  then  f(x)  will change by approximately  f(x) Delta x.  Now
+if we assume that  f(x)  can be defined for complex  x  so as to
+satisfy this same condition, then on letting  Delta x  be a small
+imaginary number, the change in  f(x)  should be in a direction in the
+complex plane perpendicular to  f(x)  (in the counterclockwise sense).
+In particular, if we start with  f(0)  and look at  f(i theta)  as
+theta  increases, we see that the velocity of the vector  f(i theta)
+will be perpendicular to that vector, and equal to it in magnitude; so
+f(i theta)  will move in a circle about the origin.  From the condition
+f(0) = 1,  we deduce that  f(theta)  will be given by  cos theta +
+i sin theta.
+
+----------------------------------------------------------------------
+In connection with the result that the field of complex numbers
+is algebraically closed (p.560), you ask about other algebraically
+closed fields.
+
+At the end of Math 113, you will (hopefully) see the construction
+by which, given any field  F,  and any polynomial  p(t)  of
+positive degree with coefficients in  F  but not having a zero
+in  F,  you can construct a field  K  containing  F  in which
+p  does have a zero.  In the case where  F  is the field of real
+numbers and  p  the polynomial  t^2 + 1,  the new field you get
+is the complex numbers, and every polynomial of positive degree
+has a zero in that field, so that the construction doesn't have
+to be repeated any more.  But for most fields  F  (e.g., the
+rationals, or  Z_2)  that does not happen.  However, one can repeat
+the construction infinitely many (possibly uncountably many) times
+so as to eventually handle all the polynomials; and the result
+is then an algebraically closed field.  This isn't done in Math 113,
+but it is in Math 250A.
+
+----------------------------------------------------------------------
