@@ -77,6 +77,8 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
 
 *** Resources
 
+- [[http://www.math.ucla.edu/~tao/resource/general/115a.3.02f/][*Terry Tao's UCLA MAT115A Linear Algebra Course Notes*]]
+
 - *[[https://math.berkeley.edu/~gbergman/ug.hndts/#m110_Fr+Ins+Sp][George M. Bergman's Supplementary Materials]]*
 
   + Notes on Friedberg, Insel and Spence's "Linear Algebra":
