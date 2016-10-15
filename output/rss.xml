@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link rel="self" href="https://umus.github.io/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 15 Oct 2016 06:20:38 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161014 UT Math Academic Experience: CUMC Talks</title><link>https://umus.github.io/log/20161014-ut-math-academic-experience-cumc-talks.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" href="https://umus.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 15 Oct 2016 06:32:23 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161014 UT Math Academic Experience: CUMC Talks</title><link>https://umus.github.io/log/20161014-ut-math-academic-experience-cumc-talks.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -12,7 +12,7 @@ birthday).
 
 &lt;p&gt;
 From &lt;a href="https://www.quantamagazine.org/20160330-sphere-packing-solved-in-higher-dimensions/"&gt;the Leech lattice&lt;/a&gt;, &lt;a href="http://cs.smith.edu/~orourke/TOPP/P57.html#Problem.57"&gt;Hadwider-Nelson&lt;/a&gt; and beyond, there is a trove
-of known and unknown results in front of us.
+of known and unknown results awaiting our attention.
 &lt;/p&gt;
 
 &lt;p&gt;

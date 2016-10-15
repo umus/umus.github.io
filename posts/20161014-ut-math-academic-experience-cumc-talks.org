@@ -6,7 +6,7 @@ Morton-Ferguson (by the way, today, Saturday 15, is [[https://www.facebook.com/c
 birthday).
 
 From [[https://www.quantamagazine.org/20160330-sphere-packing-solved-in-higher-dimensions/][the Leech lattice]], [[http://cs.smith.edu/~orourke/TOPP/P57.html#Problem.57][Hadwider-Nelson]] and beyond, there is a trove
-of known and unknown results in front of us.
+of known and unknown results awaiting our attention.
 
 There are also happy news: Lola Bradford, Phil Blakey and Jessica
 (澄瑾) Liu have expressed their interest in joining our sessions.

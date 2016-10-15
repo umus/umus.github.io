@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1476512595.1501496
+_modified_time = 1476513142.9427028
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_facebook.tmpl'
 _template_uri = 'comments_helper_facebook.tmpl'
@@ -68,6 +68,6 @@ def render_comment_link_script(context):
 
 """
 __M_BEGIN_METADATA
-{"line_map": {"48": 28, "34": 2, "35": 8, "36": 8, "37": 25, "38": 25, "44": 28, "61": 32, "16": 0, "49": 29, "50": 29, "69": 63, "21": 26, "22": 30, "23": 62, "56": 32, "29": 2, "62": 46, "63": 46}, "uri": "comments_helper_facebook.tmpl", "source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_facebook.tmpl"}
+{"filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_facebook.tmpl", "source_encoding": "utf-8", "line_map": {"48": 28, "34": 2, "35": 8, "36": 8, "37": 25, "38": 25, "44": 28, "61": 32, "16": 0, "49": 29, "50": 29, "69": 63, "21": 26, "22": 30, "23": 62, "56": 32, "29": 2, "62": 46, "63": 46}, "uri": "comments_helper_facebook.tmpl"}
 __M_END_METADATA
 """
