@@ -538,7 +538,7 @@ SLUG_AUTHOR_PATH = True
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("log/last-session.html","ut-mat157-first-session.html"),
+REDIRECTIONS = [("log/last-session.html","20161014-ut-math-academic-experience-cumc-talks.html"),
                 ("log/last-notice.html", "20161014-mat157mat240-cumc-talks")]
 
 # Presets of commands to execute to deploy. Can be anything, for
