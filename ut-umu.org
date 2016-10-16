@@ -89,8 +89,8 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
 
 * Suggestions
 
-/The following are the suggestions and opinions from the participants/
-/regarding the sessions/.
+/The following are the suggestions from the participants regarding/
+/the sessions/.
 
 /The text is reproduced exactly as it has been received/.
 
@@ -131,8 +131,11 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
 
 * Comments
 
+/The following are the comments and opinions from the participants/
+regarding the sessions and related activities/.
+
 ** 20161014: CUMC Talks
 
-  - /I can't decide which talk I liked best! They were all great. I/
-    /was especially impressed that i felt like i understood most of/
-    /what they said. Which was deceptive, but still./
+  - I can't decide which talk I liked best! They were all great. I
+    was especially impressed that i felt like i understood most of
+    what they said. Which was deceptive, but still.
