@@ -77,15 +77,29 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
 
 *** Resources
 
-- [[http://www.math.ucla.edu/~tao/resource/general/115a.3.02f/][*Terry Tao's UCLA MAT115A Linear Algebra Course Notes*]]
+**** Professor Meinrenken's Recommended Problems from Friedberg /et al/:
 
-- *[[https://math.berkeley.edu/~gbergman/ug.hndts/#m110_Fr+Ins+Sp][George M. Bergman's Supplementary Materials]]*
+ |---------+---------+------------------------|
+ | Chapter | Section | Problems               |
+ |---------+---------+------------------------|
+ |       1 |     1.1 | 3                      |
+ |         |     1.2 | 1, 12, 18, 21          |
+ |         |     1.3 | 1, 19, 20, 22, 31      |
+ |         |     1.4 | 2, 3, 12, 13, 14, 15   |
+ |         |     1.5 | 1, 2, 3, 9, 10, 15, 18 |
+ |         |     1.6 | 1, 7, 9, 10            |
+ |---------+---------+------------------------|
 
-  + Notes on Friedberg, Insel and Spence's "Linear Algebra":
 
-    + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Friedberg_Insel_Additional_Exercises.pdf][Supplementary Extension Problems]]
-    + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Infinite_Bases.pdf][Alternative Treatment]] of Infinite Bases and Unique Expressions for Vectors
-    + [[file:../assets/ut-umu/MAT240/03_F_110+08_F_H110_q+a.txt][Answers to Students' Questions]]
+**** [[http://www.math.ucla.edu/~tao/resource/general/115a.3.02f/][*Terry Tao's UCLA MAT115A Linear Algebra Course Notes*]]
+
+**** *[[https://math.berkeley.edu/~gbergman/ug.hndts/#m110_Fr+Ins+Sp][George M. Bergman's Supplementary Materials]]*
+
+   + Notes on Friedberg, Insel and Spence's "Linear Algebra":
+
+     + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Friedberg_Insel_Additional_Exercises.pdf][Supplementary Extension Problems]]
+     + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Infinite_Bases.pdf][Alternative Treatment]] of Infinite Bases and Unique Expressions for Vectors
+     + [[file:../assets/ut-umu/MAT240/03_F_110+08_F_H110_q+a.txt][Answers to Students' Questions]]
 
 * Suggestions
 
