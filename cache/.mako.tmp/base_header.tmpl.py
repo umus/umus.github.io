@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1476764424.2872143
+_modified_time = 1476764453.9795651
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base_header.tmpl'
 _template_uri = 'base_header.tmpl'
@@ -45,10 +45,10 @@ def render_html_translation_header(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        translations = _import_ns.get('translations', context.get('translations', UNDEFINED))
         base = _mako_get_namespace(context, 'base')
-        len = _import_ns.get('len', context.get('len', UNDEFINED))
+        translations = _import_ns.get('translations', context.get('translations', UNDEFINED))
         messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        len = _import_ns.get('len', context.get('len', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n')
         if len(translations) > 1:
@@ -67,14 +67,14 @@ def render_html_navigation_links(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
-        rel_link = _import_ns.get('rel_link', context.get('rel_link', UNDEFINED))
-        isinstance = _import_ns.get('isinstance', context.get('isinstance', UNDEFINED))
-        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
-        navigation_links = _import_ns.get('navigation_links', context.get('navigation_links', UNDEFINED))
         lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
-        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        navigation_links = _import_ns.get('navigation_links', context.get('navigation_links', UNDEFINED))
+        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
+        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
         tuple = _import_ns.get('tuple', context.get('tuple', UNDEFINED))
+        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        isinstance = _import_ns.get('isinstance', context.get('isinstance', UNDEFINED))
+        rel_link = _import_ns.get('rel_link', context.get('rel_link', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    <nav id="menu">\n    <ul>\n')
         for url, text in navigation_links[lang]:
@@ -130,12 +130,12 @@ def render_html_header(context):
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         def html_translation_header():
             return render_html_translation_header(context)
+        search_form = _import_ns.get('search_form', context.get('search_form', UNDEFINED))
         template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
         def html_navigation_links():
             return render_html_navigation_links(context)
         def html_site_title():
             return render_html_site_title(context)
-        search_form = _import_ns.get('search_form', context.get('search_form', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    <header id="header">\n        ')
         __M_writer(str(html_site_title()))
@@ -162,10 +162,10 @@ def render_html_site_title(context):
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
-        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
-        logo_url = _import_ns.get('logo_url', context.get('logo_url', UNDEFINED))
         show_blog_title = _import_ns.get('show_blog_title', context.get('show_blog_title', UNDEFINED))
+        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
         blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
+        logo_url = _import_ns.get('logo_url', context.get('logo_url', UNDEFINED))
         abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    <h1 id="brand"><a href="')
@@ -190,6 +190,6 @@ def render_html_site_title(context):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"23": 2, "26": 0, "33": 2, "34": 16, "35": 28, "36": 57, "37": 66, "43": 59, "53": 59, "54": 60, "55": 61, "56": 62, "57": 62, "58": 63, "59": 63, "65": 30, "79": 30, "80": 33, "81": 34, "82": 35, "83": 35, "84": 35, "85": 37, "86": 38, "87": 39, "88": 39, "89": 39, "90": 39, "91": 39, "92": 39, "93": 39, "94": 40, "95": 41, "96": 41, "97": 41, "98": 41, "99": 41, "100": 44, "101": 45, "102": 46, "103": 47, "104": 47, "105": 47, "106": 47, "107": 47, "108": 47, "109": 47, "110": 48, "111": 49, "112": 49, "113": 49, "114": 49, "115": 49, "116": 53, "117": 53, "118": 53, "119": 54, "120": 54, "126": 4, "140": 4, "141": 6, "142": 6, "143": 7, "144": 7, "145": 8, "146": 8, "147": 9, "148": 10, "149": 11, "150": 11, "151": 14, "152": 15, "153": 15, "159": 18, "171": 18, "172": 19, "173": 19, "174": 19, "175": 19, "176": 20, "177": 21, "178": 21, "179": 21, "180": 23, "181": 24, "182": 25, "183": 25, "184": 25, "185": 27, "191": 185}, "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base_header.tmpl", "uri": "base_header.tmpl"}
+{"uri": "base_header.tmpl", "source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base_header.tmpl", "line_map": {"23": 2, "26": 0, "33": 2, "34": 16, "35": 28, "36": 57, "37": 66, "43": 59, "53": 59, "54": 60, "55": 61, "56": 62, "57": 62, "58": 63, "59": 63, "65": 30, "79": 30, "80": 33, "81": 34, "82": 35, "83": 35, "84": 35, "85": 37, "86": 38, "87": 39, "88": 39, "89": 39, "90": 39, "91": 39, "92": 39, "93": 39, "94": 40, "95": 41, "96": 41, "97": 41, "98": 41, "99": 41, "100": 44, "101": 45, "102": 46, "103": 47, "104": 47, "105": 47, "106": 47, "107": 47, "108": 47, "109": 47, "110": 48, "111": 49, "112": 49, "113": 49, "114": 49, "115": 49, "116": 53, "117": 53, "118": 53, "119": 54, "120": 54, "126": 4, "140": 4, "141": 6, "142": 6, "143": 7, "144": 7, "145": 8, "146": 8, "147": 9, "148": 10, "149": 11, "150": 11, "151": 14, "152": 15, "153": 15, "159": 18, "171": 18, "172": 19, "173": 19, "174": 19, "175": 19, "176": 20, "177": 21, "178": 21, "179": 21, "180": 23, "181": 24, "182": 25, "183": 25, "184": 25, "185": 27, "191": 185}}
 __M_END_METADATA
 """
