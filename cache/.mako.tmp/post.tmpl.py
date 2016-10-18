@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1476749139.5173204
+_modified_time = 1476749310.4981468
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post.tmpl'
 _template_uri = 'post.tmpl'
@@ -36,17 +36,17 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        post = context.get('post', UNDEFINED)
-        helper = _mako_get_namespace(context, 'helper')
-        pheader = _mako_get_namespace(context, 'pheader')
         def content():
             return render_content(context._locals(__M_locals))
+        comments = _mako_get_namespace(context, 'comments')
+        pheader = _mako_get_namespace(context, 'pheader')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        helper = _mako_get_namespace(context, 'helper')
+        messages = context.get('messages', UNDEFINED)
+        post = context.get('post', UNDEFINED)
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
-        comments = _mako_get_namespace(context, 'comments')
         parent = context.get('parent', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -70,14 +70,14 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        messages = context.get('messages', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         def content():
             return render_content(context)
-        comments = _mako_get_namespace(context, 'comments')
+        messages = context.get('messages', UNDEFINED)
+        pheader = _mako_get_namespace(context, 'pheader')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
         post = context.get('post', UNDEFINED)
         helper = _mako_get_namespace(context, 'helper')
-        pheader = _mako_get_namespace(context, 'pheader')
+        comments = _mako_get_namespace(context, 'comments')
         __M_writer = context.writer()
         __M_writer('\n<article class="post-')
         __M_writer(str(post.meta('type')))
@@ -111,9 +111,9 @@ def render_extra_head(context,**pageargs):
     try:
         post = context.get('post', UNDEFINED)
         helper = _mako_get_namespace(context, 'helper')
-        parent = context.get('parent', UNDEFINED)
         def extra_head():
             return render_extra_head(context)
+        parent = context.get('parent', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n    ')
         __M_writer(str(parent.extra_head()))
@@ -157,6 +157,6 @@ def render_extra_head(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"128": 13, "129": 15, "130": 15, "131": 15, "132": 16, "133": 17, "134": 17, "135": 17, "136": 17, "137": 17, "138": 19, "139": 20, "140": 20, "141": 20, "142": 20, "143": 20, "144": 22, "145": 23, "146": 25, "147": 25, "148": 25, "149": 26, "150": 26, "23": 2, "152": 27, "26": 4, "29": 3, "158": 152, "35": 0, "51": 2, "52": 3, "53": 4, "54": 5, "59": 28, "151": 27, "64": 51, "70": 30, "82": 30, "83": 31, "84": 31, "85": 32, "86": 32, "87": 34, "88": 34, "89": 38, "90": 38, "91": 39, "92": 39, "93": 42, "94": 43, "95": 44, "96": 44, "97": 45, "98": 45, "99": 48, "100": 48, "101": 48, "102": 50, "103": 50, "109": 7, "118": 7, "119": 8, "120": 8, "121": 9, "122": 10, "123": 10, "124": 10, "125": 12, "126": 13, "127": 13}, "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post.tmpl", "uri": "post.tmpl"}
+{"uri": "post.tmpl", "source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post.tmpl", "line_map": {"128": 13, "129": 15, "130": 15, "131": 15, "132": 16, "133": 17, "134": 17, "135": 17, "136": 17, "137": 17, "138": 19, "139": 20, "140": 20, "141": 20, "142": 20, "143": 20, "144": 22, "145": 23, "146": 25, "147": 25, "148": 25, "149": 26, "150": 26, "23": 2, "152": 27, "26": 4, "29": 3, "158": 152, "35": 0, "51": 2, "52": 3, "53": 4, "54": 5, "59": 28, "151": 27, "64": 51, "70": 30, "82": 30, "83": 31, "84": 31, "85": 32, "86": 32, "87": 34, "88": 34, "89": 38, "90": 38, "91": 39, "92": 39, "93": 42, "94": 43, "95": 44, "96": 44, "97": 45, "98": 45, "99": 48, "100": 48, "101": 48, "102": 50, "103": 50, "109": 7, "118": 7, "119": 8, "120": 8, "121": 9, "122": 10, "123": 10, "124": 10, "125": 12, "126": 13, "127": 13}}
 __M_END_METADATA
 """
