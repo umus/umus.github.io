@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1476764120.8274465
+_modified_time = 1476764195.0273824
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/index_helper.tmpl'
 _template_uri = 'index_helper.tmpl'
@@ -28,8 +28,8 @@ def render_body(context,**pageargs):
 def render_html_pager(context):
     __M_caller = context.caller_stack._push_frame()
     try:
-        prevlink = context.get('prevlink', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
+        prevlink = context.get('prevlink', UNDEFINED)
         nextlink = context.get('nextlink', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
@@ -56,9 +56,9 @@ def render_html_pager(context):
 def render_mathjax_script(context,posts):
     __M_caller = context.caller_stack._push_frame()
     try:
+        mathjax_config = context.get('mathjax_config', UNDEFINED)
         any = context.get('any', UNDEFINED)
         use_katex = context.get('use_katex', UNDEFINED)
-        mathjax_config = context.get('mathjax_config', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if any(post.is_mathjax for post in posts):
@@ -79,6 +79,6 @@ def render_mathjax_script(context,posts):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/index_helper.tmpl", "uri": "index_helper.tmpl", "line_map": {"64": 22, "65": 23, "66": 24, "67": 29, "68": 30, "69": 31, "70": 32, "71": 32, "72": 32, "73": 33, "74": 34, "16": 0, "21": 19, "22": 40, "28": 2, "80": 74, "35": 2, "36": 3, "37": 4, "38": 6, "39": 7, "40": 8, "41": 8, "42": 8, "43": 8, "44": 11, "45": 12, "46": 13, "47": 13, "48": 13, "49": 13, "50": 16, "56": 21, "63": 21}}
+{"uri": "index_helper.tmpl", "line_map": {"64": 22, "65": 23, "66": 24, "67": 29, "68": 30, "69": 31, "70": 32, "71": 32, "72": 32, "73": 33, "74": 34, "16": 0, "21": 19, "22": 40, "28": 2, "80": 74, "35": 2, "36": 3, "37": 4, "38": 6, "39": 7, "40": 8, "41": 8, "42": 8, "43": 8, "44": 11, "45": 12, "46": 13, "47": 13, "48": 13, "49": 13, "50": 16, "56": 21, "63": 21}, "source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/index_helper.tmpl"}
 __M_END_METADATA
 """
