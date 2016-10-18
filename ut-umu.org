@@ -90,6 +90,12 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
  |         |     1.6 | 1, 7, 9, 10            |
  |---------+---------+------------------------|
 
+**** UT Past October Midterms
+
+- [[http://wiki.math.toronto.edu/TorontoMathWiki/images/1/15/10-240-TE.pdf][Fall 2010]]
+- [[http://wiki.math.toronto.edu/TorontoMathWiki/images/7/78/TE.pdf][Fall 2011]]
+- [[http://drorbn.net/AcademicPensieve/Classes/12-240/TT.pdf][Fall 2012]]
+- [[http://drorbn.net/AcademicPensieve/Classes/14-240/TT-240.pdf][Fall 2014]]
 
 **** [[http://www.math.ucla.edu/~tao/resource/general/115a.3.02f/][*Terry Tao's UCLA MAT115A Linear Algebra Course Notes*]]
 
