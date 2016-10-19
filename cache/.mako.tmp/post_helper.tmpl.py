@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1476821695.6987376
+_modified_time = 1476853952.6823256
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl'
 _template_uri = 'post_helper.tmpl'
@@ -33,8 +33,8 @@ def render_body(context,**pageargs):
 def render_html_tags(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        _link = context.get('_link', UNDEFINED)
         hidden_tags = context.get('hidden_tags', UNDEFINED)
+        _link = context.get('_link', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if post.tags:
@@ -55,12 +55,12 @@ def render_html_tags(context,post):
 def render_open_graph_metadata(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        lang = context.get('lang', UNDEFINED)
         permalink = context.get('permalink', UNDEFINED)
-        url_replacer = context.get('url_replacer', UNDEFINED)
-        use_open_graph = context.get('use_open_graph', UNDEFINED)
         abs_link = context.get('abs_link', UNDEFINED)
+        use_open_graph = context.get('use_open_graph', UNDEFINED)
         blog_title = context.get('blog_title', UNDEFINED)
+        lang = context.get('lang', UNDEFINED)
+        url_replacer = context.get('url_replacer', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if use_open_graph:
@@ -132,8 +132,8 @@ def render_twitter_card_information(context,post):
 def render_mathjax_script(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        use_katex = context.get('use_katex', UNDEFINED)
         mathjax_config = context.get('mathjax_config', UNDEFINED)
+        use_katex = context.get('use_katex', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if post.is_mathjax:
@@ -185,10 +185,10 @@ def render_html_pager(context,post):
 def render_meta_translations(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        len = context.get('len', UNDEFINED)
-        translations = context.get('translations', UNDEFINED)
         sorted = context.get('sorted', UNDEFINED)
         lang = context.get('lang', UNDEFINED)
+        len = context.get('len', UNDEFINED)
+        translations = context.get('translations', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if len(translations) > 1:
@@ -206,6 +206,6 @@ def render_meta_translations(context,post):
 
 """
 __M_BEGIN_METADATA
-{"filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl", "source_encoding": "utf-8", "uri": "post_helper.tmpl", "line_map": {"16": 0, "21": 2, "22": 11, "23": 23, "24": 40, "25": 69, "26": 85, "27": 106, "33": 13, "39": 13, "40": 14, "41": 15, "42": 16, "43": 17, "44": 18, "45": 18, "46": 18, "47": 18, "48": 18, "49": 21, "55": 42, "65": 42, "66": 43, "67": 44, "68": 44, "69": 44, "70": 45, "71": 45, "72": 46, "73": 46, "74": 47, "75": 48, "76": 48, "77": 48, "78": 49, "79": 50, "80": 50, "81": 50, "82": 52, "83": 53, "84": 53, "85": 53, "86": 55, "87": 60, "88": 61, "89": 61, "90": 61, "91": 63, "92": 64, "93": 65, "94": 65, "95": 65, "101": 71, "106": 71, "107": 72, "108": 73, "109": 73, "110": 73, "111": 74, "112": 75, "113": 75, "114": 75, "115": 76, "116": 77, "117": 77, "118": 77, "119": 79, "120": 80, "121": 80, "122": 80, "123": 81, "124": 82, "125": 82, "126": 82, "132": 87, "138": 87, "139": 88, "140": 89, "141": 90, "142": 95, "143": 96, "144": 97, "145": 98, "146": 98, "147": 98, "148": 99, "149": 100, "155": 25, "160": 25, "161": 26, "162": 27, "163": 28, "164": 29, "165": 30, "166": 30, "167": 30, "168": 30, "169": 30, "170": 30, "171": 33, "172": 34, "173": 35, "174": 35, "175": 35, "176": 35, "177": 35, "178": 35, "179": 38, "185": 3, "193": 3, "194": 4, "195": 5, "196": 6, "197": 7, "198": 7, "199": 7, "200": 7, "201": 7, "207": 201}}
+{"uri": "post_helper.tmpl", "source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/post_helper.tmpl", "line_map": {"16": 0, "21": 2, "22": 11, "23": 23, "24": 40, "25": 69, "26": 85, "27": 106, "33": 13, "39": 13, "40": 14, "41": 15, "42": 16, "43": 17, "44": 18, "45": 18, "46": 18, "47": 18, "48": 18, "49": 21, "55": 42, "65": 42, "66": 43, "67": 44, "68": 44, "69": 44, "70": 45, "71": 45, "72": 46, "73": 46, "74": 47, "75": 48, "76": 48, "77": 48, "78": 49, "79": 50, "80": 50, "81": 50, "82": 52, "83": 53, "84": 53, "85": 53, "86": 55, "87": 60, "88": 61, "89": 61, "90": 61, "91": 63, "92": 64, "93": 65, "94": 65, "95": 65, "101": 71, "106": 71, "107": 72, "108": 73, "109": 73, "110": 73, "111": 74, "112": 75, "113": 75, "114": 75, "115": 76, "116": 77, "117": 77, "118": 77, "119": 79, "120": 80, "121": 80, "122": 80, "123": 81, "124": 82, "125": 82, "126": 82, "132": 87, "138": 87, "139": 88, "140": 89, "141": 90, "142": 95, "143": 96, "144": 97, "145": 98, "146": 98, "147": 98, "148": 99, "149": 100, "155": 25, "160": 25, "161": 26, "162": 27, "163": 28, "164": 29, "165": 30, "166": 30, "167": 30, "168": 30, "169": 30, "170": 30, "171": 33, "172": 34, "173": 35, "174": 35, "175": 35, "176": 35, "177": 35, "178": 35, "179": 38, "185": 3, "193": 3, "194": 4, "195": 5, "196": 6, "197": 7, "198": 7, "199": 7, "200": 7, "201": 7, "207": 201}}
 __M_END_METADATA
 """
