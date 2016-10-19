@@ -74,16 +74,16 @@ Mooroogen:/
 
 **** Professor [[https://www.math.ucdavis.edu/~emsilvia/math127/math127.html][Evelyn Silvia]]'s Companion Notes to Baby Rudin
 
-  + [[file:../assets/ut-umu/MAT157/PMA/0.pdf][Introduction]]
-  + [[file:../assets/ut-umu/MAT157/PMA/1.pdf][Chapter 1]]
-  + [[file:../assets/ut-umu/MAT157/PMA/2.pdf][Chapter 2]]
-  + [[file:../assets/ut-umu/MAT157/PMA/3.pdf][Chapter 3]]
-  + [[file:../assets/ut-umu/MAT157/PMA/4.pdf][Chapter 4]]
-  + [[file:../assets/ut-umu/MAT157/PMA/5.pdf][Chapter 5]]
-  + [[file:../assets/ut-umu/MAT157/PMA/6.pdf][Chapter 6]]
-  + [[file:../assets/ut-umu/MAT157/PMA/7.pdf][Chapter 7]]
-  + [[file:../assets/ut-umu/MAT157/PMA/8.pdf][Chapter 8]]
-  + [[file:../assets/ut-umu/MAT157/PMA/9.pdf][Chapter 9]]
+  + [[file:../assets/ut-umu/MAT157/PMA/0.pdf][Introduction & Table of Contents]]
+  + [[file:../assets/ut-umu/MAT157/PMA/1.pdf][Chapter 1: The Field of Reals and Beyond]]
+  + [[file:../assets/ut-umu/MAT157/PMA/2.pdf][Chapter 2: From Finite to Uncoutable Sets]]
+  + [[file:../assets/ut-umu/MAT157/PMA/3.pdf][Chapter 3: Metric Spaces and Some Basic Topology]]
+  + [[file:../assets/ut-umu/MAT157/PMA/4.pdf][Chapter 4: Sequence and Series--First View]]
+  + [[file:../assets/ut-umu/MAT157/PMA/5.pdf][Chapter 5: Functions on Metric Spaces and Continuity]]
+  + [[file:../assets/ut-umu/MAT157/PMA/6.pdf][Chapter 6: Differentiation: Our First View ]]
+  + [[file:../assets/ut-umu/MAT157/PMA/7.pdf][Chapter 7: Riemann-Stieltjes Integration]]
+  + [[file:../assets/ut-umu/MAT157/PMA/8.pdf][Chapter 8: Sequences and Series of Functions]]
+  + [[file:../assets/ut-umu/MAT157/PMA/9.pdf][Chapter 9: Some Special Functions]]
   + [[file:../assets/ut-umu/MAT157/PMA/10.pdf][Index]]
 
 
