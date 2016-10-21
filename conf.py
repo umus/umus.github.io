@@ -539,7 +539,7 @@ SLUG_AUTHOR_PATH = True
 #
 # If you don't need any of these, just set to []
 REDIRECTIONS = [("log/last-session.html","20161014-ut-math-academic-experience-cumc-talks.html"),
-                ("log/last-notice.html", "20161018-ut-mat240-past-midterms.html")]
+                ("log/last-notice.html", "20161021-ut-mat157mat240-study-session-ii.html")]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
