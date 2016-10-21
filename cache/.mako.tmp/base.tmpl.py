@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1476854325.6890798
+_modified_time = 1477044317.835106
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base.tmpl'
 _template_uri = 'base.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['extra_js', 'content', 'extra_head']
+_exports = ['content', 'extra_js', 'extra_head']
 
 
 def _mako_get_namespace(context, name):
@@ -40,20 +40,20 @@ def render_body(context,**pageargs):
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'header')._populate(_import_ns, ['*'])
-        set_locale = _import_ns.get('set_locale', context.get('set_locale', UNDEFINED))
         footer = _mako_get_namespace(context, 'footer')
-        def content():
-            return render_content(context._locals(__M_locals))
-        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
-        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
-        def extra_head():
-            return render_extra_head(context._locals(__M_locals))
-        base = _mako_get_namespace(context, 'base')
-        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
-        body_end = _import_ns.get('body_end', context.get('body_end', UNDEFINED))
-        header = _mako_get_namespace(context, 'header')
         def extra_js():
             return render_extra_js(context._locals(__M_locals))
+        body_end = _import_ns.get('body_end', context.get('body_end', UNDEFINED))
+        header = _mako_get_namespace(context, 'header')
+        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
+        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        base = _mako_get_namespace(context, 'base')
+        set_locale = _import_ns.get('set_locale', context.get('set_locale', UNDEFINED))
+        def content():
+            return render_content(context._locals(__M_locals))
+        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
+        def extra_head():
+            return render_extra_head(context._locals(__M_locals))
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -97,21 +97,6 @@ def render_body(context,**pageargs):
         context.caller_stack._pop_frame()
 
 
-def render_extra_js(context,**pageargs):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        _import_ns = {}
-        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
-        _mako_get_namespace(context, 'header')._populate(_import_ns, ['*'])
-        def extra_js():
-            return render_extra_js(context)
-        __M_writer = context.writer()
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
@@ -121,6 +106,21 @@ def render_content(context,**pageargs):
         _mako_get_namespace(context, 'header')._populate(_import_ns, ['*'])
         def content():
             return render_content(context)
+        __M_writer = context.writer()
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+def render_extra_js(context,**pageargs):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        _import_ns = {}
+        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
+        _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
+        _mako_get_namespace(context, 'header')._populate(_import_ns, ['*'])
+        def extra_js():
+            return render_extra_js(context)
         __M_writer = context.writer()
         return ''
     finally:
@@ -145,6 +145,6 @@ def render_extra_head(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base.tmpl", "line_map": {"64": 7, "65": 7, "130": 8, "70": 10, "71": 11, "72": 11, "73": 14, "74": 14, "75": 16, "76": 16, "81": 18, "82": 20, "83": 20, "84": 22, "85": 22, "23": 2, "26": 4, "91": 24, "92": 24, "29": 5, "94": 25, "32": 3, "35": 0, "100": 23, "90": 23, "146": 140, "93": 25, "140": 8, "115": 18, "58": 2, "59": 3, "60": 4, "61": 5, "62": 6, "63": 6}, "uri": "base.tmpl", "source_encoding": "utf-8"}
+{"uri": "base.tmpl", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base.tmpl", "source_encoding": "utf-8", "line_map": {"64": 7, "65": 7, "130": 8, "70": 10, "71": 11, "72": 11, "73": 14, "74": 14, "75": 16, "76": 16, "81": 18, "82": 20, "83": 20, "84": 22, "85": 22, "23": 2, "26": 4, "91": 24, "92": 24, "29": 5, "94": 25, "32": 3, "35": 0, "100": 18, "90": 23, "146": 140, "93": 25, "140": 8, "115": 23, "58": 2, "59": 3, "60": 4, "61": 5, "62": 6, "63": 6}}
 __M_END_METADATA
 """
