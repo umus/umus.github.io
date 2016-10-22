@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1477097724.4802196
+_modified_time = 1477097805.0106385
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base.tmpl'
 _template_uri = 'base.tmpl'
@@ -20,9 +20,6 @@ def _mako_get_namespace(context, name):
         _mako_generate_namespaces(context)
         return context.namespaces[(__name__, name)]
 def _mako_generate_namespaces(context):
-    ns = runtime.TemplateNamespace('base', context._clean_inheritance_tokens(), templateuri='base_helper.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'base')] = ns
-
     ns = runtime.TemplateNamespace('footer', context._clean_inheritance_tokens(), templateuri='base_footer.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'footer')] = ns
 
@@ -32,28 +29,31 @@ def _mako_generate_namespaces(context):
     ns = runtime.TemplateNamespace('annotations', context._clean_inheritance_tokens(), templateuri='annotation_helper.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'annotations')] = ns
 
+    ns = runtime.TemplateNamespace('base', context._clean_inheritance_tokens(), templateuri='base_helper.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'base')] = ns
+
 def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         _import_ns = {}
-        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'header')._populate(_import_ns, ['*'])
-        base = _mako_get_namespace(context, 'base')
-        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
-        header = _mako_get_namespace(context, 'header')
-        set_locale = _import_ns.get('set_locale', context.get('set_locale', UNDEFINED))
+        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         footer = _mako_get_namespace(context, 'footer')
+        header = _mako_get_namespace(context, 'header')
+        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
         def extra_js():
             return render_extra_js(context._locals(__M_locals))
-        def content():
-            return render_content(context._locals(__M_locals))
-        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
-        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
+        set_locale = _import_ns.get('set_locale', context.get('set_locale', UNDEFINED))
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
+        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
         body_end = _import_ns.get('body_end', context.get('body_end', UNDEFINED))
+        def content():
+            return render_content(context._locals(__M_locals))
+        base = _mako_get_namespace(context, 'base')
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -101,9 +101,9 @@ def render_extra_js(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         _import_ns = {}
-        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'header')._populate(_import_ns, ['*'])
+        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         def extra_js():
             return render_extra_js(context)
         __M_writer = context.writer()
@@ -116,9 +116,9 @@ def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         _import_ns = {}
-        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'header')._populate(_import_ns, ['*'])
+        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         def content():
             return render_content(context)
         __M_writer = context.writer()
@@ -131,9 +131,9 @@ def render_extra_head(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         _import_ns = {}
-        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'header')._populate(_import_ns, ['*'])
+        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         def extra_head():
             return render_extra_head(context)
         __M_writer = context.writer()
@@ -145,6 +145,6 @@ def render_extra_head(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base.tmpl", "uri": "base.tmpl", "line_map": {"64": 7, "65": 7, "130": 8, "70": 10, "71": 11, "72": 11, "73": 14, "74": 14, "75": 16, "76": 16, "81": 18, "82": 20, "83": 20, "84": 22, "85": 22, "23": 2, "26": 4, "91": 24, "92": 24, "29": 3, "94": 25, "32": 5, "35": 0, "100": 23, "90": 23, "146": 140, "93": 25, "140": 8, "115": 18, "58": 2, "59": 3, "60": 4, "61": 5, "62": 6, "63": 6}, "source_encoding": "utf-8"}
+{"line_map": {"64": 7, "65": 7, "130": 8, "70": 10, "71": 11, "72": 11, "73": 14, "74": 14, "75": 16, "76": 16, "81": 18, "82": 20, "83": 20, "84": 22, "85": 22, "23": 4, "26": 3, "91": 24, "92": 24, "29": 5, "94": 25, "32": 2, "35": 0, "100": 23, "90": 23, "146": 140, "93": 25, "140": 8, "115": 18, "58": 2, "59": 3, "60": 4, "61": 5, "62": 6, "63": 6}, "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base.tmpl", "uri": "base.tmpl", "source_encoding": "utf-8"}
 __M_END_METADATA
 """

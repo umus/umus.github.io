@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 22 Oct 2016 00:50:46 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161021 MAT157/MAT240: Preparation for Study Session III</title><link>https://umus.github.io/log/20161021-mat157mat240-preparation-for-study-session-iii.html</link><dc:creator>umu</dc:creator><description>&lt;script src="https://umus.github.io/assets/scripts/jquery-1.12.2.min.js"&gt;&lt;/script&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" href="https://umus.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 22 Oct 2016 00:56:44 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161021 UT MAT157/MAT240: Preparation for Study Session III</title><link>https://umus.github.io/log/20161021-ut-mat157mat240-preparation-for-study-session-iii.html</link><dc:creator>umu</dc:creator><description>&lt;script src="https://umus.github.io/assets/scripts/jquery-1.12.2.min.js"&gt;&lt;/script&gt;
 &lt;link rel="stylesheet" href="https://umus.github.io/assets/scripts/katex/katex.min.css"&gt;
 &lt;script src="https://umus.github.io/assets/scripts/katex/katex.min.js"&gt;&lt;/script&gt;
 &lt;script src="https://umus.github.io/assets/scripts/katex/contrib/auto-render.min.js"&gt;&lt;/script&gt;
@@ -84,7 +84,7 @@ delimiters: [
 ]
 }
 );
-&lt;/script&gt;</description><guid>https://umus.github.io/log/20161021-mat157mat240-preparation-for-study-session-iii.html</guid><pubDate>Fri, 21 Oct 2016 23:25:43 GMT</pubDate></item><item><title>20161021 UT MAT157/MAT240: Study Session II</title><link>https://umus.github.io/log/20161021-ut-mat157mat240-study-session-ii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+&lt;/script&gt;</description><guid>https://umus.github.io/log/20161021-ut-mat157mat240-preparation-for-study-session-iii.html</guid><pubDate>Fri, 21 Oct 2016 23:25:43 GMT</pubDate></item><item><title>20161021 UT MAT157/MAT240: Study Session II</title><link>https://umus.github.io/log/20161021-ut-mat157mat240-study-session-ii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
