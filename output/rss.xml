@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 21 Oct 2016 10:05:18 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161021 UT MAT157/MAT240: Study Session II</title><link>https://umus.github.io/log/20161021-ut-mat157mat240-study-session-ii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 22 Oct 2016 00:50:46 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161021 MAT157/MAT240: Preparation for Study Session III</title><link>https://umus.github.io/log/20161021-mat157mat240-preparation-for-study-session-iii.html</link><dc:creator>umu</dc:creator><description>&lt;script src="https://umus.github.io/assets/scripts/jquery-1.12.2.min.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="https://umus.github.io/assets/scripts/katex/katex.min.css"&gt;
+&lt;script src="https://umus.github.io/assets/scripts/katex/katex.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://umus.github.io/assets/scripts/katex/contrib/auto-render.min.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+I am extremely grateful to all of you who have come today and made the
+session productive.
+&lt;/p&gt;
+
+&lt;p&gt;
+It has been a pleasure to study in the environment full of initiative
+and support. Thanks to all of you who have asked questions, dared to
+be confused and took a risk of showing what and how they think in
+front of a dozen of peers.
+&lt;/p&gt;
+
+&lt;p&gt;
+I hope you have found something useful in the session today. If not,
+it would be great to hear what might have been done better. And the
+suggestions of interesting topics or problems you may wish to add to
+the agenda in the future are hugely welcomed!
+&lt;/p&gt;
+
+&lt;p&gt;
+Following the discussion of the Nested Interval Theorem, which turns
+out to be a consequence of &lt;a href="http://mathworld.wolfram.com/CantorsIntersectionTheorem.html"&gt;Cantor's Intersection Theorem&lt;/a&gt;, here is the
+problem from Spivak with which the Intermediate Value Theorem can be
+proven differently from how it has been done in class:
+&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;
+Suppose $$f$$ is continuous on $$[a, b]$$ and $$f(a) &amp;lt; 0 &amp;lt; f(b)$$.
+&lt;/p&gt;
+
+&lt;p&gt;
+Then either $$f(\frac{a + b}{2}) = 0$$,
+or $$f$$ has different signs at the end points of $$[a, \frac{a+b}{2}]$$,
+or $$f$$ has different signs at the end points of $$[\frac{a + b}{2}, b]$$.
+&lt;/p&gt;
+
+&lt;p&gt;
+Why?
+&lt;/p&gt;
+
+&lt;p&gt;
+If $$f(\frac{a + b}{2}) \neq 0$$, let $$I_1$$ be one of the two
+intervals on which $$f$$ changes sign. Now bisect $$I_1$$. Either $$f$$
+is $$0$$ at the midpoint, or $$f$$ changes sign on one of the two
+intervals. Let $$I_2$$ be such an interval. Continue in this way, to
+define $$I_n$$ for each $$n$$ (unless $$f$$ is $$0$$ at some
+midpoint). Use the Nested Interval Theorem to find a point $$x$$ where
+$$f(x) = 0$$.
+&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;
+I hope you have a refreshing weekend.
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;
+
+&lt;script&gt;
+renderMathInElement(
+document.body,
+{
+delimiters: [
+{left: "$$$", right: "$$$", display: true},
+{left: "$$", right: "$$", display: false},
+]
+}
+);
+&lt;/script&gt;</description><guid>https://umus.github.io/log/20161021-mat157mat240-preparation-for-study-session-iii.html</guid><pubDate>Fri, 21 Oct 2016 23:25:43 GMT</pubDate></item><item><title>20161021 UT MAT157/MAT240: Study Session II</title><link>https://umus.github.io/log/20161021-ut-mat157mat240-study-session-ii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 

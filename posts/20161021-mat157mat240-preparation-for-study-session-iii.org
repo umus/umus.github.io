@@ -1,0 +1,66 @@
+#+begin_html
+<script src="/assets/scripts/jquery-1.12.2.min.js"></script>
+<link rel="stylesheet" href="/assets/scripts/katex/katex.min.css">
+<script src="/assets/scripts/katex/katex.min.js"></script>
+<script src="/assets/scripts/katex/contrib/auto-render.min.js"></script>
+#+end_html
+
+Team,
+
+I am extremely grateful to all of you who have come today and made the
+session productive.
+
+It has been a pleasure to study in the environment full of initiative
+and support. Thanks to all of you who have asked questions, dared to
+be confused and took a risk of showing what and how they think in
+front of a dozen of peers.
+
+I hope you have found something useful in the session today. If not,
+it would be great to hear what might have been done better. And the
+suggestions of interesting topics or problems you may wish to add to
+the agenda in the future are hugely welcomed!
+
+Following the discussion of the Nested Interval Theorem, which turns
+out to be a consequence of [[http://mathworld.wolfram.com/CantorsIntersectionTheorem.html][Cantor's Intersection Theorem]], here is the
+problem from Spivak with which the Intermediate Value Theorem can be
+proven differently from how it has been done in class:
+
+---------------------------------------------
+
+Suppose $$f$$ is continuous on $$[a, b]$$ and $$f(a) < 0 < f(b)$$.
+
+Then either $$f(\frac{a + b}{2}) = 0$$,
+or $$f$$ has different signs at the end points of $$[a, \frac{a+b}{2}]$$,
+or $$f$$ has different signs at the end points of $$[\frac{a + b}{2}, b]$$.
+
+Why?
+
+If $$f(\frac{a + b}{2}) \neq 0$$, let $$I_1$$ be one of the two
+intervals on which $$f$$ changes sign. Now bisect $$I_1$$. Either $$f$$
+is $$0$$ at the midpoint, or $$f$$ changes sign on one of the two
+intervals. Let $$I_2$$ be such an interval. Continue in this way, to
+define $$I_n$$ for each $$n$$ (unless $$f$$ is $$0$$ at some
+midpoint). Use the Nested Interval Theorem to find a point $$x$$ where
+$$f(x) = 0$$.
+
+---------------------------------------------
+
+I hope you have a refreshing weekend.
+
+Onwards!
+
+-- sasha
+
+#+begin_html
+<script>
+renderMathInElement(
+document.body,
+{
+delimiters: [
+{left: "$$$", right: "$$$", display: true},
+{left: "$$", right: "$$", display: false},
+]
+}
+);
+</script>
+#+end_html
