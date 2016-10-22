@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1477097842.064743
+_modified_time = 1477097881.7383416
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper.tmpl'
 _template_uri = 'comments_helper.tmpl'
@@ -20,8 +20,8 @@ def _mako_get_namespace(context, name):
         _mako_generate_namespaces(context)
         return context.namespaces[(__name__, name)]
 def _mako_generate_namespaces(context):
-    ns = runtime.TemplateNamespace('disqus', context._clean_inheritance_tokens(), templateuri='comments_helper_disqus.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'disqus')] = ns
+    ns = runtime.TemplateNamespace('intensedebate', context._clean_inheritance_tokens(), templateuri='comments_helper_intensedebate.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'intensedebate')] = ns
 
     ns = runtime.TemplateNamespace('muut', context._clean_inheritance_tokens(), templateuri='comments_helper_muut.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'muut')] = ns
@@ -29,17 +29,17 @@ def _mako_generate_namespaces(context):
     ns = runtime.TemplateNamespace('facebook', context._clean_inheritance_tokens(), templateuri='comments_helper_facebook.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'facebook')] = ns
 
-    ns = runtime.TemplateNamespace('googleplus', context._clean_inheritance_tokens(), templateuri='comments_helper_googleplus.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'googleplus')] = ns
+    ns = runtime.TemplateNamespace('isso', context._clean_inheritance_tokens(), templateuri='comments_helper_isso.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'isso')] = ns
 
-    ns = runtime.TemplateNamespace('intensedebate', context._clean_inheritance_tokens(), templateuri='comments_helper_intensedebate.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'intensedebate')] = ns
+    ns = runtime.TemplateNamespace('disqus', context._clean_inheritance_tokens(), templateuri='comments_helper_disqus.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'disqus')] = ns
 
     ns = runtime.TemplateNamespace('livefyre', context._clean_inheritance_tokens(), templateuri='comments_helper_livefyre.tmpl', callables=None,  calling_uri=_template_uri)
     context.namespaces[(__name__, 'livefyre')] = ns
 
-    ns = runtime.TemplateNamespace('isso', context._clean_inheritance_tokens(), templateuri='comments_helper_isso.tmpl', callables=None,  calling_uri=_template_uri)
-    context.namespaces[(__name__, 'isso')] = ns
+    ns = runtime.TemplateNamespace('googleplus', context._clean_inheritance_tokens(), templateuri='comments_helper_googleplus.tmpl', callables=None,  calling_uri=_template_uri)
+    context.namespaces[(__name__, 'googleplus')] = ns
 
 def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
@@ -66,13 +66,13 @@ def render_comment_form(context,url,title,identifier):
     __M_caller = context.caller_stack._push_frame()
     try:
         disqus = _mako_get_namespace(context, 'disqus')
-        intensedebate = _mako_get_namespace(context, 'intensedebate')
         facebook = _mako_get_namespace(context, 'facebook')
+        intensedebate = _mako_get_namespace(context, 'intensedebate')
         muut = _mako_get_namespace(context, 'muut')
         comment_system = context.get('comment_system', UNDEFINED)
-        googleplus = _mako_get_namespace(context, 'googleplus')
         isso = _mako_get_namespace(context, 'isso')
         livefyre = _mako_get_namespace(context, 'livefyre')
+        googleplus = _mako_get_namespace(context, 'googleplus')
         __M_writer = context.writer()
         __M_writer('\n')
         if comment_system == 'disqus':
@@ -112,13 +112,13 @@ def render_comment_link_script(context):
     __M_caller = context.caller_stack._push_frame()
     try:
         disqus = _mako_get_namespace(context, 'disqus')
-        intensedebate = _mako_get_namespace(context, 'intensedebate')
         facebook = _mako_get_namespace(context, 'facebook')
+        intensedebate = _mako_get_namespace(context, 'intensedebate')
         muut = _mako_get_namespace(context, 'muut')
         comment_system = context.get('comment_system', UNDEFINED)
         googleplus = _mako_get_namespace(context, 'googleplus')
-        isso = _mako_get_namespace(context, 'isso')
         livefyre = _mako_get_namespace(context, 'livefyre')
+        isso = _mako_get_namespace(context, 'isso')
         __M_writer = context.writer()
         __M_writer('\n')
         if comment_system == 'disqus':
@@ -158,13 +158,13 @@ def render_comment_link(context,link,identifier):
     __M_caller = context.caller_stack._push_frame()
     try:
         disqus = _mako_get_namespace(context, 'disqus')
-        intensedebate = _mako_get_namespace(context, 'intensedebate')
         facebook = _mako_get_namespace(context, 'facebook')
+        intensedebate = _mako_get_namespace(context, 'intensedebate')
         muut = _mako_get_namespace(context, 'muut')
         comment_system = context.get('comment_system', UNDEFINED)
         googleplus = _mako_get_namespace(context, 'googleplus')
-        isso = _mako_get_namespace(context, 'isso')
         livefyre = _mako_get_namespace(context, 'livefyre')
+        isso = _mako_get_namespace(context, 'isso')
         __M_writer = context.writer()
         __M_writer('\n')
         if comment_system == 'disqus':
@@ -202,6 +202,6 @@ def render_comment_link(context,link,identifier):
 
 """
 __M_BEGIN_METADATA
-{"uri": "comments_helper.tmpl", "source_encoding": "utf-8", "line_map": {"23": 3, "26": 6, "29": 8, "32": 7, "35": 5, "38": 4, "41": 9, "44": 0, "49": 2, "50": 3, "51": 4, "52": 5, "53": 6, "54": 7, "55": 8, "56": 9, "57": 27, "58": 45, "59": 63, "65": 11, "77": 11, "78": 12, "79": 13, "80": 13, "81": 13, "82": 14, "83": 15, "84": 15, "85": 15, "86": 16, "87": 17, "88": 17, "89": 17, "90": 18, "91": 19, "92": 19, "93": 19, "94": 20, "95": 21, "96": 21, "97": 21, "98": 22, "99": 23, "100": 23, "101": 23, "102": 24, "103": 25, "104": 25, "105": 25, "111": 47, "123": 47, "124": 48, "125": 49, "126": 49, "127": 49, "128": 50, "129": 51, "130": 51, "131": 51, "132": 52, "133": 53, "134": 53, "135": 53, "136": 54, "137": 55, "138": 55, "139": 55, "140": 56, "141": 57, "142": 57, "143": 57, "144": 58, "145": 59, "146": 59, "147": 59, "148": 60, "149": 61, "150": 61, "151": 61, "157": 29, "169": 29, "170": 30, "171": 31, "172": 31, "173": 31, "174": 32, "175": 33, "176": 33, "177": 33, "178": 34, "179": 35, "180": 35, "181": 35, "182": 36, "183": 37, "184": 37, "185": 37, "186": 38, "187": 39, "188": 39, "189": 39, "190": 40, "191": 41, "192": 41, "193": 41, "194": 42, "195": 43, "196": 43, "197": 43, "203": 197}, "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper.tmpl"}
+{"uri": "comments_helper.tmpl", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper.tmpl", "line_map": {"23": 5, "26": 6, "29": 8, "32": 9, "35": 3, "38": 4, "41": 7, "44": 0, "49": 2, "50": 3, "51": 4, "52": 5, "53": 6, "54": 7, "55": 8, "56": 9, "57": 27, "58": 45, "59": 63, "65": 11, "77": 11, "78": 12, "79": 13, "80": 13, "81": 13, "82": 14, "83": 15, "84": 15, "85": 15, "86": 16, "87": 17, "88": 17, "89": 17, "90": 18, "91": 19, "92": 19, "93": 19, "94": 20, "95": 21, "96": 21, "97": 21, "98": 22, "99": 23, "100": 23, "101": 23, "102": 24, "103": 25, "104": 25, "105": 25, "111": 47, "123": 47, "124": 48, "125": 49, "126": 49, "127": 49, "128": 50, "129": 51, "130": 51, "131": 51, "132": 52, "133": 53, "134": 53, "135": 53, "136": 54, "137": 55, "138": 55, "139": 55, "140": 56, "141": 57, "142": 57, "143": 57, "144": 58, "145": 59, "146": 59, "147": 59, "148": 60, "149": 61, "150": 61, "151": 61, "157": 29, "169": 29, "170": 30, "171": 31, "172": 31, "173": 31, "174": 32, "175": 33, "176": 33, "177": 33, "178": 34, "179": 35, "180": 35, "181": 35, "182": 36, "183": 37, "184": 37, "185": 37, "186": 38, "187": 39, "188": 39, "189": 39, "190": 40, "191": 41, "192": 41, "193": 41, "194": 42, "195": 43, "196": 43, "197": 43, "203": 197}, "source_encoding": "utf-8"}
 __M_END_METADATA
 """
