@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 31 Oct 2016 17:37:13 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161028 UT MAT157/MAT240: Study Session III and IV</title><link>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii-and-iv.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" rel="self" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 31 Oct 2016 22:55:31 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161028 UT MAT157/MAT240: Study Session III and IV</title><link>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii-and-iv.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
 &lt;p&gt;
 I am glad that last Friday we have had the largest session so far,
 with 17 people attending at least the first part of the
-session. Welcome to Allan Chang, Nuoya Chen, Mrunal Gavali and Shuting
+session. Welcome to Allan Chang, Agyness Chen, Mrunal Gavali and Shuting
 Zhang!
 &lt;/p&gt;
 
 &lt;p&gt;
 I hope that you have found something useful in this session, and I
 hope that you have been inspired to bring your own questions next
-time. It was illuminating to see the way Lola, Thomas, Matthew, and
-Alan think while solving problems, and I dare to claim that their
+time. It was illuminating to see the way Lola, Thomas, Matthew, Fiona
+and Alan think while solving problems, and I dare to claim that their
 boldness has been integral to the flow of the session.
 &lt;/p&gt;
 
 &lt;p&gt;
 As Matthew have promptly suggested, this Friday, November 4, MUGS III
-is going to take place in BA2135 from 16:00 to 18:00. Professor
+talks are going to take place in BA2135 from 16:00 to 18:00. Professor
 Burchard, who has interests ranging from geometric problems in
 functional analysis, PDE and probability symmetrization to sharp
 inequalities scheduling and delay analysis in communication networks,
