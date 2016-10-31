@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link rel="self" type="application/rss+xml" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 28 Oct 2016 09:51:36 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161028 UT MAT157/MAT240 Study Session III</title><link>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" rel="self" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 31 Oct 2016 22:55:31 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161028 UT MAT157/MAT240: Study Session III and IV</title><link>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii-and-iv.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+I am glad that last Friday we have had the largest session so far,
+with 17 people attending at least the first part of the
+session. Welcome to Allan Chang, Agyness Chen, Mrunal Gavali and Shuting
+Zhang!
+&lt;/p&gt;
+
+&lt;p&gt;
+I hope that you have found something useful in this session, and I
+hope that you have been inspired to bring your own questions next
+time. It was illuminating to see the way Lola, Thomas, Matthew, Fiona
+and Alan think while solving problems, and I dare to claim that their
+boldness has been integral to the flow of the session.
+&lt;/p&gt;
+
+&lt;p&gt;
+As Matthew have promptly suggested, this Friday, November 4, MUGS III
+talks are going to take place in BA2135 from 16:00 to 18:00. Professor
+Burchard, who has interests ranging from geometric problems in
+functional analysis, PDE and probability symmetrization to sharp
+inequalities scheduling and delay analysis in communication networks,
+will be giving a talk on the fruitful topic of symmetries and
+reflections, with applications to minimization problems. For example,
+we may look at the following question: starting from the north pole,
+can we reach any point on the sphere by applying iteratively a finite
+set of reflections?
+&lt;/p&gt;
+
+&lt;p&gt;
+We need to decide on our plan for Friday. If you prefer the talks to
+the session, please send me a quick reply with the letter "t" in the
+body or the subject of the email. If you, on the other hand, would
+rather have a session and skip the talk, please send me the letter
+"s". I will write you back with the results as soon as I get a
+representative number of replies. Note that the talks will be counted
+as an academic experience for the MAT240 study group (last time the
+talks were counted as an academic experience for MAT157), which is one
+of the requirements for getting CCR by the end of the term.
+&lt;/p&gt;
+
+&lt;p&gt;
+As a side note, if you have a github account and wish to contribute
+any notes, handouts or any other material to the &lt;a href="https://github.com/umus/ut.umu"&gt;ut.umu repository&lt;/a&gt;,
+please drop me an email with your account name.
+&lt;/p&gt;
+
+&lt;p&gt;
+I wish you a productive week and look forward to hearing from you soon.
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii-and-iv.html</guid><pubDate>Mon, 31 Oct 2016 15:40:06 GMT</pubDate></item><item><title>20161028 UT MAT157/MAT240 Study Session III</title><link>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -9,7 +69,7 @@ another wonderful and productive Friday.
 &lt;/p&gt;
 
 &lt;p&gt;
-There are amazing news – Shuting Zhang and Allan Cheng have expressed
+There are amazing news – Shuting Zhang and Allan Chang have expressed
 their interest in our sessions, and I hope they will be able to come
 to today at 16:10, B026 (seminar room) in Bahen.
 &lt;/p&gt;
@@ -465,104 +525,4 @@ delimiters: [
 ]
 }
 );
-&lt;/script&gt;</description><guid>https://umus.github.io/log/20161012-ut-mat157mat240-notices.html</guid><pubDate>Wed, 12 Oct 2016 13:01:23 GMT</pubDate></item><item><title>UT MAT157: First Session</title><link>https://umus.github.io/log/ut-mat157-first-session.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I am grateful to all of you who has come today and made the session
-productive despite some element of chaos which is often present in
-introductory meetings. And thank you for all the suggestions – they
-would definitely help us make our time together worthwhile.
-&lt;/p&gt;
-
-&lt;p&gt;
-One of the questions raised in the session was about the combination
-of training for MAT157 and MAT240 in one session. Everyone is free to
-choose any topic or problem to go through during the session, but I do
-think it is necessary to have the topic of the main discussion in mind
-before each session. My suggestion is to split officially the current
-time period in half, and devote one half to analysis and one half to
-algebra.
-&lt;/p&gt;
-
-&lt;p&gt;
-This would allow us to have a clear focus for a set period of time. As
-Fiona proposed, it would be great to devote some time in the beginning
-of each corresponding session to a quick recap of the week lectures,
-since this will give us a headstart with problems, hopefully identify
-the gaps in our knowledge and understanding as well as unite our
-efforts in a coherent discussion interesting for us all. If you have
-the outlines of lectures in any format or want to write them, please
-write me an email.
-&lt;/p&gt;
-
-&lt;p&gt;
-Alan expressed interest in reserving B026 as our base for the future
-sessions. I will write to ACE as soon as possible.
-&lt;/p&gt;
-
-&lt;p&gt;
-Matthew also suggested to create a Facebook group to spread
-information. If there is a demand and there are volunteers to look
-after the page, I am happy if you get involved with it, but would like
-to keep the logs of the sessions, announcements and resources on the
-umu website. For those of you who are new, please be aware there is a
-Facebook chat in which most of the instantaneous communication takes
-place.
-&lt;/p&gt;
-
-&lt;p&gt;
-If you want anything to be posted on the &lt;a href="https://umus.github.io/ut-umu"&gt;ut.umu&lt;/a&gt; page, please feel free
-to &lt;a href="https://umus.github.io/contact"&gt;contact&lt;/a&gt; me.
-&lt;/p&gt;
-
-&lt;p&gt;
-Unfortunately, not every person who has participated today has written
-me an email. Registering is important if you want to obtain CCR after
-attending at least 4 sessions and having 1 academic experience.
-&lt;/p&gt;
-
-&lt;p&gt;
-The academic experience is supposed to add to our knowledge and
-academic skills development, and may involve various activities. We
-may book a mathematical (or any other, if there is a demand) &lt;a href="https://onesearch.library.utoronto.ca/consultations"&gt;research
-consultation&lt;/a&gt;, visit office hours of the beloved Joe Repka and Eckhard
-Meinrenken, a &lt;a href="http://www.artsci.utoronto.ca/current/advising/freeresources"&gt;tutoring centre&lt;/a&gt; or a TA, or we may attend a workshop in
-the &lt;a href="http://libcal.library.utoronto.ca/calendar/libraryworkshops/?cid=2020&amp;amp;t=m&amp;amp;d=0000-00-00&amp;amp;cal%255B%255D=2020"&gt;library&lt;/a&gt;. Please write what you think suits you best by email or in the
-Facebook chat.
-&lt;/p&gt;
-
-&lt;p&gt;
-If you had not already emailed me but attended the session, I would
-be grateful if you could fill the following form to register the
-attendance and send it by email from your mail.utoronto.ca address:
-&lt;/p&gt;
-
-&lt;ol class="org-ol"&gt;
-&lt;li&gt;First Name
-&lt;/li&gt;
-&lt;li&gt;Are there any specific topics you want to go through in the next
-session, other than the content of the most recent lectures?
-&lt;/li&gt;
-&lt;li&gt;What rules would you like the group to follow?
-&lt;/li&gt;
-&lt;li&gt;Do you want your name to appear publicly in the &lt;a href="https://github.com/umus/ut.umu/blob/master/register.csv"&gt;register&lt;/a&gt;? If not,
-you may choose a nickname to be used instead. Currently, almost all
-names are listed in full. If you want to replace your name with
-something else, please drop me an email.
-&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;
-I am looking forward to hearing from you.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-—
-sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat157-first-session.html</guid><pubDate>Fri, 07 Oct 2016 22:50:21 GMT</pubDate></item></channel></rss>
+&lt;/script&gt;</description><guid>https://umus.github.io/log/20161012-ut-mat157mat240-notices.html</guid><pubDate>Wed, 12 Oct 2016 13:01:23 GMT</pubDate></item></channel></rss>
