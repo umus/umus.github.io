@@ -1,0 +1,43 @@
+Team,
+
+I am glad that last Friday we have had the largest session so far,
+with 17 people attending at least the first part of the
+session. Welcome to Allan Chang, Nuoya Chen, Mrunal Gavali and Shuting
+Zhang!
+
+I hope that you have found something useful in this session, and I
+hope that you have been inspired to bring your own questions next
+time. It was illuminating to see the way Lola, Thomas, Matthew, and
+Alan think while solving problems, and I dare to claim that their
+boldness has been integral to the flow of the session.
+
+As Matthew have promptly suggested, this Friday, November 4, MUGS III
+is going to take place in BA2135 from 16:00 to 18:00. Professor
+Burchard, who has interests ranging from geometric problems in
+functional analysis, PDE and probability symmetrization to sharp
+inequalities scheduling and delay analysis in communication networks,
+will be giving a talk on the fruitful topic of symmetries and
+reflections, with applications to minimization problems. For example,
+we may look at the following question: starting from the north pole,
+can we reach any point on the sphere by applying iteratively a finite
+set of reflections?
+
+We need to decide on our plan for Friday. If you prefer the talks to
+the session, please send me a quick reply with the letter "t" in the
+body or the subject of the email. If you, on the other hand, would
+rather have a session and skip the talk, please send me the letter
+"s". I will write you back with the results as soon as I get a
+representative number of replies. Note that the talks will be counted
+as an academic experience for the MAT240 study group (last time the
+talks were counted as an academic experience for MAT157), which is one
+of the requirements for getting CCR by the end of the term.
+
+As a side note, if you have a github account and wish to contribute
+any notes, handouts or any other material to the [[https://github.com/umus/ut.umu][ut.umu repository]],
+please drop me an email with your account name.
+
+I wish you a productive week and look forward to hearing from you soon.
+
+Onwards!
+
+-- sasha
