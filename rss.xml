@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" rel="self" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 31 Oct 2016 23:00:34 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161028 UT MAT157/MAT240: Study Session III and IV</title><link>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii-and-iv.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 03 Nov 2016 06:44:27 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161103 UT MAT157/MAT240: Friday Session Vote Results</title><link>https://umus.github.io/log/20161103-ut-mat157mat240-friday-session-vote-results.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+I am writing to inform you about the results of the questionnaire.
+&lt;/p&gt;
+
+&lt;p&gt;
+Out of 7 people whose responses I have received, 6 individuals have
+confirmed their availability on Friday, and all of those 6 have chosen
+the talks. Thus, the plan is to go to the talks.
+&lt;/p&gt;
+
+&lt;p&gt;
+Considering the last two days of exciting events in the Fields
+Institute, I would be happy hear your opinions and reflections from
+all of you who have managed to join the Bhargavalia. Moreover, if you
+are really excited about all the mathemagic you have witnessed and
+want to share the oumph with your knowledge-thirsty peers, we can
+devote one of the next sessions, perhaps after the analysis midterm,
+to your findings.
+&lt;/p&gt;
+
+&lt;p&gt;
+I am looking forwards to seeing you in BA2135 at 4:00 pm on Friday.
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161103-ut-mat157mat240-friday-session-vote-results.html</guid><pubDate>Thu, 03 Nov 2016 06:31:11 GMT</pubDate></item><item><title>20161028 UT MAT157/MAT240: Study Session III and IV</title><link>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii-and-iv.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -432,97 +466,4 @@ Onwards!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161012-ut-mat157mat240-updates.html</guid><pubDate>Thu, 13 Oct 2016 02:22:27 GMT</pubDate></item><item><title>20161012 UT MAT157/MAT240: Notices</title><link>https://umus.github.io/log/20161012-ut-mat157mat240-notices.html</link><dc:creator>umu</dc:creator><description>&lt;script src="https://umus.github.io/assets/scripts/jquery-1.12.2.min.js"&gt;&lt;/script&gt;
-&lt;link rel="stylesheet" href="https://umus.github.io/assets/scripts/katex/katex.min.css"&gt;
-&lt;script src="https://umus.github.io/assets/scripts/katex/katex.min.js"&gt;&lt;/script&gt;
-&lt;script src="https://umus.github.io/assets/scripts/katex/contrib/auto-render.min.js"&gt;&lt;/script&gt;
-
-&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I am writing to remind you that this Friday, October 14, we are going
-to have our second meeting in B026(seminar room), Bahen, at 16:10.
-&lt;/p&gt;
-
-&lt;p&gt;
-There are several updates this week.
-&lt;/p&gt;
-
-&lt;p&gt;
-First, Yooveshen Mooroogen, who decided to join our sessions, has
-suggested a list of recommended problems from Spivak as given in the
-MAT157 syllabus of 2012-2013. The table adapted from the syllabus has
-been published on the ut.umu page.
-&lt;/p&gt;
-
-&lt;p&gt;
-Secondly, ACE of UToronto got back to me about the request of
-reserving B026 for our sessions. In order to have such a privilege, we
-need to &lt;a href="https://ulife.utoronto.ca/page/view/slug/apply"&gt;recognize our group with ULife&lt;/a&gt; first. The exact procedure will
-be investigated in detail after the midterms; there are several
-options available. For example, we may try to collaborate with Math
-Union. I will contact Angela shortly.
-&lt;/p&gt;
-
-&lt;p&gt;
-Finally, there are several talks &lt;a href="https://www.facebook.com/events/1609525922683111/"&gt;organized by the Math Union&lt;/a&gt; at the
-time of our meeting on Friday, from 16:30. The topics include the
-following:
-&lt;/p&gt;
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;i&gt;Why Some Sequences are More Special than Others&lt;/i&gt; by Calder
-Morton-Ferguson
-&lt;/li&gt;
-
-&lt;li&gt;&lt;i&gt;The Chromatic Number of the Plane and the Axiom of Choice&lt;/i&gt; by Angela Wu
-&lt;/li&gt;
-
-&lt;li&gt;&lt;i&gt;Sphere Packing and the Baffling Properties of the $$E_8$$ and Leech
-Lattices&lt;/i&gt; by Zachary Karry
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;
-If there is any interest, I will find out whether this may count as an
-academic experience in the context of CCR. If not, it sounds
-interesting anyway. Please let me know what you think.
-&lt;/p&gt;
-
-&lt;p&gt;
-If you intend to come earlier than 16:10 on Friday, the schedule on
-ACE for B026 shows that the room is going to be vacant after 15:00.
-&lt;/p&gt;
-
-&lt;p&gt;
-If you have any resources relevant to our agenda, for example lecture
-outlines from any week, please let me know and I will post them on the
-ut.umu page. Please also take a look at the MAT240 course page,
-where several bonus problems have been already posted.
-&lt;/p&gt;
-
-&lt;p&gt;
-I am looking forward to seeing you on Friday.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;
-
-&lt;script&gt;
-renderMathInElement(
-document.body,
-{
-delimiters: [
-{left: "$$$", right: "$$$", display: true},
-{left: "$$", right: "$$", display: false},
-]
-}
-);
-&lt;/script&gt;</description><guid>https://umus.github.io/log/20161012-ut-mat157mat240-notices.html</guid><pubDate>Wed, 12 Oct 2016 13:01:23 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161012-ut-mat157mat240-updates.html</guid><pubDate>Thu, 13 Oct 2016 02:22:27 GMT</pubDate></item></channel></rss>
