@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1479059971.9164927
+_modified_time = 1479064517.5289354
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/list.tmpl'
 _template_uri = 'list.tmpl'
@@ -28,8 +28,8 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        messages = context.get('messages', UNDEFINED)
         items = context.get('items', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
         title = context.get('title', UNDEFINED)
@@ -48,8 +48,8 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        messages = context.get('messages', UNDEFINED)
         items = context.get('items', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
         def content():
             return render_content(context)
         title = context.get('title', UNDEFINED)
@@ -82,6 +82,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"64": 12, "65": 12, "66": 12, "67": 12, "68": 13, "69": 14, "70": 14, "71": 14, "72": 17, "73": 18, "74": 19, "75": 19, "76": 19, "77": 21, "83": 77, "27": 0, "37": 2, "42": 22, "48": 4, "57": 4, "58": 7, "59": 7, "60": 9, "61": 10, "62": 11, "63": 12}, "uri": "list.tmpl", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/list.tmpl"}
+{"filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/list.tmpl", "uri": "list.tmpl", "source_encoding": "utf-8", "line_map": {"64": 12, "65": 12, "66": 12, "67": 12, "68": 13, "69": 14, "70": 14, "71": 14, "72": 17, "73": 18, "74": 19, "75": 19, "76": 19, "77": 21, "83": 77, "27": 0, "37": 2, "42": 22, "48": 4, "57": 4, "58": 7, "59": 7, "60": 9, "61": 10, "62": 11, "63": 12}}
 __M_END_METADATA
 """
