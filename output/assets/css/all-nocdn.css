@@ -803,3 +803,28 @@ pre.code, code {
 .span2 {width:100%;}
 
 #search {height:2.2em;} 
+#overlay {
+    position: relative;
+}
+
+#overlay::before {
+    background-image: linear-gradient( top, 
+            rgba( 255, 255, 255, 0 ) 0%, 
+            rgba( 255, 255, 255, 1 ) 100% );
+        background-image: -moz-linear-gradient( top, 
+            rgba( 255, 255, 255, 0 ) 0%, 
+            rgba( 255, 255, 255, 1 ) 100% );
+        background-image: -ms-linear-gradient( top, 
+            rgba( 255, 255, 255, 0 ) 0%, 
+            rgba( 255, 255, 255, 1 ) 100% );
+        background-image: -o-linear-gradient( top, 
+            rgba( 255, 255, 255, 0 ) 0%, 
+            rgba( 255, 255, 255, 1 ) 100% );
+        background-image: -webkit-linear-gradient( top, 
+            rgba( 255, 255, 255, 0 ) 0%, 
+            rgba( 255, 255, 255, 1 ) 100% );
+    content: "\00a0";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
