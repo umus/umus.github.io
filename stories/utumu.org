@@ -2,10 +2,6 @@
 #+OPTIONS: toc:nil
 *UT.UMU*
 
-
-#+BEGIN_HTML
-<img style="width: 100%;" src="https://umus.github.io/assets/ut-umu/utumu.jpg"
-#+END_HTML
 ------
 Log: [[https://umus.github.io/log/last-session][Most Recent Session]]
 
@@ -13,12 +9,31 @@ Notices: [[https://umus.github.io/log/last-notice][Most Recent Announcement]]
 
 Register: [[https://github.com/umus/ut.umu/blob/master/register.csv][Most Recent Version]]
 
-Next Session: Friday, November 11, B026 (seminar room), Bahen, 16:10 - 18:10
+Next Session: Friday, November 18, B026 (seminar room), Bahen, 16:10 - 18:10
 
 Attending sessions can get you CCR. [[http://www.studygroups.artsci.utoronto.ca/participant][Here are the rules.]]
 
 #+TOC: headlines 3
-
+------
+#+BEGIN_HTML
+<center><table style="width: 100%;">
+<tr><td><img style="width: 90%;" src="https://umus.github.io/assets/ut-umu/utumu.jpg"></td>
+<td style="width:25%;">
+<p>
+The road to wisdom? — Well, it's plain<br>
+and simple to express:<br>
+Err<br>
+and err<br>
+and err again<br>
+but less<br>
+and less<br>
+and less.<br>
+-- <i>Piet Hein</i>
+</p>
+</td>
+</table></center>
+#+END_HTML
+------
 * Courses
 
 ** MAT157
