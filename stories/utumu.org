@@ -162,8 +162,10 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
 
 /The text is reproduced exactly as it has been received/.
 
-*Özgür Esentepe*, as of 20161104. Please note that Özgür may not be
-thinking the same way now.
+20161104, *Özgür Esentepe*
+
+Please note that Özgür may not be thinking the same way now.
+
 - I recommend that you keep your notebooks, notes, books, assignments,
   thoughts from this year. Write down everything and save
   them. Actually this applies not only to mathematics. It is good to
