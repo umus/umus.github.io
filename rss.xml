@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link rel="self" href="https://umus.github.io/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 10 Nov 2016 08:52:45 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161110 UT MAT157/MAT240: Preparation for Session IV</title><link>https://umus.github.io/log/20161110-ut-mat157mat240-preparation-for-session-iv.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link rel="self" href="https://umus.github.io/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sun, 13 Nov 2016 19:14:19 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161113 UT MAT157: Preparation for Midterm Test</title><link>https://umus.github.io/log/20161113-ut-mat157-preparation-for-midterm-test.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+I hope you are having a productive and reinvigorating weekend.
+&lt;/p&gt;
+
+&lt;p&gt;
+You may find the following past MAT157 exams worthwhile to look at for
+the midterm tomorrow:
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.math.toronto.edu/~drorbn/classes/0203/157AnalysisI/TermExam2/Exam.html"&gt;MAT157 2002-2003 Midterm 2&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.math.toronto.edu/~drorbn/classes/0304/157AnalysisI/TE2/Exam.html"&gt;MAT157 2003-2004 Midterm 2&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.math.toronto.edu/~drorbn/classes/0405/157AnalysisI/TE2/Exam.html"&gt;MAT157 2004-2005 Midterm 2&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+I have also updated the ut.umu page with the advice from Özgür
+Esentepe and the photo from the last session on Friday, November 11. I
+am grateful to all of you for your dedication and creative boldness.
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161113-ut-mat157-preparation-for-midterm-test.html</guid><pubDate>Sun, 13 Nov 2016 18:34:09 GMT</pubDate></item><item><title>20161110 UT MAT157/MAT240: Preparation for Session IV</title><link>https://umus.github.io/log/20161110-ut-mat157mat240-preparation-for-session-iv.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -454,33 +488,4 @@ Onwards!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161014-ut-math-academic-experience-cumc-talks.html</guid><pubDate>Sat, 15 Oct 2016 05:56:20 GMT</pubDate></item><item><title>20161014 UT MAT157/MAT240: CUMC Talks</title><link>https://umus.github.io/log/20161014-mat157mat240-cumc-talks.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I am grateful to all of you who have promptly reacted to the quick
-questionnaire either in person or by mail.
-&lt;/p&gt;
-
-&lt;p&gt;
-Out of 6 of those who replied, 6 wish to go or at least &lt;i&gt;check out&lt;/i&gt;
-the talks.
-&lt;/p&gt;
-
-&lt;p&gt;
-I am looking forward to seeing you tomorrow at 16:30 in BA2135.
-&lt;/p&gt;
-
-&lt;p&gt;
-If you have any questions, comments or suggestions, please contact me,
-it would be extremely refreshing to hear what you think.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161014-mat157mat240-cumc-talks.html</guid><pubDate>Fri, 14 Oct 2016 06:28:38 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161014-ut-math-academic-experience-cumc-talks.html</guid><pubDate>Sat, 15 Oct 2016 05:56:20 GMT</pubDate></item></channel></rss>

@@ -155,6 +155,32 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
      + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Infinite_Bases.pdf][Alternative Treatment]] of Infinite Bases and Unique Expressions for Vectors
      + [[file:../assets/ut-umu/MAT240/03_F_110+08_F_H110_q+a.txt][Answers to Students' Questions]]
 
+* Recommendations
+
+/The following are the recommendations received from various sources/
+/with advice on the agenda and study of mathematics in general./
+
+/The text is reproduced exactly as it has been received/.
+
+~*Özgür Esentepe*, as of 20161104. Please note that Özgür may not be~
+~thinking the same way now.~
+- I recommend that you keep your notebooks, notes, books, assignments,
+  thoughts from this year. Write down everything and save
+  them. Actually this applies not only to mathematics. It is good to
+  see how you improve as a math student and as a person throughout the
+  years. Go back and read your writings in regular intervals (each
+  month, every six months, every year etc.). You will realize you are
+  actually improving. This helps keeping you sane. Because sometimes
+  the math will be difficult and you will feel discouraged. These
+  writings will remind you that you can try harder and get over the
+  problems. Having said this, it is very important to realise that
+  some materials will be difficult for some people and some materials
+  will be easy for some people. There may be several reasons for
+  this. You just need to invest enough times. One of the most
+  important aspects of university education is this: After four years,
+  you should be able to judge by yourself if you understood something
+  well enough.
+
 * Suggestions
 
 /The following are the suggestions from the participants regarding/
