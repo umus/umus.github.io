@@ -538,8 +538,8 @@ SLUG_AUTHOR_PATH = True
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("log/last-session.html","20161028-ut-mat157mat240-study-session-iii.html"),
-                ("log/last-notice.html", "20161110-ut-mat157mat240-preparation-for-session-iv.html")]
+REDIRECTIONS = [("log/last-session.html","20161125-ut-mat157mat240-study-session-vi.html"),
+                ("log/last-notice.html", "20161125-ut-mat157mat240-study-session-vi.html")]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
