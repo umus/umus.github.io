@@ -9,7 +9,7 @@ Notices: [[https://umus.github.io/log/last-notice][Most Recent Announcement]]
 
 Register: [[https://github.com/umus/ut.umu/blob/master/register.csv][Most Recent Version]]
 
-Next Session: Friday, November 18, B026 (seminar room), Bahen, 16:10 - 18:10
+Next Session: Friday, November 25, B026 (seminar room), Bahen, 16:10 - 18:10
 
 Attending sessions can get you CCR. [[http://www.studygroups.artsci.utoronto.ca/participant][Here are the rules.]]
 
