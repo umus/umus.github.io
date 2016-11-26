@@ -7,6 +7,7 @@ With regards to the problem that Saminul suggested, the following are
 several links which I hope you might find interesting:
 
 (1) [[https://math.stackexchange.com/questions/1882069/why-does-polynomial-factorization-generalize-to-matrices][Generalization of the Polynomial Factorization to Matrices]]
+
 (2) [[https://math.stackexchange.com/questions/1882069/why-does-polynomial-factorization-generalize-to-matrices][Proof that Every Operator over a Finite-dimensional Complex Vector Space has an Eigenvalue]]
 
 Have a great weekend!
