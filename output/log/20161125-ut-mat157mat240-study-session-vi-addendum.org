@@ -8,7 +8,7 @@ several links which I hope you might find interesting:
 
 (1) [[https://math.stackexchange.com/questions/1882069/why-does-polynomial-factorization-generalize-to-matrices][Generalization of the Polynomial Factorization to Matrices]]
 
-(2) [[https://math.stackexchange.com/questions/1882069/why-does-polynomial-factorization-generalize-to-matrices][Proof that Every Operator over a Finite-dimensional Complex Vector Space has an Eigenvalue]]
+(2) [[http://www.maa.org/sites/default/files/images/upload_library/22/Ford/Axler139-154.pdf][Proof that Every Operator over a Finite-dimensional Complex Vector Space has an Eigenvalue]]
 
 Have a great weekend!
 
