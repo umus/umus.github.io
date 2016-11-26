@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" href="https://umus.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 25 Nov 2016 09:22:09 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161125 UT MAT157/MAT240 Study Session VI</title><link>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" href="https://umus.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 26 Nov 2016 04:13:40 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157/MAT240 Study Session VI: Addendum</title><link>https://umus.github.io/log/ut-mat157mat240-study-session-vi-addendum.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+I am grateful to all of you who have come today. In the session today
+we were happy to welcome Janice in our circle!
+&lt;/p&gt;
+
+&lt;p&gt;
+With regards to the problem that Saminul suggested, the following are
+several links which I hope you might find interesting:
+&lt;/p&gt;
+
+&lt;p&gt;
+(1) &lt;a href="https://math.stackexchange.com/questions/1882069/why-does-polynomial-factorization-generalize-to-matrices"&gt;Generalization of the Polynomial Factorization to Matrices&lt;/a&gt;
+(2) &lt;a href="https://math.stackexchange.com/questions/1882069/why-does-polynomial-factorization-generalize-to-matrices"&gt;Proof that Every Operator over a Finite-dimensional Complex Vector Space has an Eigenvalue&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Have a great weekend!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat157mat240-study-session-vi-addendum.html</guid><pubDate>Sat, 26 Nov 2016 03:18:01 GMT</pubDate></item><item><title>20161125 UT MAT157/MAT240 Study Session VI</title><link>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -448,36 +473,4 @@ Onwards!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161021-ut-mat157mat240-study-session-ii.html</guid><pubDate>Fri, 21 Oct 2016 09:50:39 GMT</pubDate></item><item><title>20161018 UT MAT240: Past Midterms</title><link>https://umus.github.io/log/20161018-ut-mat240-past-midterms.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I hope most of you plan or in the progress of a good night sleep.
-&lt;/p&gt;
-
-&lt;p&gt;
-I certainly do.
-&lt;/p&gt;
-
-&lt;p&gt;
-This email is just to notify you that I have added 4 past MAT240
-midterms for morning preparation.
-&lt;/p&gt;
-
-&lt;p&gt;
-Moreover, two sincere and lively comments have been added to the
-Comments section at the end of the page.
-&lt;/p&gt;
-
-&lt;p&gt;
-Good night, and good luck.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161018-ut-mat240-past-midterms.html</guid><pubDate>Tue, 18 Oct 2016 04:10:47 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161021-ut-mat157mat240-study-session-ii.html</guid><pubDate>Fri, 21 Oct 2016 09:50:39 GMT</pubDate></item></channel></rss>

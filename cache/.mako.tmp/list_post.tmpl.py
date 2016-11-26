@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1480065729.1300805
+_modified_time = 1480133619.5919235
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/list_post.tmpl'
 _template_uri = 'list_post.tmpl'
@@ -31,8 +31,8 @@ def render_body(context,**pageargs):
         messages = context.get('messages', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        posts = context.get('posts', UNDEFINED)
         title = context.get('title', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
         date_format = context.get('date_format', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n\n')
@@ -52,8 +52,8 @@ def render_content(context,**pageargs):
         messages = context.get('messages', UNDEFINED)
         def content():
             return render_content(context)
-        posts = context.get('posts', UNDEFINED)
         title = context.get('title', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
         date_format = context.get('date_format', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n<article class="listpage">\n    <header>\n        <h1>')
