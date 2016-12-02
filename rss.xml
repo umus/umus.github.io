@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 26 Nov 2016 04:21:25 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161125 UT MAT157/MAT240 Study Session VI: Addendum</title><link>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi-addendum.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 02 Dec 2016 12:54:40 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161102 UT MAT157/MAT240: Study Session VII</title><link>https://umus.github.io/log/20161102-ut-mat157mat240-study-session-vii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+I hope you are ready for the productive end of the week.
+&lt;/p&gt;
+
+&lt;p&gt;
+Today the plan is to meet at 16:10 in room 4010, Bahen, as usual, and
+discuss all the exciting questions you might have – and come up with
+them as well!
+&lt;/p&gt;
+
+&lt;p&gt;
+Hope to see you soon.
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161102-ut-mat157mat240-study-session-vii.html</guid><pubDate>Fri, 02 Dec 2016 12:47:18 GMT</pubDate></item><item><title>20161125 UT MAT157/MAT240 Study Session VI: Addendum</title><link>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi-addendum.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -426,54 +450,4 @@ delimiters: [
 ]
 }
 );
-&lt;/script&gt;</description><guid>https://umus.github.io/log/20161021-ut-mat157mat240-preparation-for-study-session-iii.html</guid><pubDate>Fri, 21 Oct 2016 23:25:43 GMT</pubDate></item><item><title>20161021 UT MAT157/MAT240: Study Session II</title><link>https://umus.github.io/log/20161021-ut-mat157mat240-study-session-ii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I am writing to remind you that we are planning to meet today at 16:10
-in B026 (seminar room), Bahen.
-&lt;/p&gt;
-
-&lt;p&gt;
-As we have decided earlier, the session is going to be split into two,
-one devoted to LA, and one to RA.
-&lt;/p&gt;
-
-&lt;p&gt;
-I would be extremely grateful if in the meantime you could think about
-any questions you want to ask for the common discussion, any topics
-you wish to be covered, and whether there is any material you are
-willing to tell the group about.
-&lt;/p&gt;
-
-&lt;p&gt;
-For example, it would be exciting to learn from those of you who are
-going through (have finished?) Baby Rudin and have studied Chapters
-I-IV how our dear Walter treats continuity through metric spaces,
-provided it is possible to compact the highly alluring lecture into
-our time limits. Of course, it would be great to hear about any other
-topic you find useful.
-&lt;/p&gt;
-
-&lt;p&gt;
-There are also updates to the MAT157 Resources section of the ut.umu
-page, where the Companion Notes to PMA by Professor Evelyn Silvia have
-been added.
-&lt;/p&gt;
-
-&lt;p&gt;
-I am looking forward to seeing you today.
-&lt;/p&gt;
-
-&lt;p&gt;
-Good luck to all of you who have a midterm today.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161021-ut-mat157mat240-study-session-ii.html</guid><pubDate>Fri, 21 Oct 2016 09:50:39 GMT</pubDate></item></channel></rss>
+&lt;/script&gt;</description><guid>https://umus.github.io/log/20161021-ut-mat157mat240-preparation-for-study-session-iii.html</guid><pubDate>Fri, 21 Oct 2016 23:25:43 GMT</pubDate></item></channel></rss>
