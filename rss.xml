@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 02 Dec 2016 12:54:40 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161102 UT MAT157/MAT240: Study Session VII</title><link>https://umus.github.io/log/20161102-ut-mat157mat240-study-session-vii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" href="https://umus.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 06 Dec 2016 21:10:17 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT240: Preparation for the Final</title><link>https://umus.github.io/log/ut-mat240-preparation-for-the-final.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+Thank you to all of you who came last Friday. Even though we broke up
+into two groups working in different rooms, I hope it was productive
+for you. On my part, I am sorry if I failed to secure a good space for
+us all – the list of rooms showed that B026 was busy during our
+session.
+&lt;/p&gt;
+
+&lt;p&gt;
+I am writing to elaborate on our plan of preparation for the final.
+&lt;/p&gt;
+
+&lt;p&gt;
+Since all the regular lectures are finished or going to be finished
+this week, I wonder whether we want to organize joint preparation
+sessions before December 17. I know that some people solve problems
+together anyway, and I would be glad if we could join our efforts.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you are up for the idea, could you please write me a short email
+with the days and time periods you find suitable for meeting together?
+&lt;/p&gt;
+
+&lt;p&gt;
+I am looking forward to hearing from you.
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+—
+sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat240-preparation-for-the-final.html</guid><pubDate>Tue, 06 Dec 2016 20:52:39 GMT</pubDate></item><item><title>20161202 UT MAT157/MAT240: Study Session VII</title><link>https://umus.github.io/log/20161202-ut-mat157mat240-study-session-vii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -23,7 +62,7 @@ Onwards!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161102-ut-mat157mat240-study-session-vii.html</guid><pubDate>Fri, 02 Dec 2016 12:47:18 GMT</pubDate></item><item><title>20161125 UT MAT157/MAT240 Study Session VI: Addendum</title><link>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi-addendum.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161202-ut-mat157mat240-study-session-vii.html</guid><pubDate>Fri, 02 Dec 2016 12:47:18 GMT</pubDate></item><item><title>20161125 UT MAT157/MAT240 Study Session VI: Addendum</title><link>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi-addendum.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -365,89 +404,4 @@ Onwards!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii.html</guid><pubDate>Fri, 28 Oct 2016 09:32:19 GMT</pubDate></item><item><title>20161021 UT MAT157/MAT240: Preparation for Study Session III</title><link>https://umus.github.io/log/20161021-ut-mat157mat240-preparation-for-study-session-iii.html</link><dc:creator>umu</dc:creator><description>&lt;script src="https://umus.github.io/assets/scripts/jquery-1.12.2.min.js"&gt;&lt;/script&gt;
-&lt;link rel="stylesheet" href="https://umus.github.io/assets/scripts/katex/katex.min.css"&gt;
-&lt;script src="https://umus.github.io/assets/scripts/katex/katex.min.js"&gt;&lt;/script&gt;
-&lt;script src="https://umus.github.io/assets/scripts/katex/contrib/auto-render.min.js"&gt;&lt;/script&gt;
-
-&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I am extremely grateful to all of you who have come today and made the
-session productive.
-&lt;/p&gt;
-
-&lt;p&gt;
-It has been a pleasure to study in the environment full of initiative
-and support. Thanks to all of you who have asked questions, dared to
-be confused and took a risk of showing what and how they think in
-front of a dozen of peers.
-&lt;/p&gt;
-
-&lt;p&gt;
-I hope you have found something useful in the session today. If not,
-it would be great to hear what might have been done better. And the
-suggestions of interesting topics or problems you may wish to add to
-the agenda in the future are hugely welcomed!
-&lt;/p&gt;
-
-&lt;p&gt;
-Following the discussion of the Nested Interval Theorem, which turns
-out to be a consequence of &lt;a href="http://mathworld.wolfram.com/CantorsIntersectionTheorem.html"&gt;Cantor's Intersection Theorem&lt;/a&gt;, here is the
-problem from Spivak with which the Intermediate Value Theorem can be
-proven differently from how it has been done in class:
-&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;
-Suppose $$f$$ is continuous on $$[a, b]$$ and $$f(a) &amp;lt; 0 &amp;lt; f(b)$$.
-&lt;/p&gt;
-
-&lt;p&gt;
-Then either $$f(\frac{a + b}{2}) = 0$$,
-or $$f$$ has different signs at the end points of $$[a, \frac{a+b}{2}]$$,
-or $$f$$ has different signs at the end points of $$[\frac{a + b}{2}, b]$$.
-&lt;/p&gt;
-
-&lt;p&gt;
-Why?
-&lt;/p&gt;
-
-&lt;p&gt;
-If $$f(\frac{a + b}{2}) \neq 0$$, let $$I_1$$ be one of the two
-intervals on which $$f$$ changes sign. Now bisect $$I_1$$. Either $$f$$
-is $$0$$ at the midpoint, or $$f$$ changes sign on one of the two
-intervals. Let $$I_2$$ be such an interval. Continue in this way, to
-define $$I_n$$ for each $$n$$ (unless $$f$$ is $$0$$ at some
-midpoint). Use the Nested Interval Theorem to find a point $$x$$ where
-$$f(x) = 0$$.
-&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;
-I hope you have a refreshing weekend.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;
-
-&lt;script&gt;
-renderMathInElement(
-document.body,
-{
-delimiters: [
-{left: "$$$", right: "$$$", display: true},
-{left: "$$", right: "$$", display: false},
-]
-}
-);
-&lt;/script&gt;</description><guid>https://umus.github.io/log/20161021-ut-mat157mat240-preparation-for-study-session-iii.html</guid><pubDate>Fri, 21 Oct 2016 23:25:43 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii.html</guid><pubDate>Fri, 28 Oct 2016 09:32:19 GMT</pubDate></item></channel></rss>
