@@ -1,6 +1,7 @@
 #+STARTUP: showall
 #+OPTIONS: toc:nil
 *UT.UMU*
+
 /Anyhow, Math/
 ------
 Log: [[https://umus.github.io/log/last-session][Most Recent Session]]
