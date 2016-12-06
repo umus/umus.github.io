@@ -1,7 +1,7 @@
 #+STARTUP: showall
 #+OPTIONS: toc:nil
 *UT.UMU*
-
+/Anyhow, Math/
 ------
 Log: [[https://umus.github.io/log/last-session][Most Recent Session]]
 
@@ -18,7 +18,9 @@ Attending sessions can get you CCR. [[http://www.studygroups.artsci.utoronto.ca/
 #+BEGIN_HTML
 <center><table style="width: 100%;">
 <tr><td><img style="width: 90%;" src="https://umus.github.io/assets/ut-umu/utumu.jpg">
-<p style="font-size: 10px;"> <i>20161111: Ming Feng Wan, Laurestine Bradford, Vincent Huang, Thomas Ma</i></td>
+<p style="font-size: 10px;"> <i>20161111: Ming Feng Wan, Laurestine Bradford, Vincent Huang, Thomas Ma</i>
+<br>
+<i>"The key here is..."</td>
 <td style="width:25%;">
 <p>
 The road to wisdom? — Well, it's plain<br>
