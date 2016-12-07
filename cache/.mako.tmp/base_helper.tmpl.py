@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1481120578.2553592
+_modified_time = 1481134427.523155
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base_helper.tmpl'
 _template_uri = 'base_helper.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['html_stylesheets', 'html_headstart', 'html_feedlinks', 'html_translations', 'late_load_js']
+_exports = ['html_feedlinks', 'html_headstart', 'html_translations', 'late_load_js', 'html_stylesheets']
 
 
 def render_body(context,**pageargs):
@@ -29,26 +29,46 @@ def render_body(context,**pageargs):
         context.caller_stack._pop_frame()
 
 
-def render_html_stylesheets(context):
+def render_html_feedlinks(context):
     __M_caller = context.caller_stack._push_frame()
     try:
-        has_custom_css = context.get('has_custom_css', UNDEFINED)
-        use_bundles = context.get('use_bundles', UNDEFINED)
-        needs_ipython_css = context.get('needs_ipython_css', UNDEFINED)
-        use_cdn = context.get('use_cdn', UNDEFINED)
+        translations = context.get('translations', UNDEFINED)
+        rss_link = context.get('rss_link', UNDEFINED)
+        _link = context.get('_link', UNDEFINED)
+        len = context.get('len', UNDEFINED)
+        generate_atom = context.get('generate_atom', UNDEFINED)
+        sorted = context.get('sorted', UNDEFINED)
+        generate_rss = context.get('generate_rss', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
-        if use_bundles:
-            if use_cdn:
-                __M_writer('            <link href="/assets/css/all.css" rel="stylesheet" type="text/css">\n')
+        if rss_link:
+            __M_writer('        ')
+            __M_writer(str(rss_link))
+            __M_writer('\n')
+        elif generate_rss:
+            if len(translations) > 1:
+                for language in sorted(translations):
+                    __M_writer('                <link rel="alternate" type="application/rss+xml" title="RSS (')
+                    __M_writer(str(language))
+                    __M_writer(')" href="')
+                    __M_writer(str(_link('rss', None, language)))
+                    __M_writer('">\n')
             else:
-                __M_writer('            <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">\n')
-        else:
-            __M_writer('        <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/code.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">\n')
-            if has_custom_css:
-                __M_writer('            <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">\n')
-        if needs_ipython_css:
-            __M_writer('        <link href="/assets/css/ipython.min.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">\n')
+                __M_writer('            <link rel="alternate" type="application/rss+xml" title="RSS" href="')
+                __M_writer(str(_link('rss', None)))
+                __M_writer('">\n')
+        if generate_atom:
+            if len(translations) > 1:
+                for language in sorted(translations):
+                    __M_writer('                <link rel="alternate" type="application/atom+xml" title="Atom (')
+                    __M_writer(str(language))
+                    __M_writer(')" href="')
+                    __M_writer(str(_link('index_atom', None, language)))
+                    __M_writer('">\n')
+            else:
+                __M_writer('            <link rel="alternate" type="application/atom+xml" title="Atom" href="')
+                __M_writer(str(_link('index_atom', None)))
+                __M_writer('">\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -57,30 +77,30 @@ def render_html_stylesheets(context):
 def render_html_headstart(context):
     __M_caller = context.caller_stack._push_frame()
     try:
-        theme_color = context.get('theme_color', UNDEFINED)
-        blog_title = context.get('blog_title', UNDEFINED)
-        comment_system_id = context.get('comment_system_id', UNDEFINED)
         use_cdn = context.get('use_cdn', UNDEFINED)
-        mathjax_config = context.get('mathjax_config', UNDEFINED)
-        description = context.get('description', UNDEFINED)
-        is_rtl = context.get('is_rtl', UNDEFINED)
+        twitter_card = context.get('twitter_card', UNDEFINED)
         def html_stylesheets():
             return render_html_stylesheets(context)
-        prevlink = context.get('prevlink', UNDEFINED)
-        permalink = context.get('permalink', UNDEFINED)
+        mathjax_config = context.get('mathjax_config', UNDEFINED)
+        theme_color = context.get('theme_color', UNDEFINED)
         lang = context.get('lang', UNDEFINED)
-        use_open_graph = context.get('use_open_graph', UNDEFINED)
-        url_replacer = context.get('url_replacer', UNDEFINED)
-        abs_link = context.get('abs_link', UNDEFINED)
-        extra_head_data = context.get('extra_head_data', UNDEFINED)
-        use_base_tag = context.get('use_base_tag', UNDEFINED)
-        twitter_card = context.get('twitter_card', UNDEFINED)
+        description = context.get('description', UNDEFINED)
+        favicons = context.get('favicons', UNDEFINED)
+        is_rtl = context.get('is_rtl', UNDEFINED)
         title = context.get('title', UNDEFINED)
-        comment_system = context.get('comment_system', UNDEFINED)
         def html_feedlinks():
             return render_html_feedlinks(context)
+        extra_head_data = context.get('extra_head_data', UNDEFINED)
+        url_replacer = context.get('url_replacer', UNDEFINED)
         nextlink = context.get('nextlink', UNDEFINED)
-        favicons = context.get('favicons', UNDEFINED)
+        comment_system_id = context.get('comment_system_id', UNDEFINED)
+        use_base_tag = context.get('use_base_tag', UNDEFINED)
+        prevlink = context.get('prevlink', UNDEFINED)
+        comment_system = context.get('comment_system', UNDEFINED)
+        permalink = context.get('permalink', UNDEFINED)
+        use_open_graph = context.get('use_open_graph', UNDEFINED)
+        abs_link = context.get('abs_link', UNDEFINED)
+        blog_title = context.get('blog_title', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n<!DOCTYPE html>\n<html ')
         __M_writer("prefix='")
@@ -164,60 +184,15 @@ def render_html_headstart(context):
         context.caller_stack._pop_frame()
 
 
-def render_html_feedlinks(context):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        rss_link = context.get('rss_link', UNDEFINED)
-        generate_atom = context.get('generate_atom', UNDEFINED)
-        _link = context.get('_link', UNDEFINED)
-        generate_rss = context.get('generate_rss', UNDEFINED)
-        len = context.get('len', UNDEFINED)
-        translations = context.get('translations', UNDEFINED)
-        sorted = context.get('sorted', UNDEFINED)
-        __M_writer = context.writer()
-        __M_writer('\n')
-        if rss_link:
-            __M_writer('        ')
-            __M_writer(str(rss_link))
-            __M_writer('\n')
-        elif generate_rss:
-            if len(translations) > 1:
-                for language in sorted(translations):
-                    __M_writer('                <link rel="alternate" type="application/rss+xml" title="RSS (')
-                    __M_writer(str(language))
-                    __M_writer(')" href="')
-                    __M_writer(str(_link('rss', None, language)))
-                    __M_writer('">\n')
-            else:
-                __M_writer('            <link rel="alternate" type="application/rss+xml" title="RSS" href="')
-                __M_writer(str(_link('rss', None)))
-                __M_writer('">\n')
-        if generate_atom:
-            if len(translations) > 1:
-                for language in sorted(translations):
-                    __M_writer('                <link rel="alternate" type="application/atom+xml" title="Atom (')
-                    __M_writer(str(language))
-                    __M_writer(')" href="')
-                    __M_writer(str(_link('index_atom', None, language)))
-                    __M_writer('">\n')
-            else:
-                __M_writer('            <link rel="alternate" type="application/atom+xml" title="Atom" href="')
-                __M_writer(str(_link('index_atom', None)))
-                __M_writer('">\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
 def render_html_translations(context):
     __M_caller = context.caller_stack._push_frame()
     try:
+        translations = context.get('translations', UNDEFINED)
+        lang = context.get('lang', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
         abs_link = context.get('abs_link', UNDEFINED)
         _link = context.get('_link', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
-        translations = context.get('translations', UNDEFINED)
         sorted = context.get('sorted', UNDEFINED)
-        lang = context.get('lang', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n    <ul class="translations">\n')
         for langname in sorted(translations):
@@ -248,8 +223,33 @@ def render_late_load_js(context):
         context.caller_stack._pop_frame()
 
 
+def render_html_stylesheets(context):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        use_bundles = context.get('use_bundles', UNDEFINED)
+        use_cdn = context.get('use_cdn', UNDEFINED)
+        has_custom_css = context.get('has_custom_css', UNDEFINED)
+        needs_ipython_css = context.get('needs_ipython_css', UNDEFINED)
+        __M_writer = context.writer()
+        __M_writer('\n')
+        if use_bundles:
+            if use_cdn:
+                __M_writer('            <link href="/assets/css/all.css" rel="stylesheet" type="text/css">\n')
+            else:
+                __M_writer('            <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">\n')
+        else:
+            __M_writer('        <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/code.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">\n')
+            if has_custom_css:
+                __M_writer('            <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">\n')
+        if needs_ipython_css:
+            __M_writer('        <link href="/assets/css/ipython.min.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
 """
 __M_BEGIN_METADATA
-{"uri": "base_helper.tmpl", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base_helper.tmpl", "source_encoding": "utf-8", "line_map": {"16": 0, "21": 2, "22": 67, "23": 71, "24": 92, "25": 115, "26": 125, "32": 73, "40": 73, "41": 74, "42": 75, "43": 76, "44": 77, "45": 78, "46": 80, "47": 81, "48": 84, "49": 85, "50": 88, "51": 89, "57": 3, "85": 3, "86": 6, "87": 7, "88": 8, "89": 10, "90": 11, "91": 13, "92": 14, "93": 15, "94": 17, "95": 18, "96": 21, "97": 21, "98": 21, "99": 24, "100": 25, "101": 25, "102": 25, "103": 27, "104": 28, "105": 28, "106": 28, "107": 30, "108": 31, "109": 32, "110": 32, "111": 32, "112": 33, "113": 34, "114": 34, "115": 34, "116": 34, "117": 34, "118": 36, "119": 37, "120": 37, "121": 38, "122": 38, "123": 39, "124": 39, "125": 40, "126": 40, "127": 42, "128": 43, "129": 44, "130": 44, "131": 44, "132": 44, "133": 44, "134": 44, "135": 44, "136": 47, "137": 48, "138": 49, "139": 49, "140": 49, "141": 51, "142": 52, "143": 53, "144": 53, "145": 53, "146": 55, "147": 56, "148": 56, "149": 56, "150": 58, "151": 59, "152": 59, "153": 60, "154": 61, "155": 62, "156": 63, "157": 63, "158": 63, "159": 65, "160": 66, "161": 66, "167": 94, "178": 94, "179": 95, "180": 96, "181": 96, "182": 96, "183": 97, "184": 98, "185": 99, "186": 100, "187": 100, "188": 100, "189": 100, "190": 100, "191": 102, "192": 103, "193": 103, "194": 103, "195": 106, "196": 107, "197": 108, "198": 109, "199": 109, "200": 109, "201": 109, "202": 109, "203": 111, "204": 112, "205": 112, "206": 112, "212": 117, "222": 117, "223": 119, "224": 120, "225": 121, "226": 121, "227": 121, "228": 121, "229": 121, "230": 121, "231": 121, "232": 124, "238": 69, "243": 69, "244": 70, "245": 70, "251": 245}}
+{"uri": "base_helper.tmpl", "line_map": {"16": 0, "21": 2, "22": 67, "23": 71, "24": 92, "25": 115, "26": 125, "32": 94, "43": 94, "44": 95, "45": 96, "46": 96, "47": 96, "48": 97, "49": 98, "50": 99, "51": 100, "52": 100, "53": 100, "54": 100, "55": 100, "56": 102, "57": 103, "58": 103, "59": 103, "60": 106, "61": 107, "62": 108, "63": 109, "64": 109, "65": 109, "66": 109, "67": 109, "68": 111, "69": 112, "70": 112, "71": 112, "77": 3, "105": 3, "106": 6, "107": 7, "108": 8, "109": 10, "110": 11, "111": 13, "112": 14, "113": 15, "114": 17, "115": 18, "116": 21, "117": 21, "118": 21, "119": 24, "120": 25, "121": 25, "122": 25, "123": 27, "124": 28, "125": 28, "126": 28, "127": 30, "128": 31, "129": 32, "130": 32, "131": 32, "132": 33, "133": 34, "134": 34, "135": 34, "136": 34, "137": 34, "138": 36, "139": 37, "140": 37, "141": 38, "142": 38, "143": 39, "144": 39, "145": 40, "146": 40, "147": 42, "148": 43, "149": 44, "150": 44, "151": 44, "152": 44, "153": 44, "154": 44, "155": 44, "156": 47, "157": 48, "158": 49, "159": 49, "160": 49, "161": 51, "162": 52, "163": 53, "164": 53, "165": 53, "166": 55, "167": 56, "168": 56, "169": 56, "170": 58, "171": 59, "172": 59, "173": 60, "174": 61, "175": 62, "176": 63, "177": 63, "178": 63, "179": 65, "180": 66, "181": 66, "187": 117, "197": 117, "198": 119, "199": 120, "200": 121, "201": 121, "202": 121, "203": 121, "204": 121, "205": 121, "206": 121, "207": 124, "213": 69, "218": 69, "219": 70, "220": 70, "226": 73, "234": 73, "235": 74, "236": 75, "237": 76, "238": 77, "239": 78, "240": 80, "241": 81, "242": 84, "243": 85, "244": 88, "245": 89, "251": 245}, "source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/base_helper.tmpl"}
 __M_END_METADATA
 """

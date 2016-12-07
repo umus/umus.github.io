@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1481120578.3583755
+_modified_time = 1481134427.6357877
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/story.tmpl'
 _template_uri = 'story.tmpl'
@@ -36,14 +36,14 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        enable_comments = context.get('enable_comments', UNDEFINED)
+        post = context.get('post', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        messages = context.get('messages', UNDEFINED)
         pheader = _mako_get_namespace(context, 'pheader')
-        post = context.get('post', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
+        enable_comments = context.get('enable_comments', UNDEFINED)
         site_has_comments = context.get('site_has_comments', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
         helper = _mako_get_namespace(context, 'helper')
         __M_writer = context.writer()
         __M_writer('\n')
@@ -63,14 +63,14 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        enable_comments = context.get('enable_comments', UNDEFINED)
+        post = context.get('post', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
         def content():
             return render_content(context)
-        messages = context.get('messages', UNDEFINED)
         pheader = _mako_get_namespace(context, 'pheader')
-        post = context.get('post', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
+        enable_comments = context.get('enable_comments', UNDEFINED)
         site_has_comments = context.get('site_has_comments', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
         helper = _mako_get_namespace(context, 'helper')
         __M_writer = context.writer()
         __M_writer('\n<article class="post-')
@@ -98,6 +98,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"uri": "story.tmpl", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/story.tmpl", "source_encoding": "utf-8", "line_map": {"87": 18, "76": 7, "77": 8, "78": 8, "79": 10, "80": 10, "81": 11, "82": 11, "83": 14, "84": 14, "85": 16, "86": 17, "23": 3, "88": 18, "89": 19, "26": 4, "91": 22, "92": 22, "29": 2, "35": 0, "90": 19, "93": 22, "99": 93, "49": 2, "50": 3, "51": 4, "52": 5, "57": 24, "63": 7}}
+{"uri": "story.tmpl", "line_map": {"87": 18, "76": 7, "77": 8, "78": 8, "79": 10, "80": 10, "81": 11, "82": 11, "83": 14, "84": 14, "85": 16, "86": 17, "23": 3, "88": 18, "89": 19, "26": 4, "91": 22, "92": 22, "29": 2, "35": 0, "90": 19, "93": 22, "99": 93, "49": 2, "50": 3, "51": 4, "52": 5, "57": 24, "63": 7}, "source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/story.tmpl"}
 __M_END_METADATA
 """
