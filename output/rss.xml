@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" href="https://umus.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 06 Dec 2016 21:10:17 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT240: Preparation for the Final</title><link>https://umus.github.io/log/ut-mat240-preparation-for-the-final.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 07 Dec 2016 14:18:00 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT240: Preparation for the Final | Arrangements</title><link>https://umus.github.io/log/ut-mat240-preparation-for-the-final-arrangements.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+Thank you to all of you who have replied!
+&lt;/p&gt;
+
+&lt;p&gt;
+Lola has expressed the options nicely:
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Not on a weekend, and
+&lt;/li&gt;
+
+&lt;li&gt;Either of:
+– On a Friday, or
+– One, but not both, of:
+    — On a Tuesday, xor
+    — Before 3:30pm
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+[ ~(weekend) ] ∧ [ (Friday) ∨ [ (Tuesday) ⊻ (Before 3:30pm) ] ]
+&lt;/p&gt;
+
+&lt;p&gt;
+I know also that there are exams some of us have on December 14 and
+15, so December 13 to 15 including are probably not the best days to
+hold the session.
+&lt;/p&gt;
+
+&lt;p&gt;
+All of you who have not answered yet, could you please tell me whether
+you are interested in meeting up at any time noted above?
+&lt;/p&gt;
+
+&lt;p&gt;
+I am looking forward to hearing from you.
+&lt;/p&gt;
+
+&lt;p&gt;
+Have a productive day!
+&lt;/p&gt;
+
+&lt;p&gt;
+—
+sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat240-preparation-for-the-final-arrangements.html</guid><pubDate>Wed, 07 Dec 2016 14:06:14 GMT</pubDate></item><item><title>UT MAT240: Preparation for the Final</title><link>https://umus.github.io/log/ut-mat240-preparation-for-the-final.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -361,47 +411,4 @@ Onwards!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii-and-iv.html</guid><pubDate>Mon, 31 Oct 2016 15:40:06 GMT</pubDate></item><item><title>20161028 UT MAT157/MAT240 Study Session III</title><link>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I hope you have had a good night sleep so that you are ready for yet
-another wonderful and productive Friday.
-&lt;/p&gt;
-
-&lt;p&gt;
-There are amazing news – Shuting Zhang and Allan Chang have expressed
-their interest in our sessions, and I hope they will be able to come
-to today at 16:10, B026 (seminar room) in Bahen.
-&lt;/p&gt;
-
-&lt;p&gt;
-As always, it would be beneficial for the entire group if you could
-think about questions you wish to ask during the session, any problems
-you are curious about or any exciting mathematical adventures you have
-been involved with that you can share with us.
-&lt;/p&gt;
-
-&lt;p&gt;
-Today, similarly to the last time, the preliminary plan is to split
-the session into two parts, one devoted to analysis and one to linear
-algebra, but there is room for any suggestions you might have.
-&lt;/p&gt;
-
-&lt;p&gt;
-I have also added some information to the ut.umu page about CCR that
-you can receive by attending the sessions.
-&lt;/p&gt;
-
-&lt;p&gt;
-I am looking forward to seeing you soon.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii.html</guid><pubDate>Fri, 28 Oct 2016 09:32:19 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161028-ut-mat157mat240-study-session-iii-and-iv.html</guid><pubDate>Mon, 31 Oct 2016 15:40:06 GMT</pubDate></item></channel></rss>
