@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1481134427.6254337
+_modified_time = 1481134441.0648897
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_isso.tmpl'
 _template_uri = 'comments_helper_isso.tmpl'
@@ -80,6 +80,6 @@ def render_comment_link_script(context):
 
 """
 __M_BEGIN_METADATA
-{"uri": "comments_helper_isso.tmpl", "line_map": {"69": 16, "70": 17, "71": 18, "72": 18, "73": 18, "74": 18, "75": 18, "16": 0, "81": 75, "21": 7, "22": 13, "23": 20, "29": 2, "34": 2, "35": 3, "36": 4, "37": 4, "38": 4, "39": 5, "40": 5, "41": 5, "42": 5, "48": 9, "53": 9, "54": 10, "55": 11, "56": 11, "57": 11, "63": 16}, "source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_isso.tmpl"}
+{"line_map": {"69": 16, "70": 17, "71": 18, "72": 18, "73": 18, "74": 18, "75": 18, "16": 0, "81": 75, "21": 7, "22": 13, "23": 20, "29": 2, "34": 2, "35": 3, "36": 4, "37": 4, "38": 4, "39": 5, "40": 5, "41": 5, "42": 5, "48": 9, "53": 9, "54": 10, "55": 11, "56": 11, "57": 11, "63": 16}, "uri": "comments_helper_isso.tmpl", "source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.4/site-packages/nikola/data/themes/umus/templates/comments_helper_isso.tmpl"}
 __M_END_METADATA
 """
