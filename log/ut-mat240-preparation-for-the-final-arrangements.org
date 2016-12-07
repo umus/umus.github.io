@@ -1,0 +1,29 @@
+Team,
+
+Thank you to all of you who have replied!
+
+Lola has expressed the options nicely:
+
+- Not on a weekend, and
+
+- Either of:
+    -- On a Friday, or
+    -- One, but not both, of:
+        --- On a Tuesday, xor
+        --- Before 3:30pm
+
+[ ~(weekend) ] ∧ [ (Friday) ∨ [ (Tuesday) ⊻ (Before 3:30pm) ] ]
+
+I know also that there are exams some of us have on December 14 and
+15, so December 13 to 15 including are probably not the best days to
+hold the session.
+
+All of you who have not answered yet, could you please tell me whether
+you are interested in meeting up at any time noted above?
+
+I am looking forward to hearing from you.
+
+Have a productive day!
+
+---
+sasha
