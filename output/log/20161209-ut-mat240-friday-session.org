@@ -1,6 +1,8 @@
 Team,
 
-I hope you are having a productive exam period.
+I hope you are having a productive exam period. For your interest,
+there are past MAT240 exams from various sources published on the
+[[https://umus.github.io/ut-umu.html#sec-1-2-1][ut.umu page]] in the MAT240 Resources section.
 
 With 3 people who have answered (thank you, Lola, Matthew and
 Vanessa), I wonder if we wish to meet today, as usual, at 16:10 in

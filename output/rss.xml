@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link rel="self" href="https://umus.github.io/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 09 Dec 2016 08:55:08 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161209 UT MAT240: Friday Session</title><link>https://umus.github.io/log/20161209-ut-mat240-friday-session.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 09 Dec 2016 08:58:48 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161209 UT MAT240: Friday Session</title><link>https://umus.github.io/log/20161209-ut-mat240-friday-session.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
 &lt;p&gt;
-I hope you are having a productive exam period.
+I hope you are having a productive exam period. For your interest,
+there are past MAT240 exams from various sources published on the
+&lt;a href="https://umus.github.io/ut-umu.html#sec-1-2-1"&gt;ut.umu page&lt;/a&gt; in the MAT240 Resources section.
 &lt;/p&gt;
 
 &lt;p&gt;
