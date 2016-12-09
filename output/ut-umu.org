@@ -10,7 +10,7 @@ Notices: [[https://umus.github.io/log/last-notice][Most Recent Announcement]]
 
 Register: [[https://github.com/umus/ut.umu/blob/master/register.csv][Most Recent Version]]
 
-Next Session: Friday, December 2, 4010 (seminar room), Bahen, 16:10 - 18:10
+Next Session: Friday, December 9, B026 (seminar room), Bahen, 16:10 - 18:10
 
 Attending sessions can get you CCR. [[http://www.studygroups.artsci.utoronto.ca/participant][Here are the rules.]]
 
@@ -118,6 +118,14 @@ Contact: [[http://www.math.toronto.edu/mein/][Professor Eckhard Meinrenken]]
 Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html][2016 Fall MAT240]]
 
 *** Resources
+**** UΤ Past December Finals
+
+- [[http://drorbn.net/index.php?title=09-240/The_Final_Exam][Fall 2009]]
+- [[http://drorbn.net/index.php?title=12-240/The_Final_Exam][Fall 2012]]
+- [[file:../assets/ut-umu/MAT240/finals/mat240h-d14.pdf][Fall 2014]]
+- [[http://drorbn.net/index.php?title=14-240/The_Final_Exam][Fall 2014: with Additional Materials]]
+- [[file:../assets/ut-umu/MAT240/finals/mat240h-d15-kudla.pdf][Fall 2015]]
+- [[file:../assets/ut-umu/MAT240/finals/mat240h-d15.pdf][Fall 2015：UTM]]
 
 **** Professor Meinrenken's Recommended Problems from Friedberg /et al/:
 
@@ -144,6 +152,10 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
  |         |     3.4 | 1, 2                            |
  |---------+---------+---------------------------------|
  |       4 |     4.1 | 1, 3, 8, 9                      |
+ |         |     4.2 | 1, 2, 5, 7, 9, 11               |
+ |         |     4.3 | 22, 28                          |
+ |         |     4.4 | 1                               |
+ |         |     4.5 | 3-10                            |
  |---------+---------+---------------------------------|
 
 
@@ -156,12 +168,6 @@ Course Homepage: [[http://www.math.toronto.edu/mein/teaching/MAT240/MAT240.html]
      + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Friedberg_Insel_Additional_Exercises.pdf][Supplementary Extension Problems]]
      + [[file:../assets/ut-umu/MAT240/2016MAT240_LA_Infinite_Bases.pdf][Alternative Treatment]] of Infinite Bases and Unique Expressions for Vectors
      + [[file:../assets/ut-umu/MAT240/03_F_110+08_F_H110_q+a.txt][Answers to Students' Questions]]
-
-**** UΤ Past December Finals
-
-- [[file:../assets/ut-umu/MAT240/finals/mat240h-d14.pdf][Fall 2014]]
-- [[file:../assets/ut-umu/MAT240/finals/mat240h-d15-kudla.pdf][Fall 2015]]
-- [[file:../assets/ut-umu/MAT240/finals/mat240h-d15.pdf][Fall 2015：UTM]]
 
 **** UT Past October Midterms
 
