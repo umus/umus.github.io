@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 09 Dec 2016 09:02:17 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20161209 UT MAT240: Friday Session</title><link>https://umus.github.io/log/20161209-ut-mat240-friday-session.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" rel="self" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Wed, 21 Dec 2016 10:08:56 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157/MAT240 RSG: CCR</title><link>https://umus.github.io/log/ut-mat157mat240-rsg-ccr.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+I hope you enjoy the pastime relatively
+free from pressure of mandatory
+activities. Let me add yet another such
+activity to your schedule.
+&lt;/p&gt;
+
+&lt;p&gt;
+With all the great work you have done
+this semester, to be recognized on the
+CCR it is necessary to complete a
+reflection at
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.surveymonkey.com/r/RSGparticiapnts"&gt;https://www.surveymonkey.com/r/RSGparticiapnts&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+by January 9th.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you have any questions, please
+forward them to Michaela at
+fasstudentsuccess@gmail.com.
+&lt;/p&gt;
+
+&lt;p&gt;
+Thank you for your fruitful engagement.
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+—
+sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat157mat240-rsg-ccr.html</guid><pubDate>Wed, 21 Dec 2016 10:06:57 GMT</pubDate></item><item><title>20161209 UT MAT240: Friday Session</title><link>https://umus.github.io/log/20161209-ut-mat240-friday-session.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -354,38 +397,4 @@ Onwards,
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161110-ut-mat157mat240-preparation-for-session-iv.html</guid><pubDate>Thu, 10 Nov 2016 08:34:07 GMT</pubDate></item><item><title>20161103 UT MAT157/MAT240: Friday Session Vote Results</title><link>https://umus.github.io/log/20161103-ut-mat157mat240-friday-session-vote-results.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I am writing to inform you about the results of the questionnaire.
-&lt;/p&gt;
-
-&lt;p&gt;
-Out of 7 people whose responses I have received, 6 individuals have
-confirmed their availability on Friday, and all of those 6 have chosen
-the talks. Thus, the plan is to go to the talks.
-&lt;/p&gt;
-
-&lt;p&gt;
-Considering the last two days of exciting events in the Fields
-Institute, I would be happy to hear the opinions and reflections from
-all of you who have managed to join the Bhargavalia. Moreover, if you
-are really excited about all the mathemagic you have witnessed and
-want to share the oumph with your knowledge-thirsty peers, we can
-devote one of the next sessions, perhaps after the analysis midterm,
-to your findings.
-&lt;/p&gt;
-
-&lt;p&gt;
-I am looking forwards to seeing you in BA2135 at 4:00 pm on Friday.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161103-ut-mat157mat240-friday-session-vote-results.html</guid><pubDate>Thu, 03 Nov 2016 06:31:11 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161110-ut-mat157mat240-preparation-for-session-iv.html</guid><pubDate>Thu, 10 Nov 2016 08:34:07 GMT</pubDate></item></channel></rss>
