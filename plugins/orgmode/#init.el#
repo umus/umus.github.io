@@ -5,10 +5,10 @@
 
 ;; Uncomment these lines and change the path to your org source to
 ;; add use it.
-(let* ((org-lisp-dir "~/.emacs.d/site-lisp/"))
-  (when (file-directory-p org-lisp-dir)
-    (add-to-list 'load-path org-lisp-dir)
-    (require 'org)))
+;; (let* ((org-lisp-dir "~/.emacs.d/src/org/lisp"))
+;;   (when (file-directory-p org-lisp-dir)
+;;       (add-to-list 'load-path org-lisp-dir)
+;;       (require 'org)))
 
 (require 'ox-html)
 
@@ -22,17 +22,20 @@
  org-startup-folded 'showeverything)
 
 ;; Load additional configuration from conf.el
-(let ((conf (expand-file-name "conf.el" (file-name-directory load-file-name))))
-  (if (file-exists-p conf)
-      (load-file conf)))
+;; (let ((conf "~/WERKE/umus.github.io/plugins/orgmode/conf.el"
+;;             ;;       (expand-file-name "conf.el" (file-name-directory load-file-name))
+;;             ))
+;;   (if (file-exists-p conf)
+;;       (load-file conf)))
 
 ;;; Macros ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Load Nikola macros
 (setq nikola-macro-templates
       (with-current-buffer
-          (find-file
-           (expand-file-name "macros.org" (file-name-directory load-file-name)))
+          (find-file "~/WERKE/umus.github.io/plugins/orgmode/macros.org"
+                     ;;                     (expand-file-name "macros.org" (file-name-directory load-file-name))
+                     )
         (org-macro--collect-macros)))
 
 
@@ -124,6 +127,6 @@ contextual information."
 specified location."
 
   (with-current-buffer (find-file infile)
-    (org-macro-replace-all nikola-macro-templates)
+    ;;    (org-macro-replace-all nikola-macro-templates)
     (org-html-export-as-html nil nil t t)
     (write-file outfile nil)))
