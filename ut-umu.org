@@ -4,13 +4,9 @@
 
 /Anyhow, Math/
 ------
-Log: [[https://umus.github.io/log/last-session][Most Recent Session]]
+Next Session Announcement: [[https://umus.github.io/log/][Most Recent Session]]
 
-Notices: [[https://umus.github.io/log/last-notice][Most Recent Announcement]]
-
-Register: [[https://github.com/umus/ut.umu/blob/master/register.csv][Most Recent Version]]
-
-Next Session: Friday, January 13, 1220, Bahen, 15:00 - 17:00
+Next Session: Friday, January 20, 4010, Bahen, 15:00 - 17:00
 
 Attending sessions can get you CCR. [[http://www.studygroups.artsci.utoronto.ca/participant][Here are the rules.]]
 
