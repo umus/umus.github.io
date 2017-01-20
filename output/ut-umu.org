@@ -12,7 +12,8 @@ Attending sessions can get you CCR. [[http://www.studygroups.artsci.utoronto.ca/
 
 #+TOC: headlines 3
 ------
-#+BEGIN_HTML
+#+BEGIN_SRC html
+
 <center><table style="width: 100%;">
 <tr><td><img style="width: 90%;" src="https://umus.github.io/assets/ut-umu/utumu.jpg">
 <p style="font-size: 10px;"> <i>20161111: Ming Feng Wan, Laurestine Bradford, Vincent Huang, Thomas Ma</i>
@@ -32,7 +33,7 @@ and less.<br>
 </p>
 </td>
 </table></center>
-#+END_HTML
+#+END_SRC
 ------
 * Courses
 
