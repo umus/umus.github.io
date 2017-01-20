@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" href="https://umus.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 13 Jan 2017 03:32:35 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157/MAT240: Happy New Year!</title><link>https://umus.github.io/log/ut-mat157mat240-happy-new-year.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 20 Jan 2017 06:21:02 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20170120 UT MAT157/MAT247: Study Session II</title><link>https://umus.github.io/log/20170120-ut-mat157mat247-study-session-ii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+For all of you interested in doing some problems together, I suggest
+we meet in BA4010 tomorrow at 15:00.
+&lt;/p&gt;
+
+&lt;p&gt;
+There is a Putnam Club running at 17:00 in the same room as well, so
+we will finish by then and thus will have an opportunity to attend the
+VI MUG talk, given by Dr. Brendan Kelly on  "How many ways to the coffee
+house?".
+&lt;/p&gt;
+
+&lt;p&gt;
+"A mathematician is a device for turning coffee into theorems",- said
+Rényi, so you might as well give a shot to the talk.
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20170120-ut-mat157mat247-study-session-ii.html</guid><pubDate>Fri, 20 Jan 2017 04:49:15 GMT</pubDate></item><item><title>UT MAT157/MAT247 RSG: Session II</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-session-ii.html</link><dc:creator>umu</dc:creator><description></description><guid>https://umus.github.io/log/ut-mat157mat247-rsg-session-ii.html</guid><pubDate>Fri, 20 Jan 2017 04:46:52 GMT</pubDate></item><item><title>UT MAT157/MAT240: Happy New Year!</title><link>https://umus.github.io/log/ut-mat157mat240-happy-new-year.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -307,71 +334,4 @@ Onwards!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi.html</guid><pubDate>Fri, 25 Nov 2016 09:03:45 GMT</pubDate></item><item><title>20161118 UT MAT157/MAT240: Study Session V</title><link>https://umus.github.io/log/20161118-ut-mat157mat240-study-session-v.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I am writing to remind you that today
-the session is going to take place at
-the usual time, 16:10, in the usual
-place, B026 (seminar room), Bahen.
-&lt;/p&gt;
-
-&lt;p&gt;
-The preliminary plan is to split the
-session into two, one for analysis and
-one for algebra, but if you have any
-other ideas in mind, please do not
-hesitate to propose them during the
-session. And it would be great to hear
-any problems or questions you might want
-to discuss together!
-&lt;/p&gt;
-
-&lt;p&gt;
-Good luck to all of you who have a
-midterm today.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161118-ut-mat157mat240-study-session-v.html</guid><pubDate>Fri, 18 Nov 2016 14:48:56 GMT</pubDate></item><item><title>20161113 UT MAT157: Preparation for Midterm Test</title><link>https://umus.github.io/log/20161113-ut-mat157-preparation-for-midterm-test.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I hope you are having a productive and reinvigorating weekend.
-&lt;/p&gt;
-
-&lt;p&gt;
-You may find the following past MAT157 exams worthwhile to look at for
-the midterm tomorrow:
-&lt;/p&gt;
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.math.toronto.edu/~drorbn/classes/0203/157AnalysisI/TermExam2/Exam.html"&gt;MAT157 2002-2003 Midterm 2&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.math.toronto.edu/~drorbn/classes/0304/157AnalysisI/TE2/Exam.html"&gt;MAT157 2003-2004 Midterm 2&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.math.toronto.edu/~drorbn/classes/0405/157AnalysisI/TE2/Exam.html"&gt;MAT157 2004-2005 Midterm 2&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;
-I have also updated the ut.umu page with the advice from Özgür
-Esentepe and the photo from the last session on Friday, November 11. I
-am grateful to all of you for your dedication and creative boldness.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161113-ut-mat157-preparation-for-midterm-test.html</guid><pubDate>Sun, 13 Nov 2016 18:34:09 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi.html</guid><pubDate>Fri, 25 Nov 2016 09:03:45 GMT</pubDate></item></channel></rss>
