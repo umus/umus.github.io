@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 20 Jan 2017 06:21:02 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20170120 UT MAT157/MAT247: Study Session II</title><link>https://umus.github.io/log/20170120-ut-mat157mat247-study-session-ii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link rel="self" type="application/rss+xml" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 27 Jan 2017 06:50:24 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20170127 UT MAT157/MAT247 RSG: Study Session II + MUGS VII</title><link>https://umus.github.io/log/20170127-ut-mat157mat247-rsg-study-session-ii-%2B-mugs-vii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team,
+&lt;/p&gt;
+
+&lt;p&gt;
+!新年快乐
+&lt;/p&gt;
+
+&lt;p&gt;
+I hope you are still eager to plunge into some more problem solving.
+&lt;/p&gt;
+
+&lt;p&gt;
+I suggest we meet tomorrow at 15:00 in BA4010. Straight after our
+session, at 17:00, there is a talk in BA1170 on meets and greets –
+ahem – knots and graphs, given by Katie Walsh, for whom it is one of
+the tests required to work at UofT. So we are lucky!
+&lt;/p&gt;
+
+&lt;p&gt;
+Hope to see you there.
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20170127-ut-mat157mat247-rsg-study-session-ii-%2B-mugs-vii.html</guid><pubDate>Fri, 27 Jan 2017 06:40:34 GMT</pubDate></item><item><title>20170120 UT MAT157/MAT247: Study Session II</title><link>https://umus.github.io/log/20170120-ut-mat157mat247-study-session-ii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -300,38 +329,4 @@ Have a great weekend!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi-addendum.html</guid><pubDate>Sat, 26 Nov 2016 03:18:01 GMT</pubDate></item><item><title>20161125 UT MAT157/MAT240 Study Session VI</title><link>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I hope you are having a productive week.
-&lt;/p&gt;
-
-&lt;p&gt;
-Today we plan to meet at 16:10 at an unusual place – room 4010 in
-Bahen.
-&lt;/p&gt;
-
-&lt;p&gt;
-I have also added a book on the treatment of linear algebra via
-exterior products to the resource page on ut.umu.
-&lt;/p&gt;
-
-&lt;p&gt;
-If you know some interesting applications of MVT, intuitive
-visualizations of dual spaces or stories about Diogenes and his
-friends, you are more than welcome to share them with us.
-&lt;/p&gt;
-
-&lt;p&gt;
-Hope to see you there.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi.html</guid><pubDate>Fri, 25 Nov 2016 09:03:45 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi-addendum.html</guid><pubDate>Sat, 26 Nov 2016 03:18:01 GMT</pubDate></item></channel></rss>
