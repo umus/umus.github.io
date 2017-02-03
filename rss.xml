@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link rel="self" type="application/rss+xml" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 27 Jan 2017 06:50:24 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20170127 UT MAT157/MAT247 RSG: Study Session II + MUGS VII</title><link>https://umus.github.io/log/20170127-ut-mat157mat247-rsg-study-session-ii-%2B-mugs-vii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" rel="self" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 03 Feb 2017 05:35:35 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157/MAT247 RSG: Session IV</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-session-iv.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team, 
+&lt;/p&gt;
+
+&lt;p&gt;
+I suggest we meet tomorrow at 15:00 in BA4010 for joyful problem
+solving.
+&lt;/p&gt;
+
+&lt;p&gt;
+There is also a talk at 17:00 organized by MU in Room 1190 which you
+might find interesting:
+&lt;/p&gt;
+
+&lt;p&gt;
+"The hallway problem considers adjacent parallel hallways of unit width
+each with a single doorway (aligned with integer lattice points) of unit
+width. It then asks: what are the properties of lines that pass through
+each doorway? Configurations of doorways closely correspond to Sturmian
+words, and so properties of these configurations may be lifted to
+properties of Sturmian words. This talk will explore lines of sight, lines
+that pass through each doorway, for both the case for both a finite number
+of parallel hallways and an infinite number, and their consequences for
+Sturmian words. We then produce a metric on configurations with an
+infinite number of hallways that preserves the property of admitting a
+line of sight under limits."
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat157mat247-rsg-session-iv.html</guid><pubDate>Fri, 03 Feb 2017 05:27:50 GMT</pubDate></item><item><title>20170127 UT MAT157/MAT247 RSG: Study Session III + MUGS VII</title><link>https://umus.github.io/log/20170127-ut-mat157mat247-rsg-study-session-iii-%2B-mugs-vii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -28,7 +62,7 @@ Onwards!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20170127-ut-mat157mat247-rsg-study-session-ii-%2B-mugs-vii.html</guid><pubDate>Fri, 27 Jan 2017 06:40:34 GMT</pubDate></item><item><title>20170120 UT MAT157/MAT247: Study Session II</title><link>https://umus.github.io/log/20170120-ut-mat157mat247-study-session-ii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20170127-ut-mat157mat247-rsg-study-session-iii-%2B-mugs-vii.html</guid><pubDate>Fri, 27 Jan 2017 06:40:34 GMT</pubDate></item><item><title>20170120 UT MAT157/MAT247: Study Session II</title><link>https://umus.github.io/log/20170120-ut-mat157mat247-study-session-ii.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -55,7 +89,7 @@ Onwards!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20170120-ut-mat157mat247-study-session-ii.html</guid><pubDate>Fri, 20 Jan 2017 04:49:15 GMT</pubDate></item><item><title>UT MAT157/MAT247 RSG: Session II</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-session-ii.html</link><dc:creator>umu</dc:creator><description></description><guid>https://umus.github.io/log/ut-mat157mat247-rsg-session-ii.html</guid><pubDate>Fri, 20 Jan 2017 04:46:52 GMT</pubDate></item><item><title>UT MAT157/MAT240: Happy New Year!</title><link>https://umus.github.io/log/ut-mat157mat240-happy-new-year.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20170120-ut-mat157mat247-study-session-ii.html</guid><pubDate>Fri, 20 Jan 2017 04:49:15 GMT</pubDate></item><item><title>UT MAT157/MAT240: Happy New Year!</title><link>https://umus.github.io/log/ut-mat157mat240-happy-new-year.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 

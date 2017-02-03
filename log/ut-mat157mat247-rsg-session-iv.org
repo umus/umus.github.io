@@ -1,0 +1,23 @@
+Team, 
+
+I suggest we meet tomorrow at 15:00 in BA4010 for joyful problem
+solving.
+
+There is also a talk at 17:00 organized by MU in Room 1190 which you
+might find interesting:
+
+"The hallway problem considers adjacent parallel hallways of unit width
+each with a single doorway (aligned with integer lattice points) of unit
+width. It then asks: what are the properties of lines that pass through
+each doorway? Configurations of doorways closely correspond to Sturmian
+words, and so properties of these configurations may be lifted to
+properties of Sturmian words. This talk will explore lines of sight, lines
+that pass through each doorway, for both the case for both a finite number
+of parallel hallways and an infinite number, and their consequences for
+Sturmian words. We then produce a metric on configurations with an
+infinite number of hallways that preserves the property of admitting a
+line of sight under limits."
+
+Onwards!
+
+-- sasha
