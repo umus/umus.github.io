@@ -6,12 +6,9 @@
 <i>Anyhow, Math</i>
 </p>
 <hr  />
-<p>
-Next Session Announcement: <a href="https://umus.github.io/log/">Most Recent Session</a>
-</p>
 
 <p>
-Next Session: Friday, January 20, 4010, Bahen, 15:00 - 17:00
+Next Session: Friday, February 3, 4010, Bahen, 15:00 - 17:00
 </p>
 
 <p>
@@ -22,26 +19,26 @@ Attending sessions can get you CCR. <a href="http://www.studygroups.artsci.utoro
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org6965a74">Courses</a>
+<li><a href="#org40ff2d4">Courses</a>
 <ul>
-<li><a href="#orgf25566f">MAT157</a>
+<li><a href="#org7d9924a">MAT157</a>
 <ul>
-<li><a href="#org4061a01">Resources</a></li>
+<li><a href="#org3c4a97d">Resources</a></li>
 </ul>
 </li>
-<li><a href="#orgac5148f">MAT247</a></li>
-<li><a href="#org789edc5">MAT240</a>
+<li><a href="#org406a1f7">MAT247</a></li>
+<li><a href="#orgfe12d26">MAT240</a>
 <ul>
-<li><a href="#org6c0d4df">Resources</a></li>
+<li><a href="#org261b93b">Resources</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orge64fdf2">Recommendations</a></li>
-<li><a href="#org7c18567">Suggestions</a></li>
-<li><a href="#org48acfc5">Comments</a>
+<li><a href="#org9907a59">Recommendations</a></li>
+<li><a href="#org5ff3336">Suggestions</a></li>
+<li><a href="#orgf426c76">Comments</a>
 <ul>
-<li><a href="#orgafc83e1">20161014: CUMC Talks</a></li>
+<li><a href="#orgf84e1b8">20161014: CUMC Talks</a></li>
 </ul>
 </li>
 </ul>
@@ -68,21 +65,21 @@ and less.<br>
 </td>
 </table></center>
 <hr  />
-<div id="outline-container-org6965a74" class="outline-2">
-<h2 id="org6965a74">Courses</h2>
-<div class="outline-text-2" id="text-org6965a74">
-</div><div id="outline-container-orgf25566f" class="outline-3">
-<h3 id="orgf25566f">MAT157</h3>
-<div class="outline-text-3" id="text-orgf25566f">
+<div id="outline-container-org40ff2d4" class="outline-2">
+<h2 id="org40ff2d4">Courses</h2>
+<div class="outline-text-2" id="text-org40ff2d4">
+</div><div id="outline-container-org7d9924a" class="outline-3">
+<h3 id="org7d9924a">MAT157</h3>
+<div class="outline-text-3" id="text-org7d9924a">
 <p>
 Contact: <a href="https://www.math.toronto.edu/cms/repka-joe/">Professor Joe Repka</a>
 </p>
 </div>
 
-<div id="outline-container-org4061a01" class="outline-4">
-<h4 id="org4061a01">Resources</h4>
-<div class="outline-text-4" id="text-org4061a01">
-</div><ul class="org-ul"><li><a id="org885d929"></a>Professor <a href="https://www.math.ucdavis.edu/~emsilvia/math127/math127.html">Evelyn Silvia</a>'s Companion Notes to Baby Rudin<br  /><div class="outline-text-5" id="text-org885d929">
+<div id="outline-container-org3c4a97d" class="outline-4">
+<h4 id="org3c4a97d">Resources</h4>
+<div class="outline-text-4" id="text-org3c4a97d">
+</div><ul class="org-ul"><li><a id="org2da9f6f"></a>Professor <a href="https://www.math.ucdavis.edu/~emsilvia/math127/math127.html">Evelyn Silvia</a>'s Companion Notes to Baby Rudin<br  /><div class="outline-text-5" id="text-org2da9f6f">
 <ul class="org-ul">
 <li><a href="../assets/ut-umu/MAT157/PMA/0.pdf">Introduction &amp; Table of Contents</a></li>
 <li><a href="../assets/ut-umu/MAT157/PMA/1.pdf">Chapter 1: The Field of Reals and Beyond</a></li>
@@ -98,7 +95,7 @@ Contact: <a href="https://www.math.toronto.edu/cms/repka-joe/">Professor Joe Rep
 </ul>
 </div></li>
 
-<li><a id="orgcfcde5b"></a>MAT157 2012-2013 Recommended Problems from Spivak's Calculus<br  /><div class="outline-text-5" id="text-orgcfcde5b">
+<li><a id="org0a77f7f"></a>MAT157 2012-2013 Recommended Problems from Spivak's Calculus<br  /><div class="outline-text-5" id="text-org0a77f7f">
 <p>
 <i>The following table is adapted from the <a href="http://www.math.toronto.edu/~alfonso/137to257/MAT157_Syllabus_20122013.xlsx">MAT157 2012-2013 syllabus</a></i>
 <i>taught by Professor Kumar Murty, recommended by our comrade Yuveshen
@@ -273,9 +270,9 @@ Mooroogen:</i>
 </div>
 </div>
 
-<div id="outline-container-orgac5148f" class="outline-3">
-<h3 id="orgac5148f">MAT247</h3>
-<div class="outline-text-3" id="text-orgac5148f">
+<div id="outline-container-org406a1f7" class="outline-3">
+<h3 id="org406a1f7">MAT247</h3>
+<div class="outline-text-3" id="text-org406a1f7">
 <p>
 Contact: <a href="mailto:herzig@math.toronto.edu">Professor Florian Herzig</a>
 </p>
@@ -286,9 +283,9 @@ Course Homepage: <a href="http://www.math.toronto.edu/~herzig/247-s17.html">2017
 </div>
 </div>
 
-<div id="outline-container-org789edc5" class="outline-3">
-<h3 id="org789edc5">MAT240</h3>
-<div class="outline-text-3" id="text-org789edc5">
+<div id="outline-container-orgfe12d26" class="outline-3">
+<h3 id="orgfe12d26">MAT240</h3>
+<div class="outline-text-3" id="text-orgfe12d26">
 <p>
 Contact: <a href="http://www.math.toronto.edu/mein/">Professor Eckhard Meinrenken</a>
 </p>
@@ -298,10 +295,10 @@ Course Homepage: <a href="http://www.math.toronto.edu/mein/teaching/MAT240/MAT24
 </p>
 </div>
 
-<div id="outline-container-org6c0d4df" class="outline-4">
-<h4 id="org6c0d4df">Resources</h4>
-<div class="outline-text-4" id="text-org6c0d4df">
-</div><ul class="org-ul"><li><a id="org657d798"></a>UΤ Past December Finals<br  /><div class="outline-text-5" id="text-org657d798">
+<div id="outline-container-org261b93b" class="outline-4">
+<h4 id="org261b93b">Resources</h4>
+<div class="outline-text-4" id="text-org261b93b">
+</div><ul class="org-ul"><li><a id="org3dd3ad3"></a>UΤ Past December Finals<br  /><div class="outline-text-5" id="text-org3dd3ad3">
 <ul class="org-ul">
 <li><a href="http://drorbn.net/index.php?title=09-240/The_Final_Exam">Fall 2009</a></li>
 <li><a href="http://drorbn.net/index.php?title=12-240/The_Final_Exam">Fall 2012</a></li>
@@ -312,7 +309,7 @@ Course Homepage: <a href="http://www.math.toronto.edu/mein/teaching/MAT240/MAT24
 </ul>
 </div></li>
 
-<li><a id="org45cb588"></a>Professor Meinrenken's Recommended Problems from Friedberg <i>et al</i>:<br  /><div class="outline-text-5" id="text-org45cb588">
+<li><a id="org5bd4ab0"></a>Professor Meinrenken's Recommended Problems from Friedberg <i>et al</i>:<br  /><div class="outline-text-5" id="text-org5bd4ab0">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -464,9 +461,9 @@ Course Homepage: <a href="http://www.math.toronto.edu/mein/teaching/MAT240/MAT24
 </div></li>
 
 
-<li><a id="org3a01cc5"></a><a href="https://sites.google.com/site/winitzki/linalg">Sergei Winitzki</a>'s <b><a href="https://sdll.github.io/assets/agenda/linalg/winitzki.pdf">Linear Algebra via Exterior Products</a></b><br  /></li>
-<li><a id="org28666af"></a><a href="http://www.math.ucla.edu/~tao/resource/general/115a.3.02f/">Terry Tao's *UCLA MAT115A Linear Algebra Course Notes</a>*<br  /></li>
-<li><a id="org8f8018e"></a><a href="https://math.berkeley.edu/~gbergman/ug.hndts/#m110_Fr+Ins+Sp">George M. Bergman's *Supplementary Materials</a>*<br  /><div class="outline-text-5" id="text-org8f8018e">
+<li><a id="org496f9a1"></a><a href="https://sites.google.com/site/winitzki/linalg">Sergei Winitzki</a>'s <b><a href="https://sdll.github.io/assets/agenda/linalg/winitzki.pdf">Linear Algebra via Exterior Products</a></b><br  /></li>
+<li><a id="org5944ee9"></a><a href="http://www.math.ucla.edu/~tao/resource/general/115a.3.02f/">Terry Tao's *UCLA MAT115A Linear Algebra Course Notes</a>*<br  /></li>
+<li><a id="org9d95b78"></a><a href="https://math.berkeley.edu/~gbergman/ug.hndts/#m110_Fr+Ins+Sp">George M. Bergman's *Supplementary Materials</a>*<br  /><div class="outline-text-5" id="text-org9d95b78">
 <ul class="org-ul">
 <li>Notes on Friedberg, Insel and Spence's "Linear Algebra":
 
@@ -478,7 +475,7 @@ Course Homepage: <a href="http://www.math.toronto.edu/mein/teaching/MAT240/MAT24
 </ul>
 </div></li>
 
-<li><a id="orgc214381"></a>UT Past October Midterms<br  /><div class="outline-text-5" id="text-orgc214381">
+<li><a id="org95079ad"></a>UT Past October Midterms<br  /><div class="outline-text-5" id="text-org95079ad">
 <ul class="org-ul">
 <li><a href="http://wiki.math.toronto.edu/TorontoMathWiki/images/1/15/10-240-TE.pdf">Fall 2010</a></li>
 <li><a href="http://wiki.math.toronto.edu/TorontoMathWiki/images/7/78/TE.pdf">Fall 2011</a></li>
@@ -490,9 +487,9 @@ Course Homepage: <a href="http://www.math.toronto.edu/mein/teaching/MAT240/MAT24
 </div>
 </div>
 
-<div id="outline-container-orge64fdf2" class="outline-2">
-<h2 id="orge64fdf2">Recommendations</h2>
-<div class="outline-text-2" id="text-orge64fdf2">
+<div id="outline-container-org9907a59" class="outline-2">
+<h2 id="org9907a59">Recommendations</h2>
+<div class="outline-text-2" id="text-org9907a59">
 <p>
 <i>The following are the recommendations received from various sources</i>
 <i>with advice on the agenda and study of mathematics in general.</i>
@@ -531,9 +528,9 @@ well enough.</li>
 </div>
 </div>
 
-<div id="outline-container-org7c18567" class="outline-2">
-<h2 id="org7c18567">Suggestions</h2>
-<div class="outline-text-2" id="text-org7c18567">
+<div id="outline-container-org5ff3336" class="outline-2">
+<h2 id="org5ff3336">Suggestions</h2>
+<div class="outline-text-2" id="text-org5ff3336">
 <p>
 <i>The following are the suggestions from the participants regarding</i>
 <i>the sessions</i>.
@@ -587,9 +584,9 @@ communication between the organisers and the members.</li>
 </div>
 </div>
 
-<div id="outline-container-org48acfc5" class="outline-2">
-<h2 id="org48acfc5">Comments</h2>
-<div class="outline-text-2" id="text-org48acfc5">
+<div id="outline-container-orgf426c76" class="outline-2">
+<h2 id="orgf426c76">Comments</h2>
+<div class="outline-text-2" id="text-orgf426c76">
 <p>
 <i>The following are the comments and opinions from the participants</i>
 <i>regarding the sessions and related activities.</i>
@@ -600,9 +597,9 @@ communication between the organisers and the members.</li>
 </p>
 </div>
 
-<div id="outline-container-orgafc83e1" class="outline-3">
-<h3 id="orgafc83e1">20161014: CUMC Talks</h3>
-<div class="outline-text-3" id="text-orgafc83e1">
+<div id="outline-container-orgf84e1b8" class="outline-3">
+<h3 id="orgf84e1b8">20161014: CUMC Talks</h3>
+<div class="outline-text-3" id="text-orgf84e1b8">
 <ul class="org-ul">
 <li>I can't decide which talk I liked best! They were all great. I
 was especially impressed that i felt like i understood most of
