@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" rel="self" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 03 Feb 2017 05:35:35 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157/MAT247 RSG: Session IV</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-session-iv.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" href="https://umus.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 10 Feb 2017 05:25:57 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157/MAT247 RSG: Session V</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-session-v.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team, 
+&lt;/p&gt;
+
+&lt;p&gt;
+I hope you have had a productive week.
+&lt;/p&gt;
+
+&lt;p&gt;
+I suggest we meet today at 3.00 pm in BA4010, as usual, for more
+problem-solving and knowledge-sharing.
+&lt;/p&gt;
+
+&lt;p&gt;
+Hope to see you there.
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat157mat247-rsg-session-v.html</guid><pubDate>Fri, 10 Feb 2017 05:16:04 GMT</pubDate></item><item><title>UT MAT157/MAT247 RSG: Session IV</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-session-iv.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team, 
 &lt;/p&gt;
 
@@ -335,32 +358,4 @@ Onwards!
 
 &lt;p&gt;
 – sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161202-ut-mat157mat240-study-session-vii.html</guid><pubDate>Fri, 02 Dec 2016 12:47:18 GMT</pubDate></item><item><title>20161125 UT MAT157/MAT240 Study Session VI: Addendum</title><link>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi-addendum.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-I am grateful to all of you who have come today. In the session we
-were happy to welcome Janice in our circle!
-&lt;/p&gt;
-
-&lt;p&gt;
-With regards to the problem that Saminul suggested, the following are
-several links which I hope you might find interesting:
-&lt;/p&gt;
-
-&lt;p&gt;
-(1) &lt;a href="https://math.stackexchange.com/questions/1882069/why-does-polynomial-factorization-generalize-to-matrices"&gt;Generalization of the Polynomial Factorization to Matrices&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-(2) &lt;a href="http://www.maa.org/sites/default/files/images/upload_library/22/Ford/Axler139-154.pdf"&gt;Proof that Every Operator over a Finite-dimensional Complex Vector Space has an Eigenvalue&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-Have a great weekend!
-&lt;/p&gt;
-
-&lt;p&gt;
-– sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161125-ut-mat157mat240-study-session-vi-addendum.html</guid><pubDate>Sat, 26 Nov 2016 03:18:01 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161202-ut-mat157mat240-study-session-vii.html</guid><pubDate>Fri, 02 Dec 2016 12:47:18 GMT</pubDate></item></channel></rss>
