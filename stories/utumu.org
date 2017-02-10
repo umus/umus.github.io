@@ -112,6 +112,9 @@ Contact: [[mailto:herzig@math.toronto.edu][Professor Florian Herzig]]
 Course Homepage: [[http://www.math.toronto.edu/~herzig/247-s17.html][2017 Winter MAT247]]
 
 *** Resources
+
+**** [[http://www.math.toronto.edu/ozgures/teaching.html][Özgür Esentepe's Psets]]
+
 **** Professor Herzig's Recommended Problems from Friedberg /et al/:
 |---------+----------------------------------------|
 | Section | Problems                               |
