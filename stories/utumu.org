@@ -114,7 +114,7 @@ Course Homepage: [[http://www.math.toronto.edu/~herzig/247-s17.html][2017 Winter
 *** Resources
 
 **** [[http://www.math.toronto.edu/ozgures/teaching.html][Özgür Esentepe's Psets]]
-**** [[file:../assets/ut-umu/MAT247/Nicolas-Bryenton-MAT247-Notes.pdf][Nicolas Bryenton's MAT247 Midterm Notes]]
+**** [[file:../assets/ut-umu/MAT247/Nicolas-Bryenton-MAT247-Notes.pdf][Nicolas Bryenton's MAT247 Midterm Notes]] ([[file:../assets/ut-umu/MAT247/Nicolas-Bryenton-MAT247-Notes.tex][src]])
 **** Professor Herzig's Recommended Problems from Friedberg /et al/:
 |---------+--------------------------------------------------------|
 | Section | Problems                                               |
