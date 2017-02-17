@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1487216966.5650156
+_modified_time = 1487308652.0610003
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.5/site-packages/nikola/data/themes/umus/templates/base_header.tmpl'
 _template_uri = 'base_header.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['html_site_title', 'html_navigation_links', 'html_translation_header', 'html_header']
+_exports = ['html_header', 'html_site_title', 'html_navigation_links', 'html_translation_header']
 
 
 def _mako_get_namespace(context, name):
@@ -40,17 +40,50 @@ def render_body(context,**pageargs):
         context.caller_stack._pop_frame()
 
 
+def render_html_header(context):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        _import_ns = {}
+        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
+        def html_navigation_links():
+            return render_html_navigation_links(context)
+        def html_site_title():
+            return render_html_site_title(context)
+        search_form = _import_ns.get('search_form', context.get('search_form', UNDEFINED))
+        def html_translation_header():
+            return render_html_translation_header(context)
+        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
+        __M_writer = context.writer()
+        __M_writer('\n    <header id="header">\n        ')
+        __M_writer(str(html_site_title()))
+        __M_writer('\n        ')
+        __M_writer(str(html_translation_header()))
+        __M_writer('\n        ')
+        __M_writer(str(html_navigation_links()))
+        __M_writer('\n')
+        if search_form:
+            __M_writer('            <div class="searchform" role="search">\n                ')
+            __M_writer(str(search_form))
+            __M_writer('\n            </div>\n')
+        __M_writer('    </header>\n    ')
+        __M_writer(str(template_hooks['page_header']()))
+        __M_writer('\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
 def render_html_site_title(context):
     __M_caller = context.caller_stack._push_frame()
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
-        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
-        abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
-        show_blog_title = _import_ns.get('show_blog_title', context.get('show_blog_title', UNDEFINED))
         logo_url = _import_ns.get('logo_url', context.get('logo_url', UNDEFINED))
+        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
         blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
+        show_blog_title = _import_ns.get('show_blog_title', context.get('show_blog_title', UNDEFINED))
+        abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
+        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    <h1 id="brand"><a href="')
         __M_writer(str(abs_link(_link("root", None, lang))))
@@ -77,14 +110,14 @@ def render_html_navigation_links(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        navigation_links = _import_ns.get('navigation_links', context.get('navigation_links', UNDEFINED))
-        tuple = _import_ns.get('tuple', context.get('tuple', UNDEFINED))
-        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
-        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
-        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
         lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
+        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
         rel_link = _import_ns.get('rel_link', context.get('rel_link', UNDEFINED))
         isinstance = _import_ns.get('isinstance', context.get('isinstance', UNDEFINED))
+        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
+        navigation_links = _import_ns.get('navigation_links', context.get('navigation_links', UNDEFINED))
+        tuple = _import_ns.get('tuple', context.get('tuple', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    <nav id="menu">\n    <ul>\n')
         for url, text in navigation_links[lang]:
@@ -140,8 +173,8 @@ def render_html_translation_header(context):
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         translations = _import_ns.get('translations', context.get('translations', UNDEFINED))
         len = _import_ns.get('len', context.get('len', UNDEFINED))
-        base = _mako_get_namespace(context, 'base')
         messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        base = _mako_get_namespace(context, 'base')
         __M_writer = context.writer()
         __M_writer('\n')
         if len(translations) > 1:
@@ -155,41 +188,8 @@ def render_html_translation_header(context):
         context.caller_stack._pop_frame()
 
 
-def render_html_header(context):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        _import_ns = {}
-        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        def html_site_title():
-            return render_html_site_title(context)
-        def html_navigation_links():
-            return render_html_navigation_links(context)
-        def html_translation_header():
-            return render_html_translation_header(context)
-        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
-        search_form = _import_ns.get('search_form', context.get('search_form', UNDEFINED))
-        __M_writer = context.writer()
-        __M_writer('\n    <header id="header">\n        ')
-        __M_writer(str(html_site_title()))
-        __M_writer('\n        ')
-        __M_writer(str(html_translation_header()))
-        __M_writer('\n        ')
-        __M_writer(str(html_navigation_links()))
-        __M_writer('\n')
-        if search_form:
-            __M_writer('            <div class="searchform" role="search">\n                ')
-            __M_writer(str(search_form))
-            __M_writer('\n            </div>\n')
-        __M_writer('    </header>\n    ')
-        __M_writer(str(template_hooks['page_header']()))
-        __M_writer('\n')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
 """
 __M_BEGIN_METADATA
-{"uri": "base_header.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 0, "33": 2, "34": 16, "35": 28, "36": 57, "37": 66, "43": 18, "55": 18, "56": 19, "57": 19, "58": 19, "59": 19, "60": 20, "61": 21, "62": 21, "63": 21, "64": 23, "65": 24, "66": 25, "67": 25, "68": 25, "69": 27, "75": 30, "89": 30, "90": 33, "91": 34, "92": 35, "93": 35, "94": 35, "95": 37, "96": 38, "97": 39, "98": 39, "99": 39, "100": 39, "101": 39, "102": 39, "103": 39, "104": 40, "105": 41, "106": 41, "107": 41, "108": 41, "109": 41, "110": 44, "111": 45, "112": 46, "113": 47, "114": 47, "115": 47, "116": 47, "117": 47, "118": 47, "119": 47, "120": 48, "121": 49, "122": 49, "123": 49, "124": 49, "125": 49, "126": 53, "127": 53, "128": 53, "129": 54, "130": 54, "136": 59, "146": 59, "147": 60, "148": 61, "149": 62, "150": 62, "151": 63, "152": 63, "158": 4, "172": 4, "173": 6, "174": 6, "175": 7, "176": 7, "177": 8, "178": 8, "179": 9, "180": 10, "181": 11, "182": 11, "183": 14, "184": 15, "185": 15, "191": 185}, "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.5/site-packages/nikola/data/themes/umus/templates/base_header.tmpl"}
+{"source_encoding": "utf-8", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.5/site-packages/nikola/data/themes/umus/templates/base_header.tmpl", "line_map": {"23": 2, "26": 0, "33": 2, "34": 16, "35": 28, "36": 57, "37": 66, "43": 4, "57": 4, "58": 6, "59": 6, "60": 7, "61": 7, "62": 8, "63": 8, "64": 9, "65": 10, "66": 11, "67": 11, "68": 14, "69": 15, "70": 15, "76": 18, "88": 18, "89": 19, "90": 19, "91": 19, "92": 19, "93": 20, "94": 21, "95": 21, "96": 21, "97": 23, "98": 24, "99": 25, "100": 25, "101": 25, "102": 27, "108": 30, "122": 30, "123": 33, "124": 34, "125": 35, "126": 35, "127": 35, "128": 37, "129": 38, "130": 39, "131": 39, "132": 39, "133": 39, "134": 39, "135": 39, "136": 39, "137": 40, "138": 41, "139": 41, "140": 41, "141": 41, "142": 41, "143": 44, "144": 45, "145": 46, "146": 47, "147": 47, "148": 47, "149": 47, "150": 47, "151": 47, "152": 47, "153": 48, "154": 49, "155": 49, "156": 49, "157": 49, "158": 49, "159": 53, "160": 53, "161": 53, "162": 54, "163": 54, "169": 59, "179": 59, "180": 60, "181": 61, "182": 62, "183": 62, "184": 63, "185": 63, "191": 185}, "uri": "base_header.tmpl"}
 __M_END_METADATA
 """
