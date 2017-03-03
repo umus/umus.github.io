@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 17 Feb 2017 06:24:14 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157/MAT247 RSG: Reading Week and Talks</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-reading-week-and-talks.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" href="https://umus.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 03 Mar 2017 14:02:54 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20170303 UT MAT157/MAT247 RSG: Exam Break</title><link>https://umus.github.io/log/20170303-ut-mat157mat247-rsg-exam-break.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team, 
+&lt;/p&gt;
+
+&lt;p&gt;
+In the tense time of midterms, I hope you feel composed and ready for
+new challenges.
+&lt;/p&gt;
+
+&lt;p&gt;
+I will be able to attend the session today due to an exam, but there
+are still vacant classrooms you can go to and eager communities you
+can join.
+&lt;/p&gt;
+
+&lt;p&gt;
+For example, Gal Gross and Putnamites are meeting today, March 3rd, in
+BA 4010 from 16:00 to 20:00 to plow through Chapter 2 of "Putnam and
+Beyond".
+&lt;/p&gt;
+
+&lt;p&gt;
+If you are looking for a spare room, here is the link to the
+availability calendar:
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href="http://www.osm.utoronto.ca/bookings/f?p=200:3:171524085299201::::P3_BLDG,P3_ROOM"&gt;http://www.osm.utoronto.ca/bookings/f?p=200:3:171524085299201::::P3_BLDG,P3_ROOM&lt;/a&gt;:,
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20170303-ut-mat157mat247-rsg-exam-break.html</guid><pubDate>Fri, 03 Mar 2017 13:40:30 GMT</pubDate></item><item><title>UT MAT157/MAT247 RSG: Reading Week and Talks</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-reading-week-and-talks.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team,
 &lt;/p&gt;
 
@@ -333,43 +369,4 @@ Have a productive day!
 &lt;p&gt;
 —
 sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat240-preparation-for-the-final-arrangements.html</guid><pubDate>Wed, 07 Dec 2016 14:06:14 GMT</pubDate></item><item><title>UT MAT240: Preparation for the Final</title><link>https://umus.github.io/log/ut-mat240-preparation-for-the-final.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-Thank you to all of you who came last Friday. Even though we broke up
-into two groups working in different rooms, I hope it was productive
-for you. On my part, I am sorry if I failed to secure a good space for
-us all – the list of rooms showed that B026 was busy during our
-session.
-&lt;/p&gt;
-
-&lt;p&gt;
-I am writing to elaborate on our plan of preparation for the final.
-&lt;/p&gt;
-
-&lt;p&gt;
-Since all the regular lectures are finished or going to be finished
-this week, I wonder whether we want to organize joint preparation
-sessions before December 17. I know that some people solve problems
-together anyway, and I would be glad if we could join our efforts.
-&lt;/p&gt;
-
-&lt;p&gt;
-If you are up for the idea, could you please write me a short email
-with the days and time periods you find suitable for meeting together?
-&lt;/p&gt;
-
-&lt;p&gt;
-I am looking forward to hearing from you.
-&lt;/p&gt;
-
-&lt;p&gt;
-Onwards!
-&lt;/p&gt;
-
-&lt;p&gt;
-—
-sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat240-preparation-for-the-final.html</guid><pubDate>Tue, 06 Dec 2016 20:52:39 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat240-preparation-for-the-final-arrangements.html</guid><pubDate>Wed, 07 Dec 2016 14:06:14 GMT</pubDate></item></channel></rss>
