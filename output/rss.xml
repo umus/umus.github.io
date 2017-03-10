@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" href="https://umus.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 03 Mar 2017 14:06:47 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>20170303 UT MAT157/MAT247 RSG: Exam Break</title><link>https://umus.github.io/log/20170303-ut-mat157mat247-rsg-exam-break.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" rel="self" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 10 Mar 2017 11:13:42 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157/MAT247 RSG: Session VI &amp; UTUMC</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-session-vi-utumc.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+Team, 
+&lt;/p&gt;
+
+&lt;p&gt;
+I hope you have had a wonderful week.
+&lt;/p&gt;
+
+&lt;p&gt;
+Since there is a math review session booked in 4010 tomorrow until
+16:00, I suggest we meet at 15:00 in the undergraduate specialist
+lounge on the 6th floor of Bahen – there is a chalkboard and enough
+space for 6 people. If there is a greater demand for space, we can
+move to GB119, in which there is nothing scheduled tomorrow from 15:00.
+&lt;/p&gt;
+
+&lt;p&gt;
+There is also a concert of Indian classical music given by
+Dr. Purnaprajna Bangere (&lt;a href="https://www.purnaviolin.com/repertoire"&gt;web&lt;/a&gt;page), a professor of mathematics and
+music at University of Kansas, and others from 19:00 to 21:00 tomorrow
+in the MacLeod Auditorium, Medical Sciences Building.
+&lt;/p&gt;
+
+&lt;p&gt;
+Moreover, the seventeenth annual undergraduate mathematics competition
+will be written on Sunday, March 12, beginning at 11 am, in
+BA1170. Anyone can participate. If you are interested, please register
+for the contest by sending an email to Professor Barbeau, at
+barbeau@math.toronto.edu. Past papers are here: 
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href="http://www.math.toronto.edu/barbeau/university.html"&gt;http://www.math.toronto.edu/barbeau/university.html&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Onwards!
+&lt;/p&gt;
+
+&lt;p&gt;
+– sasha
+&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat157mat247-rsg-session-vi-utumc.html</guid><pubDate>Fri, 10 Mar 2017 10:56:39 GMT</pubDate></item><item><title>20170303 UT MAT157/MAT247 RSG: Exam Break</title><link>https://umus.github.io/log/20170303-ut-mat157mat247-rsg-exam-break.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team, 
 &lt;/p&gt;
 
@@ -319,54 +360,4 @@ Onwards!
 &lt;p&gt;
 —
 sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/20161209-ut-mat240-friday-session.html</guid><pubDate>Fri, 09 Dec 2016 08:47:40 GMT</pubDate></item><item><title>UT MAT240: Preparation for the Final | Arrangements</title><link>https://umus.github.io/log/ut-mat240-preparation-for-the-final-arrangements.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
-Team,
-&lt;/p&gt;
-
-&lt;p&gt;
-Thank you to all of you who have replied!
-&lt;/p&gt;
-
-&lt;p&gt;
-Lola has expressed the options nicely:
-&lt;/p&gt;
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;Not on a weekend, and
-&lt;/li&gt;
-
-&lt;li&gt;Either of:
-– On a Friday, or
-– One, but not both, of:
-    — On a Tuesday, xor
-    — Before 3:30pm
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;
-[ ~(weekend) ] ∧ [ (Friday) ∨ [ (Tuesday) ⊻ (Before 3:30pm) ] ]
-&lt;/p&gt;
-
-&lt;p&gt;
-I know also that there are exams some of us have on December 14 and
-15, so December 13 to 15 including are probably not the best days to
-hold the session.
-&lt;/p&gt;
-
-&lt;p&gt;
-Unless you have already done so, could you please tell me whether
-you are interested in meeting up at any time noted above?
-&lt;/p&gt;
-
-&lt;p&gt;
-I am looking forward to hearing from you.
-&lt;/p&gt;
-
-&lt;p&gt;
-Have a productive day!
-&lt;/p&gt;
-
-&lt;p&gt;
-—
-sasha
-&lt;/p&gt;</description><guid>https://umus.github.io/log/ut-mat240-preparation-for-the-final-arrangements.html</guid><pubDate>Wed, 07 Dec 2016 14:06:14 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://umus.github.io/log/20161209-ut-mat240-friday-session.html</guid><pubDate>Fri, 09 Dec 2016 08:47:40 GMT</pubDate></item></channel></rss>
