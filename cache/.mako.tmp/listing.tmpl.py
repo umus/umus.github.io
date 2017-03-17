@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1489144611.699497
+_modified_time = 1489758575.8657217
 _enable_loop = True
 _template_filename = '/home/aleph/PROG/PIT/nikola/lib/python3.5/site-packages/nikola/data/themes/umus/templates/listing.tmpl'
 _template_uri = 'listing.tmpl'
@@ -32,15 +32,15 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         _import_ns = {}
         _mako_get_namespace(context, 'ui')._populate(_import_ns, ['bar'])
+        folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
+        files = _import_ns.get('files', context.get('files', UNDEFINED))
         ui = _mako_get_namespace(context, 'ui')
         code = _import_ns.get('code', context.get('code', UNDEFINED))
-        crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
         def content():
             return render_content(context._locals(__M_locals))
-        files = _import_ns.get('files', context.get('files', UNDEFINED))
         source_link = _import_ns.get('source_link', context.get('source_link', UNDEFINED))
+        crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
         messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
-        folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -59,15 +59,15 @@ def render_content(context,**pageargs):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'ui')._populate(_import_ns, ['bar'])
+        folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
+        files = _import_ns.get('files', context.get('files', UNDEFINED))
         ui = _mako_get_namespace(context, 'ui')
         code = _import_ns.get('code', context.get('code', UNDEFINED))
-        crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
         def content():
             return render_content(context)
-        files = _import_ns.get('files', context.get('files', UNDEFINED))
         source_link = _import_ns.get('source_link', context.get('source_link', UNDEFINED))
+        crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
         messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
-        folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer(str(ui.bar(crumbs)))
@@ -104,6 +104,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"uri": "listing.tmpl", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.5/site-packages/nikola/data/themes/umus/templates/listing.tmpl", "source_encoding": "utf-8", "line_map": {"72": 4, "73": 5, "74": 5, "75": 6, "76": 7, "77": 8, "78": 9, "79": 9, "80": 9, "81": 9, "82": 9, "83": 11, "84": 12, "85": 12, "86": 12, "23": 3, "88": 12, "89": 14, "90": 16, "91": 17, "92": 17, "29": 0, "94": 19, "95": 20, "96": 20, "97": 20, "98": 20, "99": 20, "105": 99, "45": 2, "46": 3, "93": 17, "51": 22, "57": 4, "87": 12}}
+{"source_encoding": "utf-8", "uri": "listing.tmpl", "filename": "/home/aleph/PROG/PIT/nikola/lib/python3.5/site-packages/nikola/data/themes/umus/templates/listing.tmpl", "line_map": {"72": 4, "73": 5, "74": 5, "75": 6, "76": 7, "77": 8, "78": 9, "79": 9, "80": 9, "81": 9, "82": 9, "83": 11, "84": 12, "85": 12, "86": 12, "23": 3, "88": 12, "89": 14, "90": 16, "91": 17, "92": 17, "29": 0, "94": 19, "95": 20, "96": 20, "97": 20, "98": 20, "99": 20, "105": 99, "45": 2, "46": 3, "93": 17, "51": 22, "57": 4, "87": 12}}
 __M_END_METADATA
 """
