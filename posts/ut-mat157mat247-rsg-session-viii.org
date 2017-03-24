@@ -1,0 +1,28 @@
+Team, 
+
+I hope you have had a wonderful week so far.
+
+Today the room BA4010 is free from 3 pm to 5 pm, so we can meet
+together and solve problems.
+
+Gal Gross also organises the Putnam Session, which today is going to
+focus on analysis from 5 pm to 7 pm. As Gal intriguingly says, "If you
+wanted to attend the meetings but have been putting it off, waiting
+for the "right moment" to join, this will be an excellent time to jump
+in!".
+
+With regards to the legendary VIth problem we have tried to solve in
+the most recent session, you can learn more about the story behind it
+and find hints and solutions here:
+
+1. [[https://www.youtube.com/watch?v=Y30VF3cSIYQ][Legend of Question VI]]
+
+2. [[https://www.youtube.com/watch?v=L0Vj_7Y2-xY][The Return of the Legend of Question Six]] -- with some geometric
+   intuition behind why the problem works
+
+3. [[https://en.wikipedia.org/wiki/Vieta_jumping][Vieta Jumping]] -- here is the description of one of the methods,
+   which Terry Tao has referred to.
+
+Onwards!
+
+-- sasha
