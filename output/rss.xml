@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link type="application/rss+xml" rel="self" href="https://umus.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 31 Mar 2017 05:53:25 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157/MAT247 RSG: Session IX?</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-session-ix.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>umu seminar</title><link>https://umus.github.io/</link><description>universal math umu</description><atom:link href="https://umus.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 31 Mar 2017 05:56:56 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>UT MAT157/MAT247 RSG: Session IX?</title><link>https://umus.github.io/log/ut-mat157mat247-rsg-session-ix.html</link><dc:creator>umu</dc:creator><description>&lt;p&gt;
 Team, 
 &lt;/p&gt;
 
@@ -17,7 +17,7 @@ Please note that this week the room is different!
 
 &lt;p&gt;
 Gal Gross is also going to have a session today in BA 4010 between 5-7
-pm to continue working through Chapter 3 on Analysis in "Putnam
+pm to continue working through Chapter 3 on Analysis in "Putnam and
 Beyond". He also hints that the problems we are going to look at may
 be more challenging than usual.
 &lt;/p&gt;
